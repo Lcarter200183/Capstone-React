@@ -39,3 +39,6 @@ git branch -M main
  git add .
  git commit -m "renamed the branch"
  git push --set-upstream origin main
+
+ - how to delete source control
+  - rm -rf .git

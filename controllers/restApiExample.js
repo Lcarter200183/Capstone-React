@@ -5,3 +5,7 @@ import { viewResponse } from "../modules/viewResponse.js";
 
 
 window.restApiExample = restApiExample;
+
+export function restApiExample() {
+
+}
