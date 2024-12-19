@@ -1,5 +1,5 @@
-import { display } from "../utils/display";
-import { output } from "../utils/output";
+import { display } from "../display.js";
+import { output } from "../output.js";
 
 export function myModule() {
     myModule();

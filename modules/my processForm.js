@@ -1,4 +1,4 @@
-import { display } from "../utils/display";
+import { display } from "../utils/display.js";
 
 
 export function myProcessForm(event) {

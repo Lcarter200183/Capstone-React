@@ -6,7 +6,7 @@ import { datetimeForm } from "../modules/datetimeForm.js";
 
 window.formExample = formExample;
 
-function formExample() {
+export function formExample() {
     debugger;
     myForm();
 }
