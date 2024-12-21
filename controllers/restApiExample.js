@@ -9,4 +9,5 @@ window.restApiExample = restApiExample;
 export function restApiExample() {
     debugger;
     restApiExample;
+    console.log();
 }

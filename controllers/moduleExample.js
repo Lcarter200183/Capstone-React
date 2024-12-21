@@ -1,6 +1,5 @@
-import { module } from "../modules/module.js";
-
-
+import { display } from "../utils/display.js";
+import { output } from "../utils/output.js";
 
 window.moduleExample = moduleExample();
 

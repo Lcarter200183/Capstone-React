@@ -1,5 +1,5 @@
-import { myprocessform } from "./modules/myProcessForm.js";
-import { handleCustomerService } from "./modules/handleCustomerService.js";
+import { myProcessForm } from "../modules/myProcessForm.js";
+import { handleCustomerService } from "../modules/handleCustomerService.js";
 import { nameForm } from "../modules/nameForm.js";
 import { numberForm } from "../modules/numberForm.js";
 import { datetimeForm } from "../modules/datetimeForm.js";
@@ -8,5 +8,5 @@ window.formExample = formExample;
 
 export function formExample() {
     debugger;
-    myForm();
+
 }
