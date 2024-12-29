@@ -5,5 +5,8 @@ window.moduleExample = moduleExample();
 
 export function moduleExample() {
     debugger;
-    module();
+    moduleExample();
+
+
+    output(moduleExample);
 }
