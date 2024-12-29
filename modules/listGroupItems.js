@@ -1,3 +1,5 @@
+import { listGroupExample } from "../controllers/listGroupexample.js";
+
 export class listGroupItems {
     openingTag = "<li class='list-group-item>'";
     closingTag = "</li>";
@@ -14,13 +16,10 @@ export class listGroupItems {
     }
 }
 
-const listGroupItems = new listGroupItems();
 
 for (let listGroup = 1; listGroup < count; listGroup++) {
-   const listGroupItems = new listGroupItems(); 
+
 }
-function listGroupItems() {
-    debugger;
 
     const myObject = {
         listGroupItems1: ["Rooms"],
@@ -53,4 +52,4 @@ function listGroupItems() {
         const array8Item = myArray8[i];
         output(`${array1Item} ${array2Item} ${array3Item} ${array4Item} ${array5Item} ${array6Item} ${array7Item} ${array8Item}  <br>`, "outputTag");
     }
-}
+
