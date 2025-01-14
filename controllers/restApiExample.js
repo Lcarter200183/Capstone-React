@@ -9,9 +9,5 @@ window.restApiExample = restApiExample;
 export function restApiExample() {
     debugger;
     restApiExample;
-<<<<<<< HEAD
     console.log();
-=======
-
->>>>>>> addBootstrapClasses
 }

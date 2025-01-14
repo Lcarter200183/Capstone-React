@@ -1,0 +1,25 @@
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: Cannot find module '@babel/code-frame'\nRequire stack:\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\core\\lib\\parser\\index.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\core\\lib\\transformation\\normalize-file.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\core\\lib\\transformation\\index.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\core\\lib\\transform-file.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\core\\lib\\config\\files\\module-types.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\core\\lib\\config\\files\\configuration.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\core\\lib\\config\\files\\index.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\core\\lib\\index.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\babel-loader\\lib\\index.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\loader-runner\\lib\\loadLoader.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\loader-runner\\lib\\LoaderRunner.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\webpack\\lib\\NormalModuleFactory.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\webpack\\lib\\Compiler.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\webpack\\lib\\webpack.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\webpack\\lib\\index.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\webpack-cli\\lib\\webpack-cli.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\webpack-cli\\lib\\bootstrap.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\webpack-cli\\bin\\cli.js\n- C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\webpack\\bin\\webpack.js\n    at Function._resolveFilename (node:internal/modules/cjs/loader:1249:15)\n    at Function._load (node:internal/modules/cjs/loader:1075:27)\n    at TracingChannel.traceSync (node:diagnostics_channel:322:14)\n    at wrapModuleLoad (node:internal/modules/cjs/loader:219:24)\n    at Module.require (node:internal/modules/cjs/loader:1340:12)\n    at require (node:internal/modules/helpers:138:16)\n    at _codeFrame (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\core\\lib\\parser\\index.js:15:16)\n    at parser (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\core\\lib\\parser\\index.js:59:29)\n    at parser.next (<anonymous>)\n    at normalizeFile (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\core\\lib\\transformation\\normalize-file.js:64:37)\n    at normalizeFile.next (<anonymous>)\n    at run (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\core\\lib\\transformation\\index.js:22:50)\n    at run.next (<anonymous>)\n    at transform (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\core\\lib\\transform.js:22:33)\n    at transform.next (<anonymous>)\n    at step (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\gensync\\index.js:261:32)\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\gensync\\index.js:273:13\n    at async.call.result.err.err (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\gensync\\index.js:223:11)\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\gensync\\index.js:189:28\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\core\\lib\\gensync-utils\\async.js:67:7\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\gensync\\index.js:113:33\n    at step (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\gensync\\index.js:287:14)\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\gensync\\index.js:273:13\n    at async.call.result.err.err (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\gensync\\index.js:223:11)\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\gensync\\index.js:37:40");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./src/index.js"]();
+/******/ 	
+/******/ })()
+;
+//# sourceMappingURL=main.js.map
