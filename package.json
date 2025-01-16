@@ -9,6 +9,14 @@
     "react-router": "^7.1.1",
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1"
-  }
+  },
+  "name": "capstone-react",
+  "version": "1.0.0",
+  "description": "echo \"# styleup-multipage-3le03l0iked03pwoujt9oei0e9prigk9eire03jiek\" >> README.md\r git init\r git add README.md\r git config user.name \"Lcarter200183\"\r git config user.email \"Lcarter200183@yahoo.com\"\r git commit -m \"first commit\"\r git branch -M main\r git remote add origin https://github.com/Lcarter200183/styleup-multipage-3le03l0iked03pwoujt9oei0e9prigk9eire03jiek.git\r curl -sS https://webi.sh/gh | sh\r //PRESS ENTER TO SELECT ALL THE DEFAULTS. REMEMDER TO COPY DEVICE LINK AND ENTER CODE\r gh auth login",
+  "main": "form.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
- 
