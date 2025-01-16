@@ -7,7 +7,7 @@ export function Gallery() {
     return (
      <header>
         <nav>
-        <Link>Home |</Link>
+        <Link to="/home">Home |</Link>
           <Link to="/gallery">gallery |</Link>
           <Link>Contact |</Link>
           <Link>About </Link>
