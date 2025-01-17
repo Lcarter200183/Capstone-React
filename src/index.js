@@ -6,6 +6,7 @@ import { Route } from "react-router";
 import { Home } from "../Views/Home";
 import { Gallery } from "../Views/Gallery"; 
 import { Contact } from "../Views/Contact";
+import { About } from "../Views/About";
 
 
 const root = createRoot(window.bodyTag);
@@ -15,6 +16,7 @@ const root = createRoot(window.bodyTag);
      <Route path="/home" element={<Home />} />  
      <Route path="/gallery" element={<Gallery />} />  
      <Route path="/contact" element={<Contact />} />
+     <Route path="/about" element={<About />} />
   </Routes>
 </BrowserRouter>
  );
