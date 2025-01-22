@@ -16,5 +16,4 @@ export function Home() {
      </header> 
      </>
     );
-    
 }
