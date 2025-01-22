@@ -11,10 +11,10 @@ export function Gallery() {
         <img width="100% " src="https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312 " alt="outside of building " />
         <div className="bg-info fs-6 p-2 m-2 ">
           <nav className="nav nav-tab nav-underline nav-fill ">
-            <Link to="Home.js ">HOME |</Link>
-            <Link to="Gallery.js ">GALLERY |</Link>
-            <Link to="Contact.js ">CONTACT |</Link>
-            <Link to="About.js ">ABOUT </Link>
+            <Link to="Home">HOME |</Link>
+            <Link to="Gallery">GALLERY |</Link>
+            <Link to="Contact">CONTACT |</Link>
+            <Link to="About">ABOUT </Link>
           </nav>
         </div>
         <br />
