@@ -3,6 +3,7 @@ import React from "react";
 import { BrowserRouter } from "react-router";
 import { Routes } from "react-router";
 import { Route } from "react-router";
+import { output } from "../utils/output";
 
 const root = createRoot(window.bodyTag);
  root.render(
