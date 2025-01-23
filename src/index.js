@@ -12,7 +12,8 @@ const root = createRoot(window.bodyTag);
  <BrowserRouter>
   <Routes>
      <Route path="/home" element={<Home />} />  
-     <Route path="/gallery" element={<Gallery />} />  
+     <Route path="/gallery" element={<Gallery />} /> 
+      
   </Routes>
 </BrowserRouter>
  );

@@ -4,21 +4,24 @@ import { Link } from "react-router";
 
 
 export function Gallery() {
+
+  const center ={ justifySelf: center };
     return (
     
      <>
-     <header>
+     <header id="galleryHeader">
         <img width="100% " src="https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312 " alt="outside of building " />
         <div className="bg-info fs-6 p-2 m-2 ">
           <nav className="nav nav-tab nav-underline nav-fill ">
-            <Link to="Home">HOME |</Link>
-            <Link to="Gallery">GALLERY |</Link>
-            <Link to="Contact">CONTACT |</Link>
-            <Link to="About">ABOUT </Link>
+            <Link to="home">HOME |</Link>
+            <Link to="gallery">GALLERY |</Link>
+            <Link>CONTACT |</Link>
+            <Link>ABOUT </Link>
           </nav>
         </div>
         <br />
-      </header><main className="container ">
+      </header>
+      <main id="galleryMain" className="container ">
           <u><h2>Gallery</h2></u>
           <div className="container ">
             <div className="row gap-2 m-1 p-1 ">
@@ -98,24 +101,24 @@ export function Gallery() {
             imageMapResize();
           </script>
           <br />
-            <section style="text-align: center ">
+            <section style={{textAlign: "center"}}>
               <h3> Triva</h3>
               <h4>Get 20% off on a meal!</h4>
-              <button onclick="handleClick() ">Click here to get the question.</button>
+              <button onClick="handleClick() ">Click here to get the question.</button>
               <div id="outputTag "></div>
 
             </section>
 
-            <span class="bg-primary p-3 " id="mixin-example ">Enjoy the View!</span>
+            <span className="bg-primary p-3 " id="mixin-example ">Enjoy the View!</span>
             <br />
               <hr />
-                <button onclick="restApiExample()">rest Api</button>
+                <button onClick="restApiExample()">rest Api</button>
                 <output id="restApiExample"></output>
-                <button onclick="gridSystemExample()">gridSystemExample</button>
+                <button onClick="gridSystemExample()">gridSystemExample</button>
                 <output id="outputTag2"></output>
               </main>
             
-              <footer><pre>Website created by <code>Lydia Carter</code></pre></footer>
+              <footer id="galleryFooter"><pre>Website created by <code>Lydia Carter</code></pre></footer>
               </>
               );
             }
