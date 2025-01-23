@@ -46,11 +46,21 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Gallery() {
+<<<<<<< HEAD
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+=======
+  const center = {
+    justifySelf: center
+  };
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", {
+    id: "galleryHeader"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+>>>>>>> galleryBrowserRouter
     width: "100% ",
     src: "https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312 ",
     alt: "outside of building "
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+<<<<<<< HEAD
     classNameName: "bg-info fs-6 p-2 m-2 "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
     className: "nav nav-tab nav-underline nav-fill "
@@ -63,6 +73,17 @@ function Gallery() {
   }, "CONTACT"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "about.js "
   }, "ABOUT"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
+=======
+    className: "bg-info fs-6 p-2 m-2 "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
+    className: "nav nav-tab nav-underline nav-fill "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "home"
+  }, "HOME |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "gallery"
+  }, "GALLERY |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, null, "CONTACT |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, null, "ABOUT "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
+    id: "galleryMain",
+>>>>>>> galleryBrowserRouter
     className: "container "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Gallery")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "container "
@@ -181,15 +202,24 @@ function Gallery() {
   }, "\"Event \""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "card-text "
   }, "Inside Event Area"))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("script", null, "imageMapResize();"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+<<<<<<< HEAD
     style: "text-align: center "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, " Triva"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Get 20% off on a meal!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     onclick: "handleClick() "
+=======
+    style: {
+      textAlign: "center"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, " Triva"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Get 20% off on a meal!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    onClick: "handleClick() "
+>>>>>>> galleryBrowserRouter
   }, "Click here to get the question."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     id: "outputTag "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "bg-primary p-3 ",
     id: "mixin-example "
   }, "Enjoy the View!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+<<<<<<< HEAD
     onclick: "restApiExample()"
   }, "rest Api"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
     id: "restApiExample"
@@ -198,6 +228,18 @@ function Gallery() {
   }, "gridSystemExample"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
     id: "outputTag2"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("pre", null, "Website created by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("code", null, "Lydia Carter"))));
+=======
+    onClick: "restApiExample()"
+  }, "rest Api"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
+    id: "restApiExample"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    onClick: "gridSystemExample()"
+  }, "gridSystemExample"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
+    id: "outputTag2"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", {
+    id: "galleryFooter"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("pre", null, "Website created by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("code", null, "Lydia Carter"))));
+>>>>>>> galleryBrowserRouter
 }
 
 /***/ }),
@@ -225,6 +267,7 @@ function Home() {
     to: "/home"
   }, "Home |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "gallery"
+<<<<<<< HEAD
   }, "Gallery |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/contact"
   }, "Contact |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, null, "About "))));
@@ -286,6 +329,9 @@ function Home() {
     }
   }, "Website created by ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("code", null, "Lydia Carter"))));
 >>>>>>> homeBrowserRouter
+=======
+  }, "Gallery |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, null, "Contact |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, null, "About "))));
+>>>>>>> galleryBrowserRouter
 }
 
 /***/ }),
@@ -13182,7 +13228,11 @@ __webpack_require__.r(__webpack_exports__);
 
 const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(window.bodyTag);
 <<<<<<< HEAD
+<<<<<<< HEAD
 root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.Route, {
+=======
+root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.Route, {
+>>>>>>> galleryBrowserRouter
   path: "/home",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Home__WEBPACK_IMPORTED_MODULE_2__.Home, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.Route, {

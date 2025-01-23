@@ -3,23 +3,26 @@ import { Link } from "react-router";
 
 
 
-export function Gallery() {
-    return (
-       <>
-        <header>
-          <img width="100% " src="https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312 " alt="outside of building " />
-          <div classNameName="bg-info fs-6 p-2 m-2 ">
-            <nav className="nav nav-tab nav-underline nav-fill ">
-              <Link to="index.js ">HOME</Link>
-              <Link to="gallery.js ">GALLERY</Link>
-              <Link to="contact.js ">CONTACT</Link>
-              <Link to="about.js ">ABOUT</Link>
-            </nav>
-          </div>
-          <br />
-        </header>
 
-        <main className="container ">
+export function Gallery() {
+
+  const center ={ justifySelf: center };
+    return (
+    
+     <>
+     <header id="galleryHeader">
+        <img width="100% " src="https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312 " alt="outside of building " />
+        <div className="bg-info fs-6 p-2 m-2 ">
+          <nav className="nav nav-tab nav-underline nav-fill ">
+            <Link to="home">HOME |</Link>
+            <Link to="gallery">GALLERY |</Link>
+            <Link>CONTACT |</Link>
+            <Link>ABOUT </Link>
+          </nav>
+        </div>
+        <br />
+      </header>
+      <main id="galleryMain" className="container ">
           <u><h2>Gallery</h2></u>
           <div className="container ">
             <div className="row gap-2 m-1 p-1 ">
@@ -60,62 +63,64 @@ export function Gallery() {
                   <div className="card ">
                     <img className="card-img-top " usemap="#my-image-map " height="200px " width="200px " src="bedroom1.jpg " alt="hotel room " />
                     <map name="my-image-map ">
-                      <area title="Click the bed " coords="123,113, 173,105, 238,120, 238,128, 177,168, 126,135, 122,113, " shape="poly " target="_blank " href="https://www.mattressfirm.com/tempur-adapt-11-medium-mattress/5637491080.p?variantid=5637491137&utm_kxconfid=t6c7xqs93&gad_source=1&gclid=CjwKCAjw68K4BhAuEiwAylp3kn0-Y054hidpIKGIbHWdWi_aDZ4MwRxvLEkECUv7mnO6jH5Nhx5qGBoCxLkQAvD_BwE&gclsrc=aw.ds " />
-                      <area title="Click the table " coords="1,148, 64,105, " shape="rect " target="_blank " href="https://kassamall.com/haddigan-dark-brown-rectangular-dining-room-extension-table/?srsltid=AfmBOopa9kej-DzoA_B37AiVvjL4h6LkZvCbAVkXXehYJORH00iib4YWEko " />
-                    </map>
+                      <area title="Click the bed " coords="123,113, 173,105, 238,120, 238,128, 177,168, 126,135, 122,113, " shape="poly " target="_blank " href="https://www.mattressfirm.com/tempur-adapt-11-medium-mattress/5637491080.p?variantid=5637491137&utm_kxconfid=t6c7xqs93&gad_source=1&gclid=CjwKCAjw68K4BhAuEiwAylp3kn0-Y054hidpIKGIbHWdWi_aDZ4MwRxvLEkECUv7mnO6jH5Nhx5qGBoCxLkQAvD_BwE&gclsrc=aw.ds "/>
+                        <area title="Click the table " coords="1,148, 64,105, " shape="rect " target="_blank " href="https://kassamall.com/haddigan-dark-brown-rectangular-dining-room-extension-table/?srsltid=AfmBOopa9kej-DzoA_B37AiVvjL4h6LkZvCbAVkXXehYJORH00iib4YWEko "/>
+                        </map>
 
-                    <div className="card-body ">
-                      <h6 className="card-title ">"Interior "</h6>
-                      <p className="card-text ">Hotel Room</p>
+                        <div className="card-body ">
+                          <h6 className="card-title ">"Interior "</h6>
+                          <p className="card-text ">Hotel Room</p>
+                        </div>
+                      </div>
+                    </div>
+
+                  <div className="col ">
+                    <div className="card ">
+                      <img className="card-img-top " height="200px " width="200px " src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/67/78/ff/borealis-patio-dining.jpg?w=1200&h=-1&s=1 " alt="outside event area " />
+                      <div className="card-body ">
+                        <h6 className="card-title ">"Event "</h6>
+                        <p className="card-text ">Outside Event Area</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col ">
+                    <div className="card ">
+                      <img className="card-img-top " height="200px " width="200px " src="https://d25wybtmjgh8lz.cloudfront.net/sites/default/files/2022-09/The_Benson%20Hotel%20Ballroom%20Theatre%20Style-1500x883.jpg " alt="inside event room " />
+                      <div className="card-body ">
+                        <h6 className="card-title ">"Event "</h6>
+                        <p className="card-text ">Inside Event Area</p>
+                      </div>
                     </div>
                   </div>
                 </div>
 
-                <div className="col ">
-                  <div className="card ">
-                    <img className="card-img-top " height="200px " width="200px " src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/67/78/ff/borealis-patio-dining.jpg?w=1200&h=-1&s=1 " alt="outside event area " />
-                    <div className="card-body ">
-                      <h6 className="card-title ">"Event "</h6>
-                      <p className="card-text ">Outside Event Area</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col ">
-                  <div className="card ">
-                    <img className="card-img-top " height="200px " width="200px " src="https://d25wybtmjgh8lz.cloudfront.net/sites/default/files/2022-09/The_Benson%20Hotel%20Ballroom%20Theatre%20Style-1500x883.jpg " alt="inside event room " />
-                    <div className="card-body ">
-                      <h6 className="card-title ">"Event "</h6>
-                      <p className="card-text ">Inside Event Area</p>
-                    </div>
-                  </div>
-                </div>
               </div>
-
             </div>
-          </div>
-
+          
           <script>
             imageMapResize();
           </script>
           <br />
-          <section style="text-align: center ">
-            <h3> Triva</h3>
-            <h4>Get 20% off on a meal!</h4>
-            <button onclick="handleClick() ">Click here to get the question.</button>
-            <div id="outputTag "></div>
+            <section style={{textAlign: "center"}}>
+              <h3> Triva</h3>
+              <h4>Get 20% off on a meal!</h4>
+              <button onClick="handleClick() ">Click here to get the question.</button>
+              <div id="outputTag "></div>
 
-          </section>
+            </section>
 
-          <span className="bg-primary p-3 " id="mixin-example ">Enjoy the View!</span>
-          <br />
-          <hr />
-          <button onclick="restApiExample()">rest Api</button>
-          <output id="restApiExample"></output>
-          <button onclick="gridSystemExample()">gridSystemExample</button>
-          <output id="outputTag2"></output>
-        </main>
-      <footer><pre>Website created by <code>Lydia Carter</code></pre></footer>
-      </>
-  );
-}
+            <span className="bg-primary p-3 " id="mixin-example ">Enjoy the View!</span>
+            <br />
+              <hr />
+                <button onClick="restApiExample()">rest Api</button>
+                <output id="restApiExample"></output>
+                <button onClick="gridSystemExample()">gridSystemExample</button>
+                <output id="outputTag2"></output>
+              </main>
+            
+              <footer id="galleryFooter"><pre>Website created by <code>Lydia Carter</code></pre></footer>
+              </>
+              );
+            }
+           
