@@ -3,6 +3,7 @@ import { Link } from "react-router";
 
 
 
+
 export function Gallery() {
 
   const center ={ justifySelf: center };
