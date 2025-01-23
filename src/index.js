@@ -3,16 +3,14 @@ import React from "react";
 import { BrowserRouter } from "react-router";
 import { Routes } from "react-router";
 import { Route } from "react-router";
-import { output } from "../utils/output";
+import { Home } from "../Views/Home";
 
 const root = createRoot(window.bodyTag);
  root.render(
  <BrowserRouter>
   <Routes>
-     <Route path="/home" element={<Home />} />  
-     <Route path="/gallery" element={<Gallery />} />  
-     <Route path="/contact" element={<Contact />} />  
-     <Route path="/about" element={<About />} />  
+     <Route path="/home" element={<Home />} />
+
   </Routes>
 </BrowserRouter>
  );
