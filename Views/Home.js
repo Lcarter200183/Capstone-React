@@ -1,27 +1,27 @@
 import React from "react";
 import { Link } from "react-router";
-
+import "./Home.scss";
 
  export function Home() {
-
     const center ={ justifySelf: "center"};
     const kleader = { fontFamily: "kleader"};
     return (
-     <>
+     <> 
      <header id="homeHeader">
         <img width="100%" src="https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312" alt="outside of building" />
         <div className="bg-primary fs-6 p-2 m-2">
             <nav className="nav nav-tab nav-underline nav-fill">
-                <Link to="/home">HOME |</Link>
-                <Link to="/gallery">GALLERY |</Link>
-                <Link to="/contact">CONTACT |</Link>
-                <Link to="/about">ABOUT</Link>
+                <Link to="/Home">HOME |</Link>
+                <Link>GALLERY | </Link>
+                <Link>CONTACT | </Link>
+                <Link>ABOUT </Link>
             </nav>
 
         </div>
     </header>
 
     <main id="homeMain" className="container">
+        
         <u><h2>Venue</h2></u>
         <br />
         <h2 className="fst-italic fw-bold" id="exterior">Exterior</h2>
@@ -45,7 +45,7 @@ import { Link } from "react-router";
         </p>
         <hr />
 
-        <button onClick="moduleExample()">module Example</button><br />
+        <button onClick="moduleExample">module Example</button><br />
         <output id="outputTag"></output>
 
     </main>
