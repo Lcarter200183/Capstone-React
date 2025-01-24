@@ -5,15 +5,6 @@ import "./Contact.scss";
 export function Contact() {
     const center = {justifySelf: center};
     return(
-<<<<<<< HEAD
-        <header>
-            <nav>
-                <Link to="/home">Home |</Link>
-                <Link to="/gallery">Gallery |</Link>
-                <Link to="/contact">Contact </Link>
-            </nav>
-        </header>
-=======
         <>
        
          <header id="contactHeader">
@@ -91,6 +82,5 @@ export function Contact() {
  
      <footer id="contactFooter" style={{textAlign: center}} ><pre>Website created by <code>Lydia Carter</code></pre></footer>
      </>
->>>>>>> contactBrowserRouter
     );
 }

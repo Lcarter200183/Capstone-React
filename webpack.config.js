@@ -21,7 +21,6 @@ export default {
       devtool: "source-map"
      
 }
-=======
 export default
 {
     module: {
