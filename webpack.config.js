@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 export default {
     module: {
        rules: [
@@ -35,11 +36,33 @@ export default
             use: ["style-loader", "css-loader", "sass-loader"],
          },
     ],
+=======
+export default
+{
+    module: {
+          rules: [
+        {
+            test: /\.(js|jsx)/,
+            exclude: /\.(scss|css)/,
+            use: "babel-loader",
+        },
+        {
+            test: /\.(scss|css)/, 
+            use: ["style-loader", "css-loader", "sass-loader"],
+        },
+      ],
+>>>>>>> contactBrowserRouter
     },
     
         watch: true,
         mode: "development",
+<<<<<<< HEAD
         devtool: "source-map",
       
 };
 >>>>>>> galleryBrowserRouter
+=======
+        devtool: "source-map"
+      
+};
+>>>>>>> contactBrowserRouter
