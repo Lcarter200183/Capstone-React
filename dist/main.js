@@ -1,33 +1,13 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./Views/About.js":
 /*!************************!*\
   !*** ./Views/About.js ***!
   \************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   About: () => (/* binding */ About)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-V7UHCZHK.mjs");
-
-
-function About() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "home"
-  }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "gallery"
-  }, "Gallery"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "contact"
-  }, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "About"
-  }, "About")));
-}
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\Views\\About.js: Unexpected token, expected \"}\" (52:25)\n\n\u001b[0m \u001b[90m 50 |\u001b[39m             myCount \u001b[33m=\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 51 |\u001b[39m             \u001b[36mdo\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 52 |\u001b[39m                 myCount\u001b[33m++\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 53 |\u001b[39m                 document\u001b[33m.\u001b[39mwrite(myCount)\u001b[33m;\u001b[39m\n \u001b[90m 54 |\u001b[39m                 isDone \u001b[33m=\u001b[39m myCount \u001b[33m===\u001b[39m \u001b[35m3\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 55 |\u001b[39m             } \u001b[36mwhile\u001b[39m (\u001b[33m!\u001b[39misDone)\u001b[33m;\u001b[39m\u001b[0m\n    at constructor (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:359:19)\n    at JSXParserMixin.raise (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:3327:19)\n    at JSXParserMixin.unexpected (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:3347:16)\n    at JSXParserMixin.expect (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:3657:12)\n    at JSXParserMixin.jsxParseExpressionContainer (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6810:10)\n    at JSXParserMixin.jsxParseElementAt (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6884:36)\n    at JSXParserMixin.jsxParseElementAt (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6871:32)\n    at JSXParserMixin.jsxParseElementAt (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6871:32)\n    at JSXParserMixin.jsxParseElementAt (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6871:32)\n    at JSXParserMixin.jsxParseElement (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6922:17)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6932:19)\n    at JSXParserMixin.parseExprSubscripts (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10734:23)\n    at JSXParserMixin.parseUpdate (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10719:21)\n    at JSXParserMixin.parseMaybeUnary (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10699:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10553:61)\n    at JSXParserMixin.parseExprOps (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10558:23)\n    at JSXParserMixin.parseMaybeConditional (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10535:23)\n    at JSXParserMixin.parseMaybeAssign (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10498:21)\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10468:39\n    at JSXParserMixin.allowInAnd (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12069:12)\n    at JSXParserMixin.parseMaybeAssignAllowIn (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10468:17)\n    at JSXParserMixin.parseParenAndDistinguishExpression (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:11328:28)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10982:23)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6937:20)\n    at JSXParserMixin.parseExprSubscripts (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10734:23)\n    at JSXParserMixin.parseUpdate (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10719:21)\n    at JSXParserMixin.parseMaybeUnary (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10699:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10553:61)\n    at JSXParserMixin.parseExprOps (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10558:23)\n    at JSXParserMixin.parseMaybeConditional (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10535:23)\n    at JSXParserMixin.parseMaybeAssign (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10498:21)\n    at JSXParserMixin.parseExpressionBase (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10452:23)\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10448:39\n    at JSXParserMixin.allowInAnd (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12064:16)\n    at JSXParserMixin.parseExpression (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10448:17)\n    at JSXParserMixin.parseReturnStatement (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12755:28)\n    at JSXParserMixin.parseStatementContent (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12406:21)\n    at JSXParserMixin.parseStatementLike (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12375:17)\n    at JSXParserMixin.parseStatementListItem (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12355:17)\n    at JSXParserMixin.parseBlockOrModuleBlockBody (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12929:61)\n    at JSXParserMixin.parseBlockBody (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12922:10)\n    at JSXParserMixin.parseBlock (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12910:10)\n    at JSXParserMixin.parseFunctionBody (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:11752:24)\n    at JSXParserMixin.parseFunctionBodyAndFinish (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:11738:10)\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:13054:12\n    at JSXParserMixin.withSmartMixTopicForbiddingContext (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12046:14)\n    at JSXParserMixin.parseFunction (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:13053:10)\n    at JSXParserMixin.parseFunctionStatement (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12738:17)\n    at JSXParserMixin.parseStatementContent (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12399:21)\n    at JSXParserMixin.parseStatementLike (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12375:17)");
 
 /***/ }),
 
@@ -37,6 +17,7 @@ function About() {
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Contact: () => (/* binding */ Contact)
@@ -64,6 +45,7 @@ function Contact() {
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Gallery: () => (/* binding */ Gallery)
@@ -89,6 +71,7 @@ function Gallery() {
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Home: () => (/* binding */ Home)
@@ -118,6 +101,7 @@ function Home() {
   \*******************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
+"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -356,6 +340,7 @@ function isDate(val) {
   \********************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
+"use strict";
 /**
  * @license React
  * react-dom-client.development.js
@@ -376,6 +361,7 @@ function isDate(val) {
   \*************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
+"use strict";
 /**
  * @license React
  * react-dom.development.js
@@ -566,6 +552,7 @@ function isDate(val) {
   \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 function checkDCE() {
@@ -604,6 +591,7 @@ if (false) {} else {
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 function checkDCE() {
@@ -642,6 +630,7 @@ if (false) {} else {
   \*****************************************************/
 /***/ ((module, exports, __webpack_require__) => {
 
+"use strict";
 /* module decorator */ module = __webpack_require__.nmd(module);
 /**
  * @license React
@@ -1614,6 +1603,7 @@ if (false) {} else {
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 if (false) {} else {
@@ -1628,6 +1618,7 @@ if (false) {} else {
   \*************************************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
+"use strict";
 /**
  * @license React
  * scheduler.development.js
@@ -1903,6 +1894,7 @@ if (false) {} else {
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 if (false) {} else {
@@ -1917,6 +1909,7 @@ if (false) {} else {
   \**********************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var defaultParseOptions = {
@@ -2114,6 +2107,7 @@ module.exports.splitCookiesString = splitCookiesString;
   \***********************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Action: () => (/* binding */ Action),
@@ -11116,6 +11110,7 @@ function deserializeErrors2(errors) {
   \*********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   decode: () => (/* binding */ decode),
@@ -11817,8 +11812,9 @@ function raceSignal(promise, signal) {
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry needs to be wrapped in an IIFE because it needs to be isolated against other modules in the chunk.
+// This entry needs to be wrapped in an IIFE because it needs to be in strict mode.
 (() => {
+"use strict";
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
