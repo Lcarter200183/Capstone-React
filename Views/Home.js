@@ -6,6 +6,7 @@ import "./Home.scss";
     const center ={ justifySelf: "center"};
     const kleader = { fontFamily: "kleader"};
     return (
+<<<<<<< HEAD
      <> 
      <header id="homeHeader">
         <img width="100%" src="https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312" alt="outside of building" />
@@ -62,5 +63,17 @@ import "./Home.scss";
         <pre style={{fontFamily: kleader}}>Website created by <code>Lydia Carter</code></pre>
     </footer>
      </> 
+=======
+    
+     <header>
+        <nav>
+          <Link to="/home">Home |</Link>
+          <Link to="gallery">Gallery |</Link>
+          <Link to="/contact">Contact |</Link>
+          <Link to="/about">About </Link>
+        </nav>
+     </header> 
+     
+>>>>>>> aboutBrowserRouter
     );
 }

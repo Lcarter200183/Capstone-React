@@ -2,6 +2,19 @@
 /******/ 	var __webpack_modules__ = ({
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+/***/ "./Views/About.js":
+/*!************************!*\
+  !*** ./Views/About.js ***!
+  \************************/
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\Views\\About.js: Unexpected token, expected \"}\" (52:25)\n\n\u001b[0m \u001b[90m 50 |\u001b[39m             myCount \u001b[33m=\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 51 |\u001b[39m             \u001b[36mdo\u001b[39m {\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 52 |\u001b[39m                 myCount\u001b[33m++\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 53 |\u001b[39m                 document\u001b[33m.\u001b[39mwrite(myCount)\u001b[33m;\u001b[39m\n \u001b[90m 54 |\u001b[39m                 isDone \u001b[33m=\u001b[39m myCount \u001b[33m===\u001b[39m \u001b[35m3\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 55 |\u001b[39m             } \u001b[36mwhile\u001b[39m (\u001b[33m!\u001b[39misDone)\u001b[33m;\u001b[39m\u001b[0m\n    at constructor (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:359:19)\n    at JSXParserMixin.raise (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:3327:19)\n    at JSXParserMixin.unexpected (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:3347:16)\n    at JSXParserMixin.expect (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:3657:12)\n    at JSXParserMixin.jsxParseExpressionContainer (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6810:10)\n    at JSXParserMixin.jsxParseElementAt (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6884:36)\n    at JSXParserMixin.jsxParseElementAt (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6871:32)\n    at JSXParserMixin.jsxParseElementAt (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6871:32)\n    at JSXParserMixin.jsxParseElementAt (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6871:32)\n    at JSXParserMixin.jsxParseElement (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6922:17)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6932:19)\n    at JSXParserMixin.parseExprSubscripts (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10734:23)\n    at JSXParserMixin.parseUpdate (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10719:21)\n    at JSXParserMixin.parseMaybeUnary (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10699:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10553:61)\n    at JSXParserMixin.parseExprOps (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10558:23)\n    at JSXParserMixin.parseMaybeConditional (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10535:23)\n    at JSXParserMixin.parseMaybeAssign (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10498:21)\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10468:39\n    at JSXParserMixin.allowInAnd (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12069:12)\n    at JSXParserMixin.parseMaybeAssignAllowIn (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10468:17)\n    at JSXParserMixin.parseParenAndDistinguishExpression (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:11328:28)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10982:23)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6937:20)\n    at JSXParserMixin.parseExprSubscripts (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10734:23)\n    at JSXParserMixin.parseUpdate (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10719:21)\n    at JSXParserMixin.parseMaybeUnary (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10699:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10553:61)\n    at JSXParserMixin.parseExprOps (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10558:23)\n    at JSXParserMixin.parseMaybeConditional (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10535:23)\n    at JSXParserMixin.parseMaybeAssign (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10498:21)\n    at JSXParserMixin.parseExpressionBase (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10452:23)\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10448:39\n    at JSXParserMixin.allowInAnd (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12064:16)\n    at JSXParserMixin.parseExpression (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10448:17)\n    at JSXParserMixin.parseReturnStatement (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12755:28)\n    at JSXParserMixin.parseStatementContent (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12406:21)\n    at JSXParserMixin.parseStatementLike (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12375:17)\n    at JSXParserMixin.parseStatementListItem (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12355:17)\n    at JSXParserMixin.parseBlockOrModuleBlockBody (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12929:61)\n    at JSXParserMixin.parseBlockBody (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12922:10)\n    at JSXParserMixin.parseBlock (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12910:10)\n    at JSXParserMixin.parseFunctionBody (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:11752:24)\n    at JSXParserMixin.parseFunctionBodyAndFinish (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:11738:10)\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:13054:12\n    at JSXParserMixin.withSmartMixTopicForbiddingContext (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12046:14)\n    at JSXParserMixin.parseFunction (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:13053:10)\n    at JSXParserMixin.parseFunctionStatement (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12738:17)\n    at JSXParserMixin.parseStatementContent (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12399:21)\n    at JSXParserMixin.parseStatementLike (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12375:17)");
+
+/***/ }),
+
+>>>>>>> aboutBrowserRouter
 /***/ "./Views/Contact.js":
 /*!**************************!*\
   !*** ./Views/Contact.js ***!
@@ -15,10 +28,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+<<<<<<< HEAD
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-K6AXKMTT.mjs");
 /* harmony import */ var _Contact_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Contact.scss */ "./Views/Contact.scss");
 /* harmony import */ var _Contact_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Contact_scss__WEBPACK_IMPORTED_MODULE_1__);
 
+=======
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-V7UHCZHK.mjs");
+>>>>>>> aboutBrowserRouter
 
 
 function Contact() {
@@ -163,7 +180,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-K6AXKMTT.mjs");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-V7UHCZHK.mjs");
 
 
 function Gallery() {
@@ -381,17 +398,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-K6AXKMTT.mjs");
+=======
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-V7UHCZHK.mjs");
+>>>>>>> aboutBrowserRouter
 
 
 function Home() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/home"
   }, "Home |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "gallery"
 <<<<<<< HEAD
   }, "Gallery |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
     to: "/contact"
+<<<<<<< HEAD
   }, "Contact |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, null, "About "))));
 =======
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-K6AXKMTT.mjs");
@@ -454,6 +476,11 @@ function Home() {
 =======
   }, "Gallery |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, null, "Contact |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, null, "About "))));
 >>>>>>> galleryBrowserRouter
+=======
+  }, "Contact |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
+    to: "/about"
+  }, "About ")));
+>>>>>>> aboutBrowserRouter
 }
 
 /***/ }),
@@ -2583,6 +2610,7 @@ module.exports.splitCookiesString = splitCookiesString;
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./Views/Home.scss":
 /*!******************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./Views/Home.scss ***!
@@ -2931,8 +2959,11 @@ module.exports = styleTagTransform;
 /***/ }),
 
 /***/ "./node_modules/react-router/dist/development/chunk-K6AXKMTT.mjs":
+=======
+/***/ "./node_modules/react-router/dist/development/chunk-V7UHCZHK.mjs":
+>>>>>>> aboutBrowserRouter
 /*!***********************************************************************!*\
-  !*** ./node_modules/react-router/dist/development/chunk-K6AXKMTT.mjs ***!
+  !*** ./node_modules/react-router/dist/development/chunk-V7UHCZHK.mjs ***!
   \***********************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
@@ -3056,7 +3087,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var cookie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! cookie */ "./node_modules/cookie/dist/index.js");
 /* harmony import */ var set_cookie_parser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! set-cookie-parser */ "./node_modules/set-cookie-parser/lib/set-cookie.js");
 /**
- * react-router v7.1.1
+ * react-router v7.1.2
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -3739,10 +3770,14 @@ function decodePath(value) {
   try {
     return value.split("/").map((v) => decodeURIComponent(v).replace(/\//g, "%2F")).join("/");
   } catch (error) {
+<<<<<<< HEAD
     warning(
       false,
       `The URL path "${value}" could not be decoded because it is is a malformed URL segment. This is probably due to a bad percent encoding (${error}).`
     );
+=======
+    warning(false, `The URL path "${value}" could not be decoded because it is a malformed URL segment. This is probably due to a bad percent encoding (${error}).`);
+>>>>>>> aboutBrowserRouter
     return value;
   }
 }
@@ -4155,6 +4190,7 @@ function createRouter(init) {
         }
       }
     });
+<<<<<<< HEAD
     [...subscribers].forEach(
       (subscriber) => subscriber(state, {
         deletedFetchers: unmountedFetchers,
@@ -4164,6 +4200,20 @@ function createRouter(init) {
     );
     unmountedFetchers.forEach((key) => deleteFetcher(key));
     mountedFetchers.forEach((key) => state.fetchers.delete(key));
+=======
+    fetchersQueuedForDeletion.forEach(key => {
+      if (!state.fetchers.has(key) && !fetchControllers.has(key)) {
+        unmountedFetchers.push(key);
+      }
+    });
+    [...subscribers].forEach(subscriber => subscriber(state, {
+      deletedFetchers: unmountedFetchers,
+      viewTransitionOpts: opts.viewTransitionOpts,
+      flushSync: opts.flushSync === true
+    }));
+    unmountedFetchers.forEach(key => deleteFetcher(key));
+    mountedFetchers.forEach(key => state.fetchers.delete(key));
+>>>>>>> aboutBrowserRouter
   }
   function completeNavigation(location, newState, { flushSync } = {}) {
     let isActionReload = state.actionData != null && state.navigation.formMethod != null && isMutationMethod(state.navigation.formMethod) && state.navigation.state === "loading" && location.state?._isRedirect !== true;
@@ -7795,6 +7845,7 @@ function RouterProvider({
   let [renderDfd, setRenderDfd] = react__WEBPACK_IMPORTED_MODULE_0__.useState();
   let [transition, setTransition] = react__WEBPACK_IMPORTED_MODULE_0__.useState();
   let [interruption, setInterruption] = react__WEBPACK_IMPORTED_MODULE_0__.useState();
+<<<<<<< HEAD
   let fetcherData = react__WEBPACK_IMPORTED_MODULE_0__.useRef(/* @__PURE__ */ new Map());
   let setState = react__WEBPACK_IMPORTED_MODULE_0__.useCallback(
     (newState, { deletedFetchers, flushSync, viewTransitionOpts }) => {
@@ -7802,6 +7853,36 @@ function RouterProvider({
       newState.fetchers.forEach((fetcher, key) => {
         if (fetcher.data !== void 0) {
           fetcherData.current.set(key, fetcher.data);
+=======
+  let fetcherData = react__WEBPACK_IMPORTED_MODULE_0__.useRef(/* @__PURE__ */new Map());
+  let setState = react__WEBPACK_IMPORTED_MODULE_0__.useCallback((newState, {
+    deletedFetchers,
+    flushSync,
+    viewTransitionOpts
+  }) => {
+    newState.fetchers.forEach((fetcher, key) => {
+      if (fetcher.data !== void 0) {
+        fetcherData.current.set(key, fetcher.data);
+      }
+    });
+    deletedFetchers.forEach(key => fetcherData.current.delete(key));
+    warnOnce(flushSync === false || reactDomFlushSyncImpl != null, 'You provided the `flushSync` option to a router update, but you are not using the `<RouterProvider>` from `react-router/dom` so `ReactDOM.flushSync()` is unavailable.  Please update your app to `import { RouterProvider } from "react-router/dom"` and ensure you have `react-dom` installed as a dependency to use the `flushSync` option.');
+    let isViewTransitionAvailable = router.window != null && router.window.document != null && typeof router.window.document.startViewTransition === "function";
+    warnOnce(viewTransitionOpts == null || isViewTransitionAvailable, "You provided the `viewTransition` option to a router update, but you do not appear to be running in a DOM environment as `window.startViewTransition` is not available.");
+    if (!viewTransitionOpts || !isViewTransitionAvailable) {
+      if (reactDomFlushSyncImpl && flushSync) {
+        reactDomFlushSyncImpl(() => setStateImpl(newState));
+      } else {
+        react__WEBPACK_IMPORTED_MODULE_0__.startTransition(() => setStateImpl(newState));
+      }
+      return;
+    }
+    if (reactDomFlushSyncImpl && flushSync) {
+      reactDomFlushSyncImpl(() => {
+        if (transition) {
+          renderDfd && renderDfd.resolve();
+          transition.skipTransition();
+>>>>>>> aboutBrowserRouter
         }
       });
       warnOnce(
@@ -10035,7 +10116,7 @@ function mergeRefs(...refs) {
 var isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined";
 try {
   if (isBrowser) {
-    window.__reactRouterVersion = "7.1.1";
+    window.__reactRouterVersion = "7.1.2";
   }
 } catch (e) {
 }
@@ -13345,10 +13426,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-K6AXKMTT.mjs");
+=======
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-V7UHCZHK.mjs");
+>>>>>>> aboutBrowserRouter
 /* harmony import */ var _Views_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Views/Home */ "./Views/Home.js");
 /* harmony import */ var _Views_Gallery__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Views/Gallery */ "./Views/Gallery.js");
 /* harmony import */ var _Views_Contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Views/Contact */ "./Views/Contact.js");
+/* harmony import */ var _Views_About__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../Views/About */ "./Views/About.js");
+
 
 
 =======
@@ -13364,22 +13451,27 @@ __webpack_require__.r(__webpack_exports__);
 const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(window.bodyTag);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.Route, {
 <<<<<<< HEAD
 =======
 root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.Route, {
 >>>>>>> galleryBrowserRouter
+=======
+root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Route, {
+>>>>>>> aboutBrowserRouter
   path: "/home",
 =======
   path: "/",
 >>>>>>> contactBrowserRouter
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Home__WEBPACK_IMPORTED_MODULE_2__.Home, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.Route, {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Route, {
   path: "/gallery",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Gallery__WEBPACK_IMPORTED_MODULE_3__.Gallery, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.Route, {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Route, {
   path: "/contact",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Contact__WEBPACK_IMPORTED_MODULE_4__.Contact, null)
+<<<<<<< HEAD
 =======
 root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_3__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_3__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_3__.Route, {
   path: "/",
@@ -13388,6 +13480,11 @@ root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElem
   path: "/Home",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Home__WEBPACK_IMPORTED_MODULE_2__.Home, null)
 >>>>>>> homeBrowserRouter
+=======
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Route, {
+  path: "/about",
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_About__WEBPACK_IMPORTED_MODULE_5__.About, null)
+>>>>>>> aboutBrowserRouter
 }))));
 })();
 
