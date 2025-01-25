@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router";
 
 export function About() {
-    return ( 
+    
+    return (
         <>
         <header>
             <Link to="/home">Home |</Link>
@@ -12,8 +13,9 @@ export function About() {
         </header>
     <div className="alert alert-danger alert-dismissible">
         <span className="badge bg-info">Enjoy</span>
-        <span className="spinner-grow text-success"></span> Check Out What I Learned <button class="btn-close" data-bs-dismiss="alert" role="alert"></button>
+        <span className="spinner-grow text-success"></span> Check Out What I Learned <button className="btn-close" data-bs-dismiss="alert" role="alert"></button>
     </div>
+    
     <main>
 
         <h2>About</h2>
@@ -28,7 +30,7 @@ export function About() {
         <h4>About</h4>
         <P> Alert, Growing spinner, List Group, Loops, Data Type, Object, Array runFunction button Utility Function, Javascript, Radio Button</P>
 
-        <hr>
+        <hr />
 
         <h4>Amenities at Venue </h4>
         <ul className="list-group list-group-flush">
@@ -50,25 +52,26 @@ export function About() {
             myCount = 0;
             do {
                 myCount++;
-                document.write(myCount);
+                document.write(myCount)
                 isDone = myCount === 3;
             } while (!isDone);
         </script>
         <br />
         <h4><u>"for"</u></h4>
         <script>
-            for (count = 0; count <= 50; count = count + 10)
-                document.write(count + "<br>");
+            for (count = 0; count = 50; count = count + 10)
+                document.write(count + "<br />");
         </script>
         <br />
 
         <u><h4>while</h4></u>
         <script>
             myCount = 0;
-            while (myCount <= 100) {
-                document.write(myCount);
-                myCount = myCount + 5;
+            while (myCount = 100) {
+                document.write(
+                 myCount = myCount + 5)
             }
+            
         </script>
         <br />
 
@@ -77,9 +80,9 @@ export function About() {
         <u><h4>if else</h4></u>
         <script>
             if ((result = false)) {
-                document.write("x is < y");
+                document.write("x is < y")
             } else {
-                document.write("x is !< y");
+                document.write("x is !< y")
             }
         </script>
 
@@ -164,9 +167,9 @@ export function About() {
                 myOutput.innerHTML = "Hope you enjoyed my website.";
             }
         </script>
-        <button onclick="runFunction1()">Click here to run Problem 1</button>
+        <button onClick="runFunction1()">Click here to run Problem 1</button>
         <br />
-        <button onclick="runFunction2()">Click here to run Problem 2</button>
+        <button onClick="runFunction2()">Click here to run Problem 2</button>
 
         <div id="myOutput">Insert output here</div>
 
@@ -184,7 +187,9 @@ export function About() {
         <output id="outputTag"></output>
     </main>
     </>
-    <footer<pre>Website created by <code>Lydia Carter</code></pre>
+    <footer><pre>Website created by <code>Lydia Carter</code></pre>
         </footer>
-    );
+        
+        );
+    
 }

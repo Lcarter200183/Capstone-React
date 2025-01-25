@@ -7,7 +7,7 @@ export default {
               test: /\.(js|jsx)/,
               exclude: /\.(scss|css)/,
               use: "babel-loader",
-           },
+           }
            { 
               test: /\.(scss|css)/,
               use: ["style-loader", "css-loader", "sass-loader"],
