@@ -1,18 +1,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
-export default {
+export  {
     module: {
        rules: [
            {
-              test: /\.(js|jsx)/,
+              test: /\.js/,
               exclude: /\.(scss|css)/,
               use: "babel-loader",
-           }
+           },
            { 
               test: /\.(scss|css)/,
               use: ["style-loader", "css-loader", "sass-loader"],
-           }
-       ]
+           },
+       ],
     },
     
       watch: true,
@@ -26,7 +26,7 @@ export default
     module: {
         rules: [
            {
-            test: /\.(js|jsx)/,
+            test: /\.js/,
             exclude: /\.(scss|css)/,
             use: "babel-loader",
          },
@@ -41,7 +41,7 @@ export default
     module: {
           rules: [
         {
-            test: /\.(js|jsx)/,
+            test: /\.js/,
             exclude: /\.(scss|css)/,
             use: "babel-loader",
         },
