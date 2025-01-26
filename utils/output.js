@@ -1,4 +1,5 @@
 import React from "react";
+import { output} from "./utills/output";
 
 export function output(message) {
      window.outputTag.innerHTML += message;
