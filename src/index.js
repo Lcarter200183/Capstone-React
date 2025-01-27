@@ -7,12 +7,14 @@ import { Home } from "../Views/Home";
 import { Gallery } from "../Views/Gallery"; 
 
 
+
 const root = createRoot(window.bodyTag);
  root.render(
  <BrowserRouter>
   <Routes>
      <Route path="/home" element={<Home />} />  
      <Route path="/gallery" element={<Gallery />} /> 
+     
       
   </Routes>
 </BrowserRouter>
