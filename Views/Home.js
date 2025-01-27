@@ -11,7 +11,7 @@ import "./Home.scss";
         <img width="100%" src="https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312" alt="outside of building" />
         <div className="bg-primary fs-6 p-2 m-2">
             <nav className="nav nav-tab nav-underline nav-fill">
-                <Link to="/Home">HOME |</Link>
+                <Link to="/">HOME |</Link>
                 <Link>GALLERY | </Link>
                 <Link>CONTACT | </Link>
                 <Link>ABOUT </Link>

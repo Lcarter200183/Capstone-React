@@ -10,7 +10,6 @@ const root = createRoot(window.bodyTag);
  <BrowserRouter>
   <Routes>
      <Route path="/" element={<Home />} />
-     <Route path="/Home" element={<Home />} />
   </Routes>
 </BrowserRouter>
  );
