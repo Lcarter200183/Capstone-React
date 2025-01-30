@@ -1,11 +1,5 @@
-<<<<<<< HEAD
+import { output } from "../utils/output";
 
-import { display } from "../utils/display.js";
-import { output } from "./output.js";
-
-=======
-import { display } from "../utils/display"
->>>>>>> galleryBrowserRouter
 
 window.moduleExample = moduleExample();
 
