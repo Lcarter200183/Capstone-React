@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router";
 import { Routes } from "react-router";
 import { Route } from "react-router";
 import { Home } from "../Views/Home";
+import { Link } from "react-router";
 
 const root = createRoot(window.bodyTag);
  root.render(
