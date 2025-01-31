@@ -1,6 +1,14 @@
 import { createRoot } from "react-dom/client";
 import React from "react";
+<<<<<<< HEAD
 
+=======
+import { BrowserRouter } from "react-router";
+import { Routes } from "react-router";
+import { Route } from "react-router";
+import { Home } from "../Views/Home";
+import { Link } from "react-router";
+>>>>>>> homeBrowserRouter
 
 const root = createRoot(window.bodyTag);
  root.render(
