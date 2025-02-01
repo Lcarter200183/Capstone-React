@@ -14,9 +14,9 @@ import "./Home.scss";
          <div className="bg-primary fs-6 p-2 m-2">
              <nav className="nav nav-tab nav-underline nav-fill">
                  <Link to="/">HOME |</Link>
-                 <Link to="gallery">GALLERY | </Link>
-                 <Link to="contact">CONTACT | </Link>
-                 <Link to="about">ABOUT </Link>
+                 <Link to="/gallery">GALLERY | </Link>
+                 <Link to="/contact">CONTACT | </Link>
+                 <Link to="/about">ABOUT </Link>
              </nav>
 
          </div>

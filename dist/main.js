@@ -41,11 +41,11 @@ function Home() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_2__.Link, {
     to: "/"
   }, "HOME |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: "gallery"
+    to: "/gallery"
   }, "GALLERY | "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: "contact"
+    to: "/contact"
   }, "CONTACT | "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: "about"
+    to: "/about"
   }, "ABOUT ")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
     id: "homeMain",
     className: "container"
