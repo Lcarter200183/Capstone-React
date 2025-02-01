@@ -3,23 +3,25 @@ import { Link } from "react-router";
 import "./Home.scss";
 
  export function Home() {
+    const domain = window.location.hostname
+    console.log(`Domain:${domain}`);
     const center ={ justifySelf: "center"};
     const kleader = { fontFamily: "kleader"};
     return (
-        <>
-      <header id="homeHeader">
+     <>
+       <header id="homeHeader">
          <img width="100%" src="https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312" alt="outside of building" />
          <div className="bg-primary fs-6 p-2 m-2">
              <nav className="nav nav-tab nav-underline nav-fill">
                  <Link to="/">HOME |</Link>
-                 <Link>GALLERY | </Link>
-                 <Link>CONTACT | </Link>
-                 <Link>ABOUT </Link>
+                 <Link to="gallery">GALLERY | </Link>
+                 <Link to="contact">CONTACT | </Link>
+                 <Link to="about">ABOUT </Link>
              </nav>
 
          </div>
-     </header>
-     <main id="homeMain" className="container">
+     </header> 
+    <main id="homeMain" className="container">
         
     <u><h2>Venue</h2></u>
     <br />
@@ -44,23 +46,23 @@ import "./Home.scss";
     </p>
     <hr />
 
-    <button onClick="moduleExample">module Example</button><br />
-    <output id="outputTag"></output>
+    {/* <button onClick="moduleExample">module Example</button><br />
+    <output id="outputTag"></output> */}
 
 </main>
 
 <footer id="homeFooter" style={{center}}>
     Sitemap:
     <nav>
-        <Link to="#exterior">Exterior</Link><br />
-        <Link to="#interior">Interior</Link><br />
-        <Link to="#events">Events</Link><br />
+        <a href="#exterior">Exterior</a><br />
+        <a href="#interior">Interior</a><br />
+        <a href="#events">Events</a><br />
     </nav>
 
 
     <pre style={{fontFamily: kleader}}>Website created by <code>Lydia Carter</code></pre>
 </footer>
- </>
-    );
- }
-   
+ </> 
+);
+}  
+ 
