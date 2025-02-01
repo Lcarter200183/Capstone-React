@@ -3,7 +3,7 @@ import { moduleExample } from "./moduleExample";
 
 export function onClick() {
     return (
-        
+        <></>
     );
     output(moduleExample);
 }

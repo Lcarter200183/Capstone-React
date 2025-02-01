@@ -1,7 +1,8 @@
-import React from "react";
+import { handleOnClick } from "../modules/handleOnClick";
 
-export function handlOnClick() {
+
+export function handleOnClick() {
     return(
-        
+        console.log()
     );
 }
