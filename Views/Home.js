@@ -62,13 +62,7 @@ import "./Home.scss";
 
     <pre style={{fontFamily: kleader}}>Website created by <code>Lydia Carter</code></pre>
 </footer>
-<<<<<<< HEAD
- </>
-    );
-}
-=======
  </> 
 );
 }  
  
->>>>>>> homeBrowserRouter
