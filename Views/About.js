@@ -106,11 +106,11 @@ export function About() {
         <br />
 
         <u><h4>Boolean</h4></u>
-        {/* <script>
-            myVariable = 12 < 10;
+        <script>
+            myVariable = 12 = 10;
             result = typeof myVariable;
             document.write(result);
-        </script> */}
+        </script> 
 
         <u><h4>Array</h4></u>
         <script>
