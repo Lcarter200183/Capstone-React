@@ -8,14 +8,14 @@ import { Gallery } from "../Views/Gallery";
 
 
 
-const root = createRoot(window.bodyTag);
+
+const bodytag = document.getElementById("bodytag")
+const root = createRoot(bodytag);
  root.render(
  <BrowserRouter>
   <Routes>
-     <Route path="/" element={<Home />} />  
-     <Route path="/gallery" element={<Gallery />} /> 
-     
-      
+     <Route path={`${rootPath}/`} element={<Home />} /> 
+     <Route path={`${rootPath}/gallery`} element={<Gallery />} /> 
   </Routes>
 </BrowserRouter>
  );

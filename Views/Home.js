@@ -10,8 +10,8 @@ export function Home() {
         <nav>
           <Link to="/home">Home |</Link>
           <Link to="gallery">Gallery |</Link>
-          <Link>Contact |</Link>
-          <Link>About </Link>
+          <Link to="contact">Contact |</Link>
+          <Link to="about">About </Link>
         </nav>
      </header> 
      </>

@@ -6,7 +6,8 @@ import { Link } from "react-router";
 
 
 export function Gallery() {
-  
+ const domain = window.location.hostname;
+ if (domain === "lcarter200183.github.io") rootPath = "react-navigation";
 
   //const center ={ justifySelf: center };
     return (
@@ -16,8 +17,8 @@ export function Gallery() {
         <img width="100% " src="https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312 " alt="outside of building " />
         <div className="bg-info fs-6 p-2 m-2 ">
           <nav className="nav nav-tab nav-underline nav-fill ">
-            <Link to="/">HOME |</Link>
-            <Link to="/gallery">GALLERY |</Link>
+            <Link to={`${rootPath}/`}>HOME |</Link>
+            <Link to={`${rootPath}/gallery`}>GALLERY |</Link>
             <Link>CONTACT |</Link>
             <Link>ABOUT </Link>
           </nav>
