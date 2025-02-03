@@ -1,3 +1,3 @@
-// export function display(message) {
-//     document.write(message);
-// }
+export function display(message) {
+  document.log(message);
+ }

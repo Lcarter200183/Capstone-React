@@ -12,7 +12,8 @@ const root = createRoot(window.bodyTag);
   <Routes>
      <Route path="/" element={<Home />} />
      <Route path="/react-navigation" element={<Home />} /> 
-     <Route>Gallery</Route>
+     <Route path="/gallery">Gallery</Route>
+     <Route path="/gallery react-navigation">Gallery</Route>
      <Route>Contact</Route>
      <Route>About</Route>
   </Routes>
