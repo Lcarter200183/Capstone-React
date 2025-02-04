@@ -6,16 +6,17 @@ import { Route } from "react-router";
 import { Home } from "../Views/Home";
 import { Gallery } from "../Views/Gallery"; 
 
+const domain = window.location.hostname
+let rootPath ="";
+if (domain === "lcarter200183.git.io") rootPath = "/react-navigation";
 
 
-
-const bodytag = document.getElementById("bodytag")
-const root = createRoot(bodytag);
+const root = createRoot(window.bodyTag);
  root.render(
  <BrowserRouter>
   <Routes>
-     <Route path={`${rootPath}/`} element={<Home />} /> 
-     <Route path={`${rootPath}/gallery`} element={<Gallery />} /> 
+     <Route path="/" element={<Home />} /> 
+     <Route path="/gallery" element={<Gallery />} /> 
   </Routes>
 </BrowserRouter>
  );
