@@ -118,7 +118,8 @@ export function Gallery() {
                 <output id="outputTag2"></output>
               </main>
              
-              <footer id="galleryFooter"><pre>Website created by <code>Lydia Carter</code></pre></footer> 
+              <footer id="galleryFooter"><pre>Website created by <code>Lydia Carter</code></pre></footer>
                </>
-              );
-           } 
+    );
+  }
+           
