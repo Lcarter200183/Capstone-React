@@ -1,5 +1,13 @@
 import React from "react";
+import { Navbar } from "./Navbar";
 
 export function Home() {
-  return <main>hello world</main>;
+  return (
+    <>
+      <header>
+        <Navbar />
+      </header>
+      <main>hello world</main>;
+    </>
+  );
 }

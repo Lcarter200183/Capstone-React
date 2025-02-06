@@ -1,5 +1,13 @@
 import React from "react";
+import { Navbar } from "./Navbar";
 
 export function Gallery() {
-  return <main>Gallery </main>;
+  return (
+    <>
+      <header>
+        <Navbar />
+      </header>
+      <main>Gallery </main>;
+    </>
+  );
 }

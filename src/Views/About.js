@@ -1,5 +1,13 @@
 import React from "react";
+import { Navbar } from "./Navbar";
 
 export function About() {
-  return <h1>About Page</h1>;
+  return (
+    <>
+      <header>
+        <Navbar />
+      </header>
+      <main></main>
+    </>
+  );
 }
