@@ -1,5 +1,13 @@
 import React from "react";
+import { Navbar } from "./Navbar";
 
 export function Contact() {
-  return <h1>Contact Page</h1>;
+  return (
+    <>
+      <header>
+        <Navbar />
+      </header>
+      <main></main>
+    </>
+  );
 }
