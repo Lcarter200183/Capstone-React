@@ -11720,7 +11720,11 @@ root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElem
   to: "home"
 }, "Home |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_2__.Link, {
   to: "gallery"
-}, "Gallery |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_2__.Link, null, "Contact |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_2__.Link, null, "About "))));
+}, "Gallery |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_2__.Link, {
+  to: "contact"
+}, "Contact |"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_2__.Link, {
+  to: "about"
+}, "About "))));
 })();
 
 /******/ })()
