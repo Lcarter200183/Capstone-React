@@ -3,6 +3,8 @@ import { Navbar } from "./Navbar";
 
 export function Home() {
   useEffect(componentDidMount, []);
+  useEffect(componentDidupdate, []);
+  useEffect(componentDidUnmount, []);
   return (
     <>
       <header>
@@ -65,4 +67,10 @@ export function Home() {
 function componentDidMount() {
   document.title = "The Venue";
   console.log("Mounted title");
+}
+function componentDidupdate() {
+  setTimeout(console.log("Component updated."), 2000);
+}
+function componentDidUnmount() {
+  setTimeout(console.log("Component Unmounted"), 2500);
 }
