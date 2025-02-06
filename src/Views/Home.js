@@ -1,6 +1,5 @@
 import React from "react";
 import { Navbar } from "./Navbar";
-import { moduleExample } from "../../controllers/moduleExample";
 
 export function Home() {
   return (
@@ -55,9 +54,6 @@ export function Home() {
           Id accumsan diam vehicula rhoncus sollicitudin metus aptent.
         </p>
         <hr />
-        <button onClick={moduleExample()}>module Example</button>
-        <br />
-        <output id="outputTag"></output>
       </main>
     </>
   );
