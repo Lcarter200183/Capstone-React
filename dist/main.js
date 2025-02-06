@@ -2074,6 +2074,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Gallery() {
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentdDidUpdate, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
   const center = {
     width: "fit-content",
     justifySelf: "center"
@@ -2206,6 +2209,16 @@ function Gallery() {
     className: "bg-primary p-3 ",
     id: "mixin-example "
   }, "Enjoy the View!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null)));
+}
+function componentDidMount() {
+  document.title = "Venue";
+  console.log("Mounted Component");
+}
+function componentdDidUpdate() {
+  setTimeout(console.log("Component Updated"), 2000);
+}
+function componentDidUnmount() {
+  setTimeout(console.log("component Unmounted"), 2500);
 }
 
 /***/ }),

@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import { handleOnClick } from "../../controllers/handleOnClick";
 
 export function Gallery() {
+  useEffect(componentDidMount, []);
+  useEffect(componentdDidUpdate, []);
+  useEffect(componentDidUnmount, []);
   const center = { width: "fit-content", justifySelf: "center" };
   return (
     <>
@@ -152,4 +155,14 @@ export function Gallery() {
       </main>
     </>
   );
+}
+function componentDidMount() {
+  document.title = "Venue";
+  console.log("Mounted Component");
+}
+function componentdDidUpdate() {
+  setTimeout(console.log("Component Updated"), 2000);
+}
+function componentDidUnmount() {
+  setTimeout(console.log("component Unmounted"), 2500);
 }
