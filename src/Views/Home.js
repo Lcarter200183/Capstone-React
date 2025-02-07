@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
+import { moduleExample } from "../controllers/moduleExample";
 
 export function Home() {
+  useEffect(componentDidMount, []);
+  useEffect(componentDidupdate, []);
+  useEffect(componentDidUnmount, []);
   return (
     <>
       <header>
         <Navbar />
       </header>
-      <main id="homeHeader" className="container">
+      <main>
         <u>
           <h2>Venue</h2>
         </u>
@@ -54,7 +58,21 @@ export function Home() {
           Id accumsan diam vehicula rhoncus sollicitudin metus aptent.
         </p>
         <hr />
+        <button onClick={moduleExample}>module Example</button>
+        <br />
+        <output id="myTag"></output>
       </main>
     </>
   );
+}
+
+function componentDidMount() {
+  document.title = "The Venue";
+  console.log("Mounted title");
+}
+function componentDidupdate() {
+  setTimeout(console.log("Component updated."), 2000);
+}
+function componentDidUnmount() {
+  setTimeout(console.log("Component Unmounted"), 2500);
 }
