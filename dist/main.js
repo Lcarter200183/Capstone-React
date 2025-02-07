@@ -1,6 +1,31 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
+
+/***/ "./controllers/formExample.js":
+/*!************************************!*\
+  !*** ./controllers/formExample.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   formExample: () => (/* binding */ formExample)
+/* harmony export */ });
+/* harmony import */ var _modules_handleProcessForm_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/handleProcessForm.js */ "./modules/handleProcessForm.js");
+/* harmony import */ var _modules_handleCustomerService_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/handleCustomerService.js */ "./modules/handleCustomerService.js");
+/* harmony import */ var _modules_nameForm_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../modules/nameForm.js */ "./modules/nameForm.js");
+/* harmony import */ var _modules_numberForm_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../modules/numberForm.js */ "./modules/numberForm.js");
+/* harmony import */ var _modules_datetimeForm_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../modules/datetimeForm.js */ "./modules/datetimeForm.js");
+
+
+
+
+
+window.formExample = formExample;
+function formExample() {}
+
+/***/ }),
 
 /***/ "./controllers/handleOnClick.js":
 /*!**************************************!*\
@@ -8,6 +33,7 @@
   \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   handleOnClick: () => (/* binding */ handleOnClick)
@@ -18,12 +44,141 @@ function handleOnClick() {
 
 /***/ }),
 
+/***/ "./modules/datetimeForm.js":
+/*!*********************************!*\
+  !*** ./modules/datetimeForm.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   datetimeForm: () => (/* binding */ datetimeForm)
+/* harmony export */ });
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./utils/display.js");
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_utils_display_js__WEBPACK_IMPORTED_MODULE_0__);
+
+function datetimeForm(event) {
+  event.preventDefault();
+  const datetimeform = event.target;
+  const datetimeInput = datetimeform[0];
+  const datetimevalue = datetimeInput.value;
+  output("Your appointment was submitted successfully.");
+}
+
+/***/ }),
+
+/***/ "./modules/handleCustomerService.js":
+/*!******************************************!*\
+  !*** ./modules/handleCustomerService.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   handleCustomerService: () => (/* binding */ handleCustomerService)
+/* harmony export */ });
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./utils/display.js");
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_utils_display_js__WEBPACK_IMPORTED_MODULE_0__);
+
+function handleCustomerService(event) {
+  event.preventDefault();
+  const emailForm = event.target;
+  const emailInput = emailForm[0];
+  const emailvalue = emailInput.value;
+  output("Your message was submitted. ");
+  const promise = makeRequest("https://myServer.com");
+  promise.then(parseResponse);
+}
+function delayedGreeting() {
+  setTimeout(greeting, 5000);
+}
+
+/***/ }),
+
+/***/ "./modules/handleProcessForm.js":
+/*!**************************************!*\
+  !*** ./modules/handleProcessForm.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   handleProcessForm: () => (/* binding */ handleProcessForm)
+/* harmony export */ });
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./utils/display.js");
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_utils_display_js__WEBPACK_IMPORTED_MODULE_0__);
+
+function handleProcessForm(event) {
+  event.preventDefault();
+  const form = event.target;
+  const input = form[0];
+  const value = input.value;
+  output("Your info was submitted. ");
+  const promise = makeRequest(getServerResponse);
+  promise.then(parseResponse);
+}
+
+/***/ }),
+
+/***/ "./modules/nameForm.js":
+/*!*****************************!*\
+  !*** ./modules/nameForm.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   nameForm: () => (/* binding */ nameForm)
+/* harmony export */ });
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./utils/display.js");
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_utils_display_js__WEBPACK_IMPORTED_MODULE_0__);
+
+function nameForm(event) {
+  event.preventDefault();
+  const form = event.target;
+  const firstnameInput = form[0];
+  const lastnameInput = form[1];
+  const firstnamevalue = firstnameInput.value;
+  output("Your appointment was submitted successfully.");
+}
+
+/***/ }),
+
+/***/ "./modules/numberForm.js":
+/*!*******************************!*\
+  !*** ./modules/numberForm.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   numberForm: () => (/* binding */ numberForm)
+/* harmony export */ });
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./utils/display.js");
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_utils_display_js__WEBPACK_IMPORTED_MODULE_0__);
+
+function numberForm(event) {
+  event.preventDefault();
+  const numberform = event.target;
+  const numberInput = numberform[0];
+  const numberValue = numberInput.value;
+  output("Your appointment was submitted successfully.");
+}
+
+/***/ }),
+
 /***/ "./node_modules/cookie/dist/index.js":
 /*!*******************************************!*\
   !*** ./node_modules/cookie/dist/index.js ***!
   \*******************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
+"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -262,6 +417,7 @@ function isDate(val) {
   \********************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
+"use strict";
 /**
  * @license React
  * react-dom-client.development.js
@@ -282,6 +438,7 @@ function isDate(val) {
   \*************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
+"use strict";
 /**
  * @license React
  * react-dom.development.js
@@ -472,6 +629,7 @@ function isDate(val) {
   \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 function checkDCE() {
@@ -510,6 +668,7 @@ if (false) {} else {
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 function checkDCE() {
@@ -548,6 +707,7 @@ if (false) {} else {
   \*****************************************************/
 /***/ ((module, exports, __webpack_require__) => {
 
+"use strict";
 /* module decorator */ module = __webpack_require__.nmd(module);
 /**
  * @license React
@@ -1520,6 +1680,7 @@ if (false) {} else {
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 if (false) {} else {
@@ -1534,6 +1695,7 @@ if (false) {} else {
   \*************************************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
+"use strict";
 /**
  * @license React
  * scheduler.development.js
@@ -1809,6 +1971,7 @@ if (false) {} else {
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 if (false) {} else {
@@ -1823,6 +1986,7 @@ if (false) {} else {
   \**********************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var defaultParseOptions = {
@@ -2020,6 +2184,7 @@ module.exports.splitCookiesString = splitCookiesString;
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   About: () => (/* binding */ About)
@@ -2041,6 +2206,7 @@ function About() {
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Contact: () => (/* binding */ Contact)
@@ -2048,10 +2214,98 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ "./src/Views/Navbar.js");
+/* harmony import */ var _controllers_formExample__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../controllers/formExample */ "./controllers/formExample.js");
+/* harmony import */ var _modules_handleCustomerService__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../modules/handleCustomerService */ "./modules/handleCustomerService.js");
+/* harmony import */ var _modules_nameForm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../modules/nameForm */ "./modules/nameForm.js");
+/* harmony import */ var _modules_handleProcessForm__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../modules/handleProcessForm */ "./modules/handleProcessForm.js");
+/* harmony import */ var _modules_datetimeForm__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../modules/datetimeForm */ "./modules/datetimeForm.js");
+/* harmony import */ var _modules_numberForm__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../modules/numberForm */ "./modules/numberForm.js");
+
+
+
+
+
+
 
 
 function Contact() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Navbar__WEBPACK_IMPORTED_MODULE_1__.Navbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Navbar__WEBPACK_IMPORTED_MODULE_1__.Navbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    className: " Contact-Us no-repeat center width100 height"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Contact")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Contact "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    onSubmit: _modules_handleProcessForm__WEBPACK_IMPORTED_MODULE_5__.handleProcessForm
+  }, "Name:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    required: true,
+    name: "name",
+    type: "name",
+    placeholder: "Lydia Carter",
+    id: "name"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Email:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    required: true,
+    name: "email",
+    type: "email",
+    placeholder: "Lcarter200183@yahoo.com",
+    id: "email"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "submit",
+    value: "Submit"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Contact Customer Service"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    onSubmit: _modules_handleCustomerService__WEBPACK_IMPORTED_MODULE_3__.handleCustomerService
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    required: true,
+    name: "email",
+    type: "email",
+    placeholder: "Email Info",
+    id: "email"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    required: true,
+    name: "text",
+    type: "text",
+    placeholder: "Summery of Issue",
+    id: "text"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "submit",
+    value: "Submit"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Submit Appointment"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    onSubmit: _modules_nameForm__WEBPACK_IMPORTED_MODULE_4__.nameForm
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    required: true,
+    name: "firstName",
+    type: "name",
+    placeholder: "First Name",
+    id: "firstname"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    required: true,
+    name: "lastName",
+    type: "name",
+    placeholder: "Last Name",
+    id: "lastname"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    onSubmit: _modules_numberForm__WEBPACK_IMPORTED_MODULE_7__.numberForm
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    required: true,
+    name: "tel",
+    type: "tel",
+    placeholder: "###-###-####",
+    pattern: "[0-9]{3}-[0-9]{3}-[0-9]{4}",
+    id: "tel"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    onSubmit: _modules_datetimeForm__WEBPACK_IMPORTED_MODULE_6__.datetimeForm
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    required: true,
+    name: "datetime-local",
+    type: "datetime-local",
+    placeholder: "datetime-local",
+    id: "datetime-iocal"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "submit",
+    value: "Submit"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
+    id: "outputTag"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    onClick: (0,_controllers_formExample__WEBPACK_IMPORTED_MODULE_2__.formExample)()
+  }, "form Example"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
+    id: "outputTag"
+  })));
 }
 
 /***/ }),
@@ -2062,6 +2316,7 @@ function Contact() {
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Gallery: () => (/* binding */ Gallery)
@@ -2229,6 +2484,7 @@ function componentDidUnmount() {
   \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Home: () => (/* binding */ Home)
@@ -2262,6 +2518,7 @@ function Home() {
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Navbar: () => (/* binding */ Navbar)
@@ -2295,12 +2552,25 @@ function Navbar() {
 
 /***/ }),
 
+/***/ "./utils/display.js":
+/*!**************************!*\
+  !*** ./utils/display.js ***!
+  \**************************/
+/***/ (() => {
+
+// export function display(message) {
+//   document.log(message);
+//  }
+
+/***/ }),
+
 /***/ "./node_modules/react-router/dist/development/chunk-IR6S3I6Y.mjs":
 /*!***********************************************************************!*\
   !*** ./node_modules/react-router/dist/development/chunk-IR6S3I6Y.mjs ***!
   \***********************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Action: () => (/* binding */ Action),
@@ -11319,6 +11589,7 @@ function deserializeErrors2(errors) {
   \*********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   decode: () => (/* binding */ decode),
@@ -12020,8 +12291,9 @@ function raceSignal(promise, signal) {
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry needs to be wrapped in an IIFE because it needs to be isolated against other modules in the chunk.
+// This entry needs to be wrapped in an IIFE because it needs to be in strict mode.
 (() => {
+"use strict";
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
