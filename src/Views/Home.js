@@ -1,13 +1,29 @@
 import React from "react";
-import { Navbar } from "./Navbar";
+import { Link } from "react-router";
 
 export function Home() {
+  const domain = window.location.hostname;
+  console.log(`Domain:${domain}`);
+  const center = { justifySelf: "center" };
+  const kleader = { fontFamily: "kleader" };
   return (
     <>
-      <header>
-        <Navbar />
+      <header id="homeHeader">
+        <img
+          width="100%"
+          src="https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312"
+          alt="outside of building"
+        />
+        <div className="bg-primary fs-6 p-2 m-2">
+          <nav className="nav nav-tab nav-underline nav-fill">
+            <Link to="/">HOME |</Link>
+            <Link to="/gallery">GALLERY | </Link>
+            <Link to="/contact">CONTACT | </Link>
+            <Link to="/about">ABOUT </Link>
+          </nav>
+        </div>
       </header>
-      <main id="homeHeader" className="container">
+      <main id="homeMain" className="container">
         <u>
           <h2>Venue</h2>
         </u>
@@ -24,6 +40,7 @@ export function Home() {
           non nascetur nisi hac nunc. Luctus neque taciti vivamus convallis
           elementum vel facilisis.
         </p>
+
         <h2 className="fst-italic fw-bold" id="interior">
           Interior
         </h2>
@@ -39,6 +56,7 @@ export function Home() {
           dictum vitae. Parturient luctus vulputate vestibulum accumsan
           imperdiet senectus magna ut imperdiet.
         </p>
+
         <h2 className="fst-italic fw-bold" id="events">
           Events
         </h2>
@@ -54,7 +72,25 @@ export function Home() {
           Id accumsan diam vehicula rhoncus sollicitudin metus aptent.
         </p>
         <hr />
+
+        {/* <button onClick="moduleExample">module Example</button><br />
+    <output id="outputTag"></output> */}
       </main>
+
+      <footer id="homeFooter" style={{ center }}>
+        Sitemap:
+        <nav>
+          <a href="#exterior">Exterior</a>
+          <br />
+          <a href="#interior">Interior</a>
+          <br />
+          <a href="#events">Events</a>
+          <br />
+        </nav>
+        <pre style={{ fontFamily: kleader }}>
+          Website created by <code>Lydia Carter</code>
+        </pre>
+      </footer>
     </>
   );
 }
