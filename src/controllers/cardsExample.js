@@ -1,6 +1,3 @@
- 
- window.cardExample = new cardExample();
- 
- export function cardExample() {
-    debugger;
-}
+window.cardExample = new cardExample();
+
+export function cardExample() {}

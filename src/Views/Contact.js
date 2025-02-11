@@ -1,11 +1,11 @@
 import React from "react";
 import { Navbar } from "./Navbar";
-import { formExample } from "../../controllers/formExample";
-import { handleCustomerService } from "../../modules/handleCustomerService";
-import { nameForm } from "../../modules/nameForm";
-import { handleProcessForm } from "../../modules/handleProcessForm";
-import { datetimeForm } from "../../modules/datetimeForm";
-import { numberForm } from "../../modules/numberForm";
+import { handleCustomerService } from "../modules/handleCustomerService";
+import { handleProcessForm } from "../modules/handleProcessForm";
+import { nameForm } from "../modules/nameForm";
+import { numberForm } from "../modules/numberForm";
+import { datetimeForm } from "../modules/datetimeForm";
+import { formExample } from "../controllers/formExample";
 
 export function Contact() {
   return (
@@ -110,12 +110,12 @@ export function Contact() {
             <input type="submit" value="Submit" />
           </form>
 
-          <output id="outputTag"></output>
+          <output id="myTag"></output>
         </section>
         <br />
         <hr />
-        <button onClick={formExample()}>form Example</button>
-        <output id="outputTag"></output>
+        <button onClick={formExample}>form Example</button>
+        <output id="myTag"></output>
       </main>
     </>
   );

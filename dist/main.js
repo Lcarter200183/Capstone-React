@@ -1,177 +1,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./controllers/formExample.js":
-/*!************************************!*\
-  !*** ./controllers/formExample.js ***!
-  \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   formExample: () => (/* binding */ formExample)
-/* harmony export */ });
-/* harmony import */ var _modules_handleProcessForm_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/handleProcessForm.js */ "./modules/handleProcessForm.js");
-/* harmony import */ var _modules_handleCustomerService_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/handleCustomerService.js */ "./modules/handleCustomerService.js");
-/* harmony import */ var _modules_nameForm_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../modules/nameForm.js */ "./modules/nameForm.js");
-/* harmony import */ var _modules_numberForm_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../modules/numberForm.js */ "./modules/numberForm.js");
-/* harmony import */ var _modules_datetimeForm_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../modules/datetimeForm.js */ "./modules/datetimeForm.js");
-
-
-
-
-
-window.formExample = formExample;
-function formExample() {}
-
-/***/ }),
-
-/***/ "./controllers/handleOnClick.js":
-/*!**************************************!*\
-  !*** ./controllers/handleOnClick.js ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   handleOnClick: () => (/* binding */ handleOnClick)
-/* harmony export */ });
-function handleOnClick() {
-  return console.log();
-}
-
-/***/ }),
-
-/***/ "./modules/datetimeForm.js":
-/*!*********************************!*\
-  !*** ./modules/datetimeForm.js ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   datetimeForm: () => (/* binding */ datetimeForm)
-/* harmony export */ });
-/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./utils/display.js");
-/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_utils_display_js__WEBPACK_IMPORTED_MODULE_0__);
-
-function datetimeForm(event) {
-  event.preventDefault();
-  const datetimeform = event.target;
-  const datetimeInput = datetimeform[0];
-  const datetimevalue = datetimeInput.value;
-  output("Your appointment was submitted successfully.");
-}
-
-/***/ }),
-
-/***/ "./modules/handleCustomerService.js":
-/*!******************************************!*\
-  !*** ./modules/handleCustomerService.js ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   handleCustomerService: () => (/* binding */ handleCustomerService)
-/* harmony export */ });
-/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./utils/display.js");
-/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_utils_display_js__WEBPACK_IMPORTED_MODULE_0__);
-
-function handleCustomerService(event) {
-  event.preventDefault();
-  const emailForm = event.target;
-  const emailInput = emailForm[0];
-  const emailvalue = emailInput.value;
-  output("Your message was submitted. ");
-  const promise = makeRequest("https://myServer.com");
-  promise.then(parseResponse);
-}
-function delayedGreeting() {
-  setTimeout(greeting, 5000);
-}
-
-/***/ }),
-
-/***/ "./modules/handleProcessForm.js":
-/*!**************************************!*\
-  !*** ./modules/handleProcessForm.js ***!
-  \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   handleProcessForm: () => (/* binding */ handleProcessForm)
-/* harmony export */ });
-/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./utils/display.js");
-/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_utils_display_js__WEBPACK_IMPORTED_MODULE_0__);
-
-function handleProcessForm(event) {
-  event.preventDefault();
-  const form = event.target;
-  const input = form[0];
-  const value = input.value;
-  output("Your info was submitted. ");
-  const promise = makeRequest(getServerResponse);
-  promise.then(parseResponse);
-}
-
-/***/ }),
-
-/***/ "./modules/nameForm.js":
-/*!*****************************!*\
-  !*** ./modules/nameForm.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   nameForm: () => (/* binding */ nameForm)
-/* harmony export */ });
-/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./utils/display.js");
-/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_utils_display_js__WEBPACK_IMPORTED_MODULE_0__);
-
-function nameForm(event) {
-  event.preventDefault();
-  const form = event.target;
-  const firstnameInput = form[0];
-  const lastnameInput = form[1];
-  const firstnamevalue = firstnameInput.value;
-  output("Your appointment was submitted successfully.");
-}
-
-/***/ }),
-
-/***/ "./modules/numberForm.js":
-/*!*******************************!*\
-  !*** ./modules/numberForm.js ***!
-  \*******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   numberForm: () => (/* binding */ numberForm)
-/* harmony export */ });
-/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./utils/display.js");
-/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_utils_display_js__WEBPACK_IMPORTED_MODULE_0__);
-
-function numberForm(event) {
-  event.preventDefault();
-  const numberform = event.target;
-  const numberInput = numberform[0];
-  const numberValue = numberInput.value;
-  output("Your appointment was submitted successfully.");
-}
-
-/***/ }),
-
 /***/ "./node_modules/cookie/dist/index.js":
 /*!*******************************************!*\
   !*** ./node_modules/cookie/dist/index.js ***!
@@ -2194,8 +2023,58 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ "./src/Views/Navbar.js");
 
 
+//import { listGroupExample } from "../controllers/listGroupExample";
+
 function About() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Navbar__WEBPACK_IMPORTED_MODULE_1__.Navbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Navbar__WEBPACK_IMPORTED_MODULE_1__.Navbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
+    id: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Layout Of My Project"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Basic Html, Boilerplate, Bootstrap, Nav bar, ClassNameclassNamees, Bookmarks, Inline css,"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Gallery"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Card with image and text, Internal Css"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Submit request form, Labels, Button"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "About"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Alert, Growing spinner, List Group, Loops, Data Type, Object, Array runFunction button Utility Function, Javascript, Radio Button"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Amenities at Venue "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "list-group list-group-flush"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Rooms"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Artisian Food and Drinks"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Pool"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Catering"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Wifi"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Event Suppilies ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "badge bg-info"
+  }, "20% off")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Parking"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item"
+  }, "Fitness Center")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Loops"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, "do while")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, "\"for\"")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "while")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "if else")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "DATA TYPE"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "\"String\"")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Number")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Boolean")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Array")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Object")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "btn btn-primary",
+    id: "animated-button"
+  }, "Yummm!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Our Signature Dish")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
+    id: "mainTag"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    onClick: "runFunction1()"
+  }, "Click here to run Problem 1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    onClick: "runFunction2()"
+  }, "Click here to run Problem 2"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "myOutput"
+  }, "Insert output here"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Rate my Website"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "radio",
+    id: "Thumbs up",
+    name: "group 1"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    for: "Thumbs up"
+  }, "\uD83D\uDC4D\uD83C\uDFFE"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "radio",
+    id: "Thumbs down",
+    name: "group 1"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    for: "Thumbs down"
+  }, "\uD83D\uDC4E\uD83C\uDFFE"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "#include boxShadow #include textShadow btn-lg btn-primary ",
+    id: "mixin button"
+  }, "Submit")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", null, "list Group")));
 }
 
 /***/ }),
@@ -2214,12 +2093,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ "./src/Views/Navbar.js");
-/* harmony import */ var _controllers_formExample__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../controllers/formExample */ "./controllers/formExample.js");
-/* harmony import */ var _modules_handleCustomerService__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../modules/handleCustomerService */ "./modules/handleCustomerService.js");
-/* harmony import */ var _modules_nameForm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../modules/nameForm */ "./modules/nameForm.js");
-/* harmony import */ var _modules_handleProcessForm__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../modules/handleProcessForm */ "./modules/handleProcessForm.js");
-/* harmony import */ var _modules_datetimeForm__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../modules/datetimeForm */ "./modules/datetimeForm.js");
-/* harmony import */ var _modules_numberForm__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../modules/numberForm */ "./modules/numberForm.js");
+/* harmony import */ var _modules_handleCustomerService__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../modules/handleCustomerService */ "./src/modules/handleCustomerService.js");
+/* harmony import */ var _modules_handleProcessForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../modules/handleProcessForm */ "./src/modules/handleProcessForm.js");
+/* harmony import */ var _modules_nameForm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../modules/nameForm */ "./src/modules/nameForm.js");
+/* harmony import */ var _modules_numberForm__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../modules/numberForm */ "./src/modules/numberForm.js");
+/* harmony import */ var _modules_datetimeForm__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../modules/datetimeForm */ "./src/modules/datetimeForm.js");
+/* harmony import */ var _controllers_formExample__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../controllers/formExample */ "./src/controllers/formExample.js");
 
 
 
@@ -2232,7 +2111,7 @@ function Contact() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Navbar__WEBPACK_IMPORTED_MODULE_1__.Navbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: " Contact-Us no-repeat center width100 height"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Contact")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Contact "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
-    onSubmit: _modules_handleProcessForm__WEBPACK_IMPORTED_MODULE_5__.handleProcessForm
+    onSubmit: _modules_handleProcessForm__WEBPACK_IMPORTED_MODULE_3__.handleProcessForm
   }, "Name:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     required: true,
     name: "name",
@@ -2249,7 +2128,7 @@ function Contact() {
     type: "submit",
     value: "Submit"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Contact Customer Service"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
-    onSubmit: _modules_handleCustomerService__WEBPACK_IMPORTED_MODULE_3__.handleCustomerService
+    onSubmit: _modules_handleCustomerService__WEBPACK_IMPORTED_MODULE_2__.handleCustomerService
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     required: true,
     name: "email",
@@ -2280,7 +2159,7 @@ function Contact() {
     placeholder: "Last Name",
     id: "lastname"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
-    onSubmit: _modules_numberForm__WEBPACK_IMPORTED_MODULE_7__.numberForm
+    onSubmit: _modules_numberForm__WEBPACK_IMPORTED_MODULE_5__.numberForm
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     required: true,
     name: "tel",
@@ -2300,11 +2179,11 @@ function Contact() {
     type: "submit",
     value: "Submit"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
-    id: "outputTag"
+    id: "myTag"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-    onClick: (0,_controllers_formExample__WEBPACK_IMPORTED_MODULE_2__.formExample)()
+    onClick: _controllers_formExample__WEBPACK_IMPORTED_MODULE_7__.formExample
   }, "form Example"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
-    id: "outputTag"
+    id: "myTag"
   })));
 }
 
@@ -2324,7 +2203,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ "./src/Views/Navbar.js");
-/* harmony import */ var _controllers_handleOnClick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../controllers/handleOnClick */ "./controllers/handleOnClick.js");
+/* harmony import */ var _controllers_handleOnClick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../controllers/handleOnClick */ "./src/controllers/handleOnClick.js");
 
 
 
@@ -2457,9 +2336,9 @@ function Gallery() {
       textAlign: center
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, " Triva"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Get 20% off on a meal!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-    onClick: (0,_controllers_handleOnClick__WEBPACK_IMPORTED_MODULE_2__.handleOnClick)()
+    onClick: _controllers_handleOnClick__WEBPACK_IMPORTED_MODULE_2__.handleOnClick
   }, "Click here to get the question."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    id: "outputTag "
+    id: "myTag "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "bg-primary p-3 ",
     id: "mixin-example "
@@ -2497,17 +2376,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Home() {
-<<<<<<< HEAD
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Navbar__WEBPACK_IMPORTED_MODULE_1__.Navbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
-    id: "homeHeader",
-    className: "container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Venue")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-=======
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidupdate, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Navbar__WEBPACK_IMPORTED_MODULE_1__.Navbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Venue")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
->>>>>>> homephasePage
     className: "fst-italic fw-bold",
     id: "exterior"
   }, "Exterior"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Lorem ipsum odor amet, consectetuer adipiscing elit. Pretium vulputate quis feugiat in adipiscing justo. Enim eget eu libero etiam donec rhoncus efficitur efficitur. Nostra vel accumsan praesent arcu curabitur lacus. Sociosqu nunc potenti sagittis nostra nibh. In nec finibus tempor netus quis habitant senectus hac risus. Eu ligula per non nascetur nisi hac nunc. Luctus neque taciti vivamus convallis elementum vel facilisis."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
@@ -2516,9 +2388,6 @@ function Home() {
   }, "Interior"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Praesent platea mi convallis pretium aliquet a nibh curae dis. Massa bibendum tristique per urna libero nisl dictumst. Sed lobortis nascetur conubia congue hac quam hac. Inceptos commodo netus eget, varius venenatis nec. Consequat montes montes litora; sollicitudin ut metus. Est metus scelerisque accumsan molestie molestie; curae iaculis augue nam. Ante curae orci malesuada sollicitudin dolor maximus auctor. Senectus inceptos aliquam laoreet vestibulum elementum integer conubia maecenas viverra. Aenean turpis placerat platea efficitur dictum vitae. Parturient luctus vulputate vestibulum accumsan imperdiet senectus magna ut imperdiet."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "fst-italic fw-bold",
     id: "events"
-<<<<<<< HEAD
-  }, "Events"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Duis mi conubia orci; aliquam vestibulum sollicitudin. Diam morbi aliquet blandit lacinia suscipit vivamus duis. Diam finibus ex ex condimentum massa semper ante malesuada. Pretium eros metus euismod etiam integer ridiculus. Vehicula tortor etiam auctor vulputate leo purus rhoncus mauris maximus. Natoque faucibus nisi neque platea consequat fames. Sagittis maximus rutrum tristique velit eu suspendisse luctus eros. Ultrices potenti parturient placerat nascetur eleifend. Proin tincidunt cubilia libero natoque curabitur at tempor. Id accumsan diam vehicula rhoncus sollicitudin metus aptent."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null)));
-=======
   }, "Events"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Duis mi conubia orci; aliquam vestibulum sollicitudin. Diam morbi aliquet blandit lacinia suscipit vivamus duis. Diam finibus ex ex condimentum massa semper ante malesuada. Pretium eros metus euismod etiam integer ridiculus. Vehicula tortor etiam auctor vulputate leo purus rhoncus mauris maximus. Natoque faucibus nisi neque platea consequat fames. Sagittis maximus rutrum tristique velit eu suspendisse luctus eros. Ultrices potenti parturient placerat nascetur eleifend. Proin tincidunt cubilia libero natoque curabitur at tempor. Id accumsan diam vehicula rhoncus sollicitudin metus aptent."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     onClick: _controllers_moduleExample__WEBPACK_IMPORTED_MODULE_2__.moduleExample
   }, "module Example"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
@@ -2534,7 +2403,6 @@ function componentDidupdate() {
 }
 function componentDidUnmount() {
   setTimeout(console.log("Component Unmounted"), 2500);
->>>>>>> homephasePage
 }
 
 /***/ }),
@@ -2579,23 +2447,56 @@ function Navbar() {
 
 /***/ }),
 
-<<<<<<< HEAD
-/***/ "./utils/display.js":
-/*!**************************!*\
-  !*** ./utils/display.js ***!
-  \**************************/
-/***/ (() => {
+/***/ "./src/controllers/formExample.js":
+/*!****************************************!*\
+  !*** ./src/controllers/formExample.js ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-// export function display(message) {
-//   document.log(message);
-//  }
-=======
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   formExample: () => (/* binding */ formExample)
+/* harmony export */ });
+/* harmony import */ var _modules_handleProcessForm_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/handleProcessForm.js */ "./src/modules/handleProcessForm.js");
+/* harmony import */ var _modules_handleCustomerService_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/handleCustomerService.js */ "./src/modules/handleCustomerService.js");
+/* harmony import */ var _modules_nameForm_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../modules/nameForm.js */ "./src/modules/nameForm.js");
+/* harmony import */ var _modules_numberForm_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../modules/numberForm.js */ "./src/modules/numberForm.js");
+/* harmony import */ var _modules_datetimeForm_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../modules/datetimeForm.js */ "./src/modules/datetimeForm.js");
+
+
+
+
+
+window.formExample = formExample;
+function formExample() {}
+
+/***/ }),
+
+/***/ "./src/controllers/handleOnClick.js":
+/*!******************************************!*\
+  !*** ./src/controllers/handleOnClick.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   handleOnClick: () => (/* binding */ handleOnClick)
+/* harmony export */ });
+function handleOnClick() {
+  return console.log();
+}
+
+/***/ }),
+
 /***/ "./src/controllers/moduleExample.js":
 /*!******************************************!*\
   !*** ./src/controllers/moduleExample.js ***!
   \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   moduleExample: () => (/* binding */ moduleExample)
@@ -2603,8 +2504,148 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils_output__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/output */ "./src/utils/output.js");
 
 function moduleExample() {
-  (0,_utils_output__WEBPACK_IMPORTED_MODULE_0__.output)(moduleExample);
+  (0,_utils_output__WEBPACK_IMPORTED_MODULE_0__.output)("moduleExample");
 }
+
+/***/ }),
+
+/***/ "./src/modules/datetimeForm.js":
+/*!*************************************!*\
+  !*** ./src/modules/datetimeForm.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   datetimeForm: () => (/* binding */ datetimeForm)
+/* harmony export */ });
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./src/utils/display.js");
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_utils_display_js__WEBPACK_IMPORTED_MODULE_0__);
+
+function datetimeForm(event) {
+  event.preventDefault();
+  const datetimeform = event.target;
+  const datetimeInput = datetimeform[0];
+  const datetimevalue = datetimeInput.value;
+  output("Your appointment was submitted successfully.");
+}
+
+/***/ }),
+
+/***/ "./src/modules/handleCustomerService.js":
+/*!**********************************************!*\
+  !*** ./src/modules/handleCustomerService.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   handleCustomerService: () => (/* binding */ handleCustomerService)
+/* harmony export */ });
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./src/utils/display.js");
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_utils_display_js__WEBPACK_IMPORTED_MODULE_0__);
+
+function handleCustomerService(event) {
+  event.preventDefault();
+  const emailForm = event.target;
+  const emailInput = emailForm[0];
+  const emailvalue = emailInput.value;
+  output("Your message was submitted. ");
+  const promise = makeRequest("https://myServer.com");
+  promise.then(parseResponse);
+}
+function delayedGreeting() {
+  setTimeout(greeting, 5000);
+}
+
+/***/ }),
+
+/***/ "./src/modules/handleProcessForm.js":
+/*!******************************************!*\
+  !*** ./src/modules/handleProcessForm.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   handleProcessForm: () => (/* binding */ handleProcessForm)
+/* harmony export */ });
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./src/utils/display.js");
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_utils_display_js__WEBPACK_IMPORTED_MODULE_0__);
+
+function handleProcessForm(event) {
+  event.preventDefault();
+  const form = event.target;
+  const input = form[0];
+  const value = input.value;
+  output("Your info was submitted. ");
+  const promise = makeRequest(getServerResponse);
+  promise.then(parseResponse);
+}
+
+/***/ }),
+
+/***/ "./src/modules/nameForm.js":
+/*!*********************************!*\
+  !*** ./src/modules/nameForm.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   nameForm: () => (/* binding */ nameForm)
+/* harmony export */ });
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./src/utils/display.js");
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_utils_display_js__WEBPACK_IMPORTED_MODULE_0__);
+
+function nameForm(event) {
+  event.preventDefault();
+  const form = event.target;
+  const firstnameInput = form[0];
+  const lastnameInput = form[1];
+  const firstnamevalue = firstnameInput.value;
+  output("Your appointment was submitted successfully.");
+}
+
+/***/ }),
+
+/***/ "./src/modules/numberForm.js":
+/*!***********************************!*\
+  !*** ./src/modules/numberForm.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   numberForm: () => (/* binding */ numberForm)
+/* harmony export */ });
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./src/utils/display.js");
+/* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_utils_display_js__WEBPACK_IMPORTED_MODULE_0__);
+
+function numberForm(event) {
+  event.preventDefault();
+  const numberform = event.target;
+  const numberInput = numberform[0];
+  const numberValue = numberInput.value;
+  output("Your appointment was submitted successfully.");
+}
+
+/***/ }),
+
+/***/ "./src/utils/display.js":
+/*!******************************!*\
+  !*** ./src/utils/display.js ***!
+  \******************************/
+/***/ (() => {
+
+// export function display(message) {
+//   document.log(message);
+//  }
 
 /***/ }),
 
@@ -2614,15 +2655,15 @@ function moduleExample() {
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   output: () => (/* binding */ output)
 /* harmony export */ });
 function output(message = "", outputTag = "outputTag", shouldAppend = true) {
-  const outputElement = document.getElementById("myTag");
+  const outputElement = document.getElementById(outputTag);
   if (shouldAppend) outputElement.innerHTML += message;else outputElement.innerHTML = message;
 }
->>>>>>> homephasePage
 
 /***/ }),
 
