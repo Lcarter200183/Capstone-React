@@ -2111,6 +2111,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Contact() {
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Navbar__WEBPACK_IMPORTED_MODULE_1__.Navbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: " Contact-Us no-repeat center width100 height"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Contact")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Contact "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
@@ -2188,6 +2191,16 @@ function Contact() {
   }, "form Example"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
     id: "myTag"
   })));
+}
+function componentDidMount() {
+  document.title = "Venue";
+  console.log("Mounted title");
+}
+function componentDidUpdate() {
+  setTimeout(console.log("Component Updated"), 2000);
+}
+function componentDidUnmount() {
+  setTimeout(console.log("Component Unmounted"), 2000);
 }
 
 /***/ }),

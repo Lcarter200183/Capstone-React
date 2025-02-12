@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import { handleCustomerService } from "../modules/handleCustomerService";
 import { handleProcessForm } from "../modules/handleProcessForm";
@@ -8,6 +8,9 @@ import { datetimeForm } from "../modules/datetimeForm";
 import { formExample } from "../controllers/formExample";
 
 export function Contact() {
+  useEffect(componentDidMount, []);
+  useEffect(componentDidUpdate, []);
+  useEffect(componentDidUnmount, []);
   return (
     <>
       <header>
@@ -119,4 +122,14 @@ export function Contact() {
       </main>
     </>
   );
+}
+function componentDidMount() {
+  document.title = "Venue";
+  console.log("Mounted title");
+}
+function componentDidUpdate() {
+  setTimeout(console.log("Component Updated"), 2000);
+}
+function componentDidUnmount() {
+  setTimeout(console.log("Component Unmounted"), 2000);
 }
