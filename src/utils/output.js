@@ -3,7 +3,7 @@ export function output(
   outputTag = "outputTag",
   shouldAppend = true
 ) {
-  const outputElement = document.getElementById(outputTag);
+  const outputElement = document.getElementById(output);
   if (shouldAppend) outputElement.innerHTML += message;
   else outputElement.innerHTML = message;
 }

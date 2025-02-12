@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 //import { listGroupExample } from "../controllers/listGroupExample";
 
 export function About() {
+  useEffect(componentDidMount, []);
+  useEffect(componentDidUpdate, []);
+  useEffect(componentDidUnmount, []);
   return (
     <>
       <header>
@@ -160,20 +163,20 @@ export function About() {
           {(myOutput.innerHTML = "Thanks for coming.")}; function runFunction2(){" "}
           {(myOutput.innerHTML = "Hope you enjoyed my website.")};
         </script> */}
-        <button onClick="runFunction1()">Click here to run Problem 1</button>
+        {/* <button onClick={runFunction1()}>Click here to run Problem 1</button>
         <br />
-        <button onClick="runFunction2()">Click here to run Problem 2</button>
+        <button onClick={runFunction2()}>Click here to run Problem 2</button>
 
-        <div id="myOutput">Insert output here</div>
+        <div id="myOutput">Insert output here</div> */}
 
         <hr />
         <h5>Rate my Website</h5>
 
         <form>
           <input type="radio" id="Thumbs up" name="group 1" />
-          <label for="Thumbs up">👍🏾</label>
+          Thumbs up:👍🏾
           <input type="radio" id="Thumbs down" name="group 1" />
-          <label for="Thumbs down">👎🏾</label>
+          Thumbs down:👎🏾
           <br />
           <button
             className="#include boxShadow #include textShadow btn-lg btn-primary "
@@ -188,4 +191,14 @@ export function About() {
       </main>
     </>
   );
+}
+function componentDidMount() {
+  document.title = "Venue";
+  console.log("Mounted title ");
+}
+function componentDidUpdate() {
+  setTimeout(console.log("Component Updated"), 2000);
+}
+function componentDidUnmount() {
+  setTimeout(console.log("Component Unmounted"), 2500);
 }
