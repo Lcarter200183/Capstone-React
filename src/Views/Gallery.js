@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
-import { handleOnClick } from "../../controllers/handleOnClick";
+import { handleOnClick } from "../controllers/handleOnClick";
 
 export function Gallery() {
   useEffect(componentDidMount, []);
@@ -140,10 +140,10 @@ export function Gallery() {
         <section style={{ textAlign: center }}>
           <h3> Triva</h3>
           <h4>Get 20% off on a meal!</h4>
-          <button onClick={handleOnClick()}>
+          <button onClick={handleOnClick}>
             Click here to get the question.
           </button>
-          <div id="outputTag "></div>
+          <div id="myTag "></div>
         </section>
         <br />
 

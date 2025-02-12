@@ -4,10 +4,6 @@ import { cardText } from "../modules/card-text.js";
 import { cardTitle } from "../modules/card-title.js";
 import { Card } from "../modules/card.js";
 
+window.gridSystemExample = gridSystemExample;
 
-
-window.gridSystemExample = gridSystemExample
-
-function gridSystemExample() {
-    debugger;
-}
+function gridSystemExample() {}
