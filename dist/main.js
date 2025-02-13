@@ -2193,7 +2193,7 @@ function Contact() {
   })));
 }
 function componentDidMount() {
-  document.title = "Venue";
+  document.title = "The Venue";
   console.log("Mounted title");
 }
 function componentDidUpdate() {
