@@ -2070,6 +2070,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ "./src/Views/Navbar.js");
 /* harmony import */ var _controllers_handleOnClick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../controllers/handleOnClick */ "./controllers/handleOnClick.js");
+/* harmony import */ var _ImagemapResize__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ImagemapResize */ "./src/Views/ImagemapResize.js");
+
 
 
 
@@ -2197,7 +2199,7 @@ function Gallery() {
     className: "card-title "
   }, "\"Event \""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "card-text "
-  }, "Inside Event Area"))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("script", null, "imageMapResize();"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+  }, "Inside Event Area"))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     style: {
       textAlign: center
     }
@@ -2211,8 +2213,9 @@ function Gallery() {
   }, "Enjoy the View!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null)));
 }
 function componentDidMount() {
-  document.title = "Venue";
-  console.log("Mounted Component");
+  document.title = "The Venue";
+  (0,_ImagemapResize__WEBPACK_IMPORTED_MODULE_3__.imageMapResize)();
+  console.log("Mounted title");
 }
 function componentdDidUpdate() {
   setTimeout(console.log("Component Updated"), 2000);
@@ -2252,6 +2255,25 @@ function Home() {
     className: "fst-italic fw-bold",
     id: "events"
   }, "Events"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Duis mi conubia orci; aliquam vestibulum sollicitudin. Diam morbi aliquet blandit lacinia suscipit vivamus duis. Diam finibus ex ex condimentum massa semper ante malesuada. Pretium eros metus euismod etiam integer ridiculus. Vehicula tortor etiam auctor vulputate leo purus rhoncus mauris maximus. Natoque faucibus nisi neque platea consequat fames. Sagittis maximus rutrum tristique velit eu suspendisse luctus eros. Ultrices potenti parturient placerat nascetur eleifend. Proin tincidunt cubilia libero natoque curabitur at tempor. Id accumsan diam vehicula rhoncus sollicitudin metus aptent."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null)));
+}
+
+/***/ }),
+
+/***/ "./src/Views/ImagemapResize.js":
+/*!*************************************!*\
+  !*** ./src/Views/ImagemapResize.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   imageMapResize: () => (/* binding */ imageMapResize)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function imageMapResize() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null);
 }
 
 /***/ }),

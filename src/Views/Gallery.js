@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import { handleOnClick } from "../../controllers/handleOnClick";
-
+import { imageMapResize } from "./ImagemapResize";
 export function Gallery() {
   useEffect(componentDidMount, []);
   useEffect(componentdDidUpdate, []);
@@ -135,7 +135,7 @@ export function Gallery() {
             </div>
           </div>
         </div>
-        <script>imageMapResize();</script>
+
         <br />
         <section style={{ textAlign: center }}>
           <h3> Triva</h3>
@@ -157,7 +157,8 @@ export function Gallery() {
   );
 }
 function componentDidMount() {
-  document.title = "The Venue";
+  document.title = "The Venue - Gallery";
+  imageMapResize();
   console.log("Mounted title");
 }
 function componentdDidUpdate() {
