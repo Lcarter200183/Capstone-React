@@ -159,8 +159,8 @@ export function Gallery() {
   );
 }
 function componentDidMount() {
-  document.title = "Venue";
-  console.log("Mounted Component");
+  document.title = "The Venue";
+  console.log("Mounted title");
 }
 function componentdDidUpdate() {
   setTimeout(console.log("Component Updated"), 2000);
