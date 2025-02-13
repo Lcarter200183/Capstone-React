@@ -2283,8 +2283,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ "./src/Views/Navbar.js");
+<<<<<<< HEAD
 /* harmony import */ var _controllers_handleOnClick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../controllers/handleOnClick */ "./src/controllers/handleOnClick.js");
 /* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
+=======
+/* harmony import */ var _controllers_handleOnClick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../controllers/handleOnClick */ "./controllers/handleOnClick.js");
+/* harmony import */ var _ImagemapResize__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ImagemapResize */ "./src/Views/ImagemapResize.js");
+>>>>>>> galleryphasePage
 
 
 
@@ -2413,7 +2418,7 @@ function Gallery() {
     className: "card-title "
   }, "\"Event \""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "card-text "
-  }, "Inside Event Area"))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("script", null, "imageMapResize();"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+  }, "Inside Event Area"))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     style: {
       textAlign: center
     }
@@ -2427,8 +2432,9 @@ function Gallery() {
   }, "Enjoy the View!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null)));
 }
 function componentDidMount() {
-  document.title = "Venue";
-  console.log("Mounted Component");
+  document.title = "The Venue";
+  (0,_ImagemapResize__WEBPACK_IMPORTED_MODULE_3__.imageMapResize)();
+  console.log("Mounted title");
 }
 function componentdDidUpdate() {
   setTimeout(console.log("Component Updated"), 2000);
@@ -2487,6 +2493,25 @@ function componentDidupdate() {
 }
 function componentDidUnmount() {
   setTimeout(console.log("Component Unmounted"), 2500);
+}
+
+/***/ }),
+
+/***/ "./src/Views/ImagemapResize.js":
+/*!*************************************!*\
+  !*** ./src/Views/ImagemapResize.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   imageMapResize: () => (/* binding */ imageMapResize)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function imageMapResize() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null);
 }
 
 /***/ }),
