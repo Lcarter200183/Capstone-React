@@ -3,6 +3,15 @@ export default {
     rules: [
       {
         use: "babel-loader",
+        test: /\.js/,
+      },
+      {
+        test: /\.(scss|css)/,
+        use: ["style-loader", "css-loader", "sass-loader"],
+      },
+      {
+        test: /\.(jpg|png|mp4)/,
+        type: "asset/resource",
       },
     ],
   },

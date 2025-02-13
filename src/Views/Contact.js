@@ -6,6 +6,7 @@ import { nameForm } from "../modules/nameForm";
 import { numberForm } from "../modules/numberForm";
 import { datetimeForm } from "../modules/datetimeForm";
 import { formExample } from "../controllers/formExample";
+import { CollapsibleNavbar } from "./CollapsibleNavbar";
 
 export function Contact() {
   useEffect(componentDidMount, []);
@@ -14,7 +15,8 @@ export function Contact() {
   return (
     <>
       <header>
-        <Navbar />
+        {/* <Navbar /> */}
+        <CollapsibleNavbar />
       </header>
       <main>
         <section className=" Contact-Us no-repeat center width100 height">

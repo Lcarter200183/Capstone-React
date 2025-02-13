@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import { handleOnClick } from "../controllers/handleOnClick";
+import { CollapsibleNavbar } from "./CollapsibleNavbar";
 
 export function Gallery() {
   useEffect(componentDidMount, []);
@@ -10,7 +11,8 @@ export function Gallery() {
   return (
     <>
       <header>
-        <Navbar />
+        {/* <Navbar /> */}
+        <CollapsibleNavbar />
       </header>
       <main>
         <u>

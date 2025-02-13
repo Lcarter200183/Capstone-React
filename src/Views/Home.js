@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import { moduleExample } from "../controllers/moduleExample";
+import { CollapsibleNavbar } from "./CollapsibleNavbar";
 
 export function Home() {
   useEffect(componentDidMount, []);
@@ -9,7 +10,8 @@ export function Home() {
   return (
     <>
       <header>
-        <Navbar />
+        {/* <Navbar /> */}
+        <CollapsibleNavbar />
       </header>
       <main>
         <u>
