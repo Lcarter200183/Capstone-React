@@ -2283,13 +2283,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ "./src/Views/Navbar.js");
-<<<<<<< HEAD
-/* harmony import */ var _controllers_handleOnClick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../controllers/handleOnClick */ "./src/controllers/handleOnClick.js");
-/* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
-=======
-/* harmony import */ var _controllers_handleOnClick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../controllers/handleOnClick */ "./controllers/handleOnClick.js");
+/* harmony import */ var _modules_handleOnClick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../modules/handleOnClick */ "./src/modules/handleOnClick.js");
 /* harmony import */ var _ImagemapResize__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ImagemapResize */ "./src/Views/ImagemapResize.js");
->>>>>>> galleryphasePage
+/* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
+
 
 
 
@@ -2302,7 +2299,7 @@ function Gallery() {
     width: "fit-content",
     justifySelf: "center"
   };
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_3__.CollapsibleNavbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Gallery")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_4__.CollapsibleNavbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Gallery")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "container "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "row gap-2 m-1 p-1 "
@@ -2311,6 +2308,9 @@ function Gallery() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "FrontEnterance",
+    "data-bs-title": "Front Enterance",
+    "data-bs-toggle": "tooltip",
     className: "card-img-top ",
     width: "200px ",
     height: "200px ",
@@ -2326,6 +2326,9 @@ function Gallery() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "PoolArea",
+    "data-bs-title": "Pool Area",
+    "data-bs-toggle": "tooltip",
     className: "card-img-top ",
     height: "200px ",
     width: "200px ",
@@ -2342,10 +2345,13 @@ function Gallery() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "FrontLobby",
+    "data-bs-title": "Front Lobby",
+    "data-bs-toggle": "tooltip",
     className: "card-img-top ",
     height: "200px ",
     width: "200px ",
-    src: "https://www.enr.com/ext/resources/Issues/MountainSt_Issues/2023/November/MS-Benson-Nov2023-2.jpg ",
+    src: "https://www.enr.com/ext/resources/Issues/MountainSt_Issues/2023/November/MS-Benson-Nov2023-2.jpg",
     alt: "lobby area "
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card-body "
@@ -2360,6 +2366,9 @@ function Gallery() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "HotelRoom",
+    "data-bs-title": "Hotel Room",
+    "data-bs-toggle": "tooltip",
     className: "card-img-top ",
     useMap: "#my-image-map ",
     height: "200px ",
@@ -2391,6 +2400,9 @@ function Gallery() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "OutsideEventArea",
+    "data-bs-title": "Outside Event Area",
+    "data-bs-toggle": "tooltip",
     className: "card-img-top ",
     height: "200px ",
     width: "200px ",
@@ -2407,6 +2419,9 @@ function Gallery() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "card "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "InsideEventArea",
+    "data-bs-title": "Inside Event Area",
+    "data-bs-toggle": "tooltip",
     className: "card-img-top ",
     height: "200px ",
     width: "200px ",
@@ -2423,7 +2438,7 @@ function Gallery() {
       textAlign: center
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, " Triva"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Get 20% off on a meal!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-    onClick: _controllers_handleOnClick__WEBPACK_IMPORTED_MODULE_2__.handleOnClick
+    onClick: _modules_handleOnClick__WEBPACK_IMPORTED_MODULE_2__.handleOnClick
   }, "Click here to get the question."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     id: "myTag "
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
@@ -2432,9 +2447,21 @@ function Gallery() {
   }, "Enjoy the View!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null)));
 }
 function componentDidMount() {
-  document.title = "The Venue";
+  document.title = "The Venue - Gallery";
   (0,_ImagemapResize__WEBPACK_IMPORTED_MODULE_3__.imageMapResize)();
   console.log("Mounted title");
+  const imgTag = document.getElementById("FrontLobby");
+  new bootstrap.Tooltip(imgTag);
+  const imgTag2 = document.getElementById("PoolArea");
+  new bootstrap.Tooltip(imgTag2);
+  const imgTag3 = document.getElementById("FrontEnterance");
+  new bootstrap.Tooltip(imgTag3);
+  const imgTag4 = document.getElementById("HotelRoom");
+  new bootstrap.Tooltip(imgTag4);
+  const imgTag5 = document.getElementById("OutsideEventArea");
+  new bootstrap.Tooltip(imgTag5);
+  const imgTag6 = document.getElementById("InsideEventArea");
+  new bootstrap.Tooltip(imgTag6);
 }
 function componentdDidUpdate() {
   setTimeout(console.log("Component Updated"), 2000);
@@ -2503,6 +2530,7 @@ function componentDidUnmount() {
   \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   imageMapResize: () => (/* binding */ imageMapResize)
@@ -2582,23 +2610,6 @@ function formExample() {}
 
 /***/ }),
 
-/***/ "./src/controllers/handleOnClick.js":
-/*!******************************************!*\
-  !*** ./src/controllers/handleOnClick.js ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   handleOnClick: () => (/* binding */ handleOnClick)
-/* harmony export */ });
-function handleOnClick() {
-  return console.log();
-}
-
-/***/ }),
-
 /***/ "./src/controllers/moduleExample.js":
 /*!******************************************!*\
   !*** ./src/controllers/moduleExample.js ***!
@@ -2667,6 +2678,28 @@ function handleCustomerService(event) {
 }
 function delayedGreeting() {
   setTimeout(greeting, 5000);
+}
+
+/***/ }),
+
+/***/ "./src/modules/handleOnClick.js":
+/*!**************************************!*\
+  !*** ./src/modules/handleOnClick.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   handleOnClick: () => (/* binding */ handleOnClick)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function handleOnClick() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null);
+  output(moduleExample);
+  console.log();
 }
 
 /***/ }),
