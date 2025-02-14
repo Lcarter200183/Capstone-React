@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
-import { handleOnClick } from "../../controllers/handleOnClick";
+import { handleOnClick } from "../modules/handleOnClick";
 import { imageMapResize } from "./ImagemapResize";
+import { CollapsibleNavbar } from "./CollapsibleNavbar";
+
 export function Gallery() {
   useEffect(componentDidMount, []);
   useEffect(componentdDidUpdate, []);
@@ -22,6 +24,9 @@ export function Gallery() {
             <div className="col ">
               <div className="card ">
                 <img
+                  id="FrontEnterance"
+                  data-bs-title="Front Enterance"
+                  data-bs-toggle="tooltip"
                   className="card-img-top "
                   width="200px "
                   height="200px "
@@ -38,6 +43,9 @@ export function Gallery() {
             <div className="col ">
               <div className="card ">
                 <img
+                  id="PoolArea"
+                  data-bs-title="Pool Area"
+                  data-bs-toggle="tooltip"
                   className="card-img-top "
                   height="200px "
                   width="200px "
@@ -54,10 +62,13 @@ export function Gallery() {
             <div className="col ">
               <div className="card ">
                 <img
+                  id="FrontLobby"
+                  data-bs-title="Front Lobby"
+                  data-bs-toggle="tooltip"
                   className="card-img-top "
                   height="200px "
                   width="200px "
-                  src="https://www.enr.com/ext/resources/Issues/MountainSt_Issues/2023/November/MS-Benson-Nov2023-2.jpg "
+                  src="https://www.enr.com/ext/resources/Issues/MountainSt_Issues/2023/November/MS-Benson-Nov2023-2.jpg"
                   alt="lobby area "
                 />
                 <div className="card-body ">
@@ -71,6 +82,9 @@ export function Gallery() {
               <div className="col ">
                 <div className="card ">
                   <img
+                    id="HotelRoom"
+                    data-bs-title="Hotel Room"
+                    data-bs-toggle="tooltip"
                     className="card-img-top "
                     useMap="#my-image-map "
                     height="200px "
@@ -105,6 +119,9 @@ export function Gallery() {
               <div className="col ">
                 <div className="card ">
                   <img
+                    id="OutsideEventArea"
+                    data-bs-title="Outside Event Area"
+                    data-bs-toggle="tooltip"
                     className="card-img-top "
                     height="200px "
                     width="200px "
@@ -121,6 +138,9 @@ export function Gallery() {
               <div className="col ">
                 <div className="card ">
                   <img
+                    id="InsideEventArea"
+                    data-bs-title="Inside Event Area"
+                    data-bs-toggle="tooltip"
                     className="card-img-top "
                     height="200px "
                     width="200px "
@@ -161,6 +181,18 @@ function componentDidMount() {
   document.title = "The Venue - Gallery";
   imageMapResize();
   console.log("Mounted title");
+  const imgTag = document.getElementById("FrontLobby");
+  new bootstrap.Tooltip(imgTag);
+  const imgTag2 = document.getElementById("PoolArea");
+  new bootstrap.Tooltip(imgTag2);
+  const imgTag3 = document.getElementById("FrontEnterance");
+  new bootstrap.Tooltip(imgTag3);
+  const imgTag4 = document.getElementById("HotelRoom");
+  new bootstrap.Tooltip(imgTag4);
+  const imgTag5 = document.getElementById("OutsideEventArea");
+  new bootstrap.Tooltip(imgTag5);
+  const imgTag6 = document.getElementById("InsideEventArea");
+  new bootstrap.Tooltip(imgTag6);
 }
 function componentdDidUpdate() {
   setTimeout(console.log("Component Updated"), 2000);
