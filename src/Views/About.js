@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
+import { Banner } from "./Banner";
+import { Footer } from "./Footer";
 //import { listGroupExample } from "../controllers/listGroupExample";
 
 export function About() {
@@ -10,6 +12,7 @@ export function About() {
   return (
     <>
       <header>
+        <Banner />
         {/* <Navbar /> */}
         <CollapsibleNavbar />
       </header>
@@ -191,6 +194,7 @@ export function About() {
         {/* <buttom onClick={listGroupExample}>list Group </buttom>
         <output id="outputTag"></output> */}
       </main>
+      <Footer />
     </>
   );
 }
