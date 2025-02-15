@@ -13305,16 +13305,16 @@ __webpack_require__.r(__webpack_exports__);
 
 const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(window.bodyTag);
 root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_7__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_7__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_7__.Route, {
-  path: "/",
+  path: "/react-navigation/",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Home__WEBPACK_IMPORTED_MODULE_2__.Home, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_7__.Route, {
-  path: "/gallery",
+  path: "/reacy-navigation/gallery",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Gallery__WEBPACK_IMPORTED_MODULE_3__.Gallery, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_7__.Route, {
-  path: "/contact",
+  path: "/react-navigation/contact",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Contact__WEBPACK_IMPORTED_MODULE_4__.Contact, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_7__.Route, {
-  path: "/about",
+  path: "/react-navigation/about",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_About__WEBPACK_IMPORTED_MODULE_5__.About, null)
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Footer__WEBPACK_IMPORTED_MODULE_6__.Footer, null)));
 })();
