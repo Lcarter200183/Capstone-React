@@ -1,7 +1,4 @@
 {
-<<<<<<< HEAD
-    "liveServer.settings.multiRootWorkspaceName": "Capstone Project level 2",
-=======
->>>>>>> processingForPhoneAppountments
-    "liveServer.settings.port": 5501
+  "liveServer.settings.multiRootWorkspaceName": "Capstone Project level 2",
+  "liveServer.settings.port": 5501
 }

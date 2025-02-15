@@ -3,6 +3,8 @@ import { Navbar } from "./Navbar";
 import { handleOnClick } from "../modules/handleOnClick";
 import { imageMapResize } from "./ImagemapResize";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
+import { Banner } from "./Banner";
+import { Footer } from "./Footer";
 
 export function Gallery() {
   useEffect(componentDidMount, []);
@@ -12,6 +14,7 @@ export function Gallery() {
   return (
     <>
       <header>
+        <Banner />
         {/* <Navbar /> */}
         <CollapsibleNavbar />
       </header>
@@ -174,6 +177,8 @@ export function Gallery() {
         <br />
         <hr />
       </main>
+      <hr />
+      <Footer />
     </>
   );
 }
