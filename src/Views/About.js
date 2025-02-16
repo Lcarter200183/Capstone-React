@@ -19,7 +19,7 @@ export function About() {
       <main id="container">
         <h2>About</h2>
         <hr />
-        <div className="row row-col-1 row-col-sm-1">
+        <div className="row row-col-1 row-col-lg-1">
           <h3>Layout Of My Project</h3>
           <h4>Home</h4>
           <p>
@@ -38,7 +38,7 @@ export function About() {
         </div>
 
         <hr />
-        <div className="row row-col-1 row-col-sm-1">
+        <div className="row row-col-1 row-col-lg-1">
           <h4>Amenities at Venue </h4>
           <ul className="list-group list-group-flush">
             <li className="list-group-item">Rooms</li>
@@ -54,7 +54,7 @@ export function About() {
           </ul>
         </div>
         <h3>Loops</h3>
-        <div className="row row-col-1 row-col-sm-1">
+        <div className="row row-col-1 row-col-lg-1">
           <h4>
             <u>do while</u>
           </h4>
@@ -93,7 +93,7 @@ export function About() {
           <hr />
         </div>
         <h3>DATA TYPE</h3>
-        <div className="row row-col-1 row-col-sm-1">
+        <div className="row row-col-1 row-col-lg-1">
           <u>
             <h4>"String"</h4>
           </u>

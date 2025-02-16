@@ -25,7 +25,7 @@ export function Contact() {
             <h2>Contact</h2>
           </u>
           <div className="container">
-            <div className="row row-col-1 row-col-sm-1">
+            <div className="row row-col-1 row-col-lg-1">
               <h3>Contact </h3>
               <form onSubmit={handleProcessForm}>
                 Name:
@@ -52,7 +52,7 @@ export function Contact() {
               </form>
             </div>
 
-            <div className="row row-col-1 row-col-sm-1">
+            <div className="row row-col-1 row-col-lg-1">
               <h3>Contact Customer Service</h3>
               <br />
               <form onSubmit={handleCustomerService}>
@@ -77,7 +77,7 @@ export function Contact() {
               </form>
             </div>
             <br />
-            <div className="row row-col-1 row-col-sm-1">
+            <div className="row row-col-1 row-col-lg-1">
               <h3>Submit Appointment</h3>
 
               <form onSubmit={nameForm}>

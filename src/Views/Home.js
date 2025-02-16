@@ -21,7 +21,7 @@ export function Home() {
           <h2>Venue</h2>
         </u>
         <div className="container">
-          <div className="row row-col-1 row-col-sm-1">
+          <div className="row row-col-1 row-col-lg-1">
             <h2 className="fst-italic fw-bold" id="exterior">
               Exterior
             </h2>
@@ -36,7 +36,7 @@ export function Home() {
               taciti vivamus convallis elementum vel facilisis.
             </p>
           </div>
-          <div className="row row-col-1 row-col-sm-1">
+          <div className="row row-col-1 row-col-lg-1">
             <h2 className="fst-italic fw-bold" id="interior">
               Interior
             </h2>
@@ -54,7 +54,7 @@ export function Home() {
               imperdiet.
             </p>
           </div>
-          <div className="row row-col-1 row-col-sm-1">
+          <div className="row row-col-1 row-col-lg-1">
             <h2 className="fst-italic fw-bold" id="events">
               Events
             </h2>
