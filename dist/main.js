@@ -2022,6 +2022,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ "./src/Views/Navbar.js");
 /* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
+/* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Banner */ "./src/Views/Banner.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer */ "./src/Views/Footer.js");
+
+
+
 
 
 
@@ -2080,6 +2085,30 @@ function componentDidUpdate() {
 }
 function componentDidUnmount() {
   setTimeout(console.log("Component Unmounted"), 2500);
+}
+
+/***/ }),
+
+/***/ "./src/Views/Banner.js":
+/*!*****************************!*\
+  !*** ./src/Views/Banner.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Banner: () => (/* binding */ Banner)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function Banner() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    width: "100%",
+    src: "https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312",
+    alt: "outside of building"
+  }));
 }
 
 /***/ }),
@@ -2269,6 +2298,26 @@ function componentDidUnmount() {
 
 /***/ }),
 
+/***/ "./src/Views/Footer.js":
+/*!*****************************!*\
+  !*** ./src/Views/Footer.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Footer: () => (/* binding */ Footer)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function Footer() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h6", null, "Website created by Lydia Carter"));
+}
+
+/***/ }),
+
 /***/ "./src/Views/Gallery.js":
 /*!******************************!*\
   !*** ./src/Views/Gallery.js ***!
@@ -2286,6 +2335,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_handleOnClick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../modules/handleOnClick */ "./src/modules/handleOnClick.js");
 /* harmony import */ var _ImagemapResize__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ImagemapResize */ "./src/Views/ImagemapResize.js");
 /* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
+/* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Banner */ "./src/Views/Banner.js");
+
 
 
 
@@ -2488,6 +2539,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ "./src/Views/Navbar.js");
 /* harmony import */ var _controllers_moduleExample__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../controllers/moduleExample */ "./src/controllers/moduleExample.js");
 /* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
+/* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Banner */ "./src/Views/Banner.js");
+
 
 
 

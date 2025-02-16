@@ -3,6 +3,7 @@ import { Navbar } from "./Navbar";
 import { handleOnClick } from "../modules/handleOnClick";
 import { imageMapResize } from "./ImagemapResize";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
+import { Banner } from "./Banner";
 
 export function Gallery() {
   useEffect(componentDidMount, []);
