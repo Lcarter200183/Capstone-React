@@ -4,7 +4,6 @@ import { handleOnClick } from "../modules/handleOnClick";
 import { imageMapResize } from "./ImagemapResize";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
 import { Banner } from "./Banner";
-import { Footer } from "./Footer";
 
 export function Gallery() {
   useEffect(componentDidMount, []);
@@ -178,7 +177,6 @@ export function Gallery() {
         <hr />
       </main>
       <hr />
-      <Footer />
     </>
   );
 }
