@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
-import { Banner } from "./Banner";
-import { Footer } from "./Footer";
+//import { Banner } from "./Banner";
+//import { Footer } from "./Footer";
 //import { listGroupExample } from "../controllers/listGroupExample";
 
 export function About() {
@@ -12,7 +12,7 @@ export function About() {
   return (
     <>
       <header>
-        <Banner />
+        {/* <Banner /> */}
         {/* <Navbar /> */}
         <CollapsibleNavbar />
       </header>
@@ -194,12 +194,12 @@ export function About() {
         {/* <buttom onClick={listGroupExample}>list Group </buttom>
         <output id="outputTag"></output> */}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
 function componentDidMount() {
-  document.title = "Venue";
+  document.title = "Venue - About";
   console.log("Mounted title ");
 }
 function componentDidUpdate() {

@@ -3,18 +3,19 @@ import { Navbar } from "./Navbar";
 import { handleOnClick } from "../modules/handleOnClick";
 import { imageMapResize } from "./ImagemapResize";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
-import { Banner } from "./Banner";
-import { Footer } from "./Footer";
+//import { Banner } from "./Banner";
+//import { Footer } from "./Footer";
 
 export function Gallery() {
   useEffect(componentDidMount, []);
   useEffect(componentdDidUpdate, []);
   useEffect(componentDidUnmount, []);
+
   const center = { width: "fit-content", justifySelf: "center" };
   return (
     <>
       <header>
-        <Banner />
+        {/* <Banner /> */}
         {/* <Navbar /> */}
         <CollapsibleNavbar />
       </header>
@@ -178,12 +179,12 @@ export function Gallery() {
         <hr />
       </main>
       <hr />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
 function componentDidMount() {
-  document.title = "The Venue - Gallery";
+  document.title = "Venue - Gallery";
   imageMapResize();
   console.log("Mounted title");
   const imgTag = document.getElementById("FrontLobby");
