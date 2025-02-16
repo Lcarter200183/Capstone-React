@@ -8,6 +8,7 @@ import { datetimeForm } from "../modules/datetimeForm";
 import { formExample } from "../controllers/formExample";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
 import { Banner } from "./Banner";
+import { Footer } from "./Footer";
 
 export function Contact() {
   useEffect(componentDidMount, []);
@@ -124,6 +125,7 @@ export function Contact() {
         <button onClick={formExample}>form Example</button>
         <output id="myTag"></output>
       </main>
+      <Footer />
     </>
   );
 }

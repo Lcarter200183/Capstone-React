@@ -71,6 +71,7 @@ export function Home() {
         <br />
         <output id="myTag"></output>
       </main>
+      <Footer />
     </>
   );
 }
