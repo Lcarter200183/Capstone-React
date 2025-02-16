@@ -2532,9 +2532,21 @@ function componentDidUnmount() {
 /*!*****************************!*\
   !*** ./src/Views/Header.js ***!
   \*****************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Header: () => (/* binding */ Header)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
 
 
+function Header() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_1__.CollapsibleNavbar, null));
+}
 
 /***/ }),
 
@@ -2877,7 +2889,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   output: () => (/* binding */ output)
 /* harmony export */ });
 function output(message = "", outputTag = "outputTag", shouldAppend = true) {
-  const outputElement = document.getElementById(output);
+  const outputElement = document.getElementById(outputTag);
   if (shouldAppend) outputElement.innerHTML += message;else outputElement.innerHTML = message;
 }
 
@@ -13306,7 +13318,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Views_About__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Views/About */ "./src/Views/About.js");
 /* harmony import */ var _Views_Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Views/Footer */ "./src/Views/Footer.js");
 /* harmony import */ var _Views_Header__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Views/Header */ "./src/Views/Header.js");
-/* harmony import */ var _Views_Header__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_Views_Header__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
@@ -13316,18 +13327,22 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+const domain = window.location.hostname;
+let rootPath = "";
+if (domain === "lcarter200183.github.io") rootPath = "/react-navigation";
 const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(window.bodyTag);
 root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Header__WEBPACK_IMPORTED_MODULE_7__.Header, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
-  path: "/",
+  end: true,
+  path: `${rootPath}/`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Home__WEBPACK_IMPORTED_MODULE_2__.Home, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
-  path: "/gallery",
+  path: `${rootPath}/gallery`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Gallery__WEBPACK_IMPORTED_MODULE_3__.Gallery, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
-  path: "/contact",
+  path: `${rootPath}/contact`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Contact__WEBPACK_IMPORTED_MODULE_4__.Contact, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
-  path: "/about",
+  path: `${rootPath}/about`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_About__WEBPACK_IMPORTED_MODULE_5__.About, null)
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Footer__WEBPACK_IMPORTED_MODULE_6__.Footer, null)));
 })();
