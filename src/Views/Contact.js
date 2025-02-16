@@ -24,99 +24,107 @@ export function Contact() {
           <u>
             <h2>Contact</h2>
           </u>
+          <div className="container">
+            <div className="row row-col-1 row-col-sm-1">
+              <h3>Contact </h3>
+              <form onSubmit={handleProcessForm}>
+                Name:
+                <br />
+                <input
+                  required
+                  name="name"
+                  type="name"
+                  placeholder="Lydia Carter"
+                  id="name"
+                />
+                <br />
+                Email:
+                <br />
+                <input
+                  required
+                  name="email"
+                  type="email"
+                  placeholder="Lcarter200183@yahoo.com"
+                  id="email"
+                />
+                <br />
+                <input type="submit" value="Submit" />
+              </form>
+            </div>
 
-          <h3>Contact </h3>
-          <form onSubmit={handleProcessForm}>
-            Name:
+            <div className="row row-col-1 row-col-sm-1">
+              <h3>Contact Customer Service</h3>
+              <br />
+              <form onSubmit={handleCustomerService}>
+                <input
+                  required
+                  name="email"
+                  type="email"
+                  placeholder="Email Info"
+                  id="email"
+                />
+                <br />
+                <br />
+                <input
+                  required
+                  name="text"
+                  type="text"
+                  placeholder="Summery of Issue"
+                  id="text"
+                />
+                <br />
+                <input type="submit" value="Submit" />
+              </form>
+            </div>
             <br />
-            <input
-              required
-              name="name"
-              type="name"
-              placeholder="Lydia Carter"
-              id="name"
-            />
-            <br />
-            Email:
-            <br />
-            <input
-              required
-              name="email"
-              type="email"
-              placeholder="Lcarter200183@yahoo.com"
-              id="email"
-            />
-            <br />
-            <input type="submit" value="Submit" />
-          </form>
-          <br />
-          <h3>Contact Customer Service</h3>
+            <div className="row row-col-1 row-col-sm-1">
+              <h3>Submit Appointment</h3>
 
-          <form onSubmit={handleCustomerService}>
-            <input
-              required
-              name="email"
-              type="email"
-              placeholder="Email Info"
-              id="email"
-            />
-            <br />
-            <br />
-            <input
-              required
-              name="text"
-              type="text"
-              placeholder="Summery of Issue"
-              id="text"
-            />
-            <br />
-            <input type="submit" value="Submit" />
-          </form>
-          <br />
-          <h3>Submit Appointment</h3>
-          <form onSubmit={nameForm}>
-            <input
-              required
-              name="firstName"
-              type="name"
-              placeholder="First Name"
-              id="firstname"
-            />
-            <input
-              required
-              name="lastName"
-              type="name"
-              placeholder="Last Name"
-              id="lastname"
-            />
-            <br />
-          </form>
-          <br />
-          <form onSubmit={numberForm}>
-            <input
-              required
-              name="tel"
-              type="tel"
-              placeholder="###-###-####"
-              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-              id="tel"
-            />
-            <br />
-          </form>
-          <br />
-          <form onSubmit={datetimeForm}>
-            <input
-              required
-              name="datetime-local"
-              type="datetime-local"
-              placeholder="datetime-local"
-              id="datetime-iocal"
-            />
-            <br />
-            <input type="submit" value="Submit" />
-          </form>
+              <form onSubmit={nameForm}>
+                <input
+                  required
+                  name="firstName"
+                  type="name"
+                  placeholder="First Name"
+                  id="firstname"
+                />
+                <input
+                  required
+                  name="lastName"
+                  type="name"
+                  placeholder="Last Name"
+                  id="lastname"
+                />
+                <br />
+              </form>
+              <br />
+              <form onSubmit={numberForm}>
+                <input
+                  required
+                  name="tel"
+                  type="tel"
+                  placeholder="###-###-####"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  id="tel"
+                />
+                <br />
+              </form>
+              <br />
+              <form onSubmit={datetimeForm}>
+                <input
+                  required
+                  name="datetime-local"
+                  type="datetime-local"
+                  placeholder="datetime-local"
+                  id="datetime-iocal"
+                />
+                <br />
+                <input type="submit" value="Submit" />
+              </form>
 
-          <output id="myTag"></output>
+              <output id="myTag"></output>
+            </div>
+          </div>
         </section>
         <br />
         <hr />

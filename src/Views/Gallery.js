@@ -24,7 +24,7 @@ export function Gallery() {
           <h2>Gallery</h2>
         </u>
         <div className="container ">
-          <div className="row gap-2 m-1 p-1 ">
+          <div className="row gap-2 m-1 p-1 row-col-sm-3 ">
             <div className="col ">
               <div className="card ">
                 <img
@@ -82,7 +82,7 @@ export function Gallery() {
               </div>
             </div>
 
-            <div className="row gap-1 m-1 p-1 ">
+            <div className="row gap-1 m-1 p-1 row-col-sm-3">
               <div className="col ">
                 <div className="card ">
                   <img
@@ -162,6 +162,7 @@ export function Gallery() {
         </div>
 
         <br />
+
         <section style={{ textAlign: center }}>
           <h3> Triva</h3>
           <h4>Get 20% off on a meal!</h4>
@@ -170,12 +171,14 @@ export function Gallery() {
           </button>
           <div id="myTag "></div>
         </section>
+
         <br />
 
         <span className="bg-primary p-3 " id="mixin-example ">
           Enjoy the View!
         </span>
         <br />
+
         <hr />
       </main>
       <hr />

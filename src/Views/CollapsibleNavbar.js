@@ -6,7 +6,7 @@ export function CollapsibleNavbar() {
     <nav className="nav-underline navbar navbar-expand-sm bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          Navbar
+          Venue
         </a>
         <button
           className="navbar-toggler"
@@ -33,9 +33,6 @@ export function CollapsibleNavbar() {
             <NavLink className="nav-link" to="/about">
               About
             </NavLink>
-            <a className="nav-link disabled" aria-disabled="true">
-              Disabled
-            </a>
           </div>
         </div>
       </div>
