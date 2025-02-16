@@ -2025,8 +2025,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-//import { Banner } from "./Banner";
-//import { Footer } from "./Footer";
 //import { listGroupExample } from "../controllers/listGroupExample";
 
 function About() {
@@ -2176,9 +2174,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-//import { Banner } from "./Banner";
-//import { Footer } from "./Footer";
-
 function Contact() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
@@ -2274,26 +2269,6 @@ function componentDidUnmount() {
 
 /***/ }),
 
-/***/ "./src/Views/Footer.js":
-/*!*****************************!*\
-  !*** ./src/Views/Footer.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Footer: () => (/* binding */ Footer)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function Footer() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Footer, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h6", null, "Website created by Lydia Carter"));
-}
-
-/***/ }),
-
 /***/ "./src/Views/Gallery.js":
 /*!******************************!*\
   !*** ./src/Views/Gallery.js ***!
@@ -2315,9 +2290,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-//import { Banner } from "./Banner";
-//import { Footer } from "./Footer";
 
 function Gallery() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
@@ -2500,28 +2472,6 @@ function componentDidUnmount() {
 
 /***/ }),
 
-/***/ "./src/Views/Header.js":
-/*!*****************************!*\
-  !*** ./src/Views/Header.js ***!
-  \*****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Header: () => (/* binding */ Header)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
-
-
-function Header() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_1__.CollapsibleNavbar, null));
-}
-
-/***/ }),
-
 /***/ "./src/Views/Home.js":
 /*!***************************!*\
   !*** ./src/Views/Home.js ***!
@@ -2542,9 +2492,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-//import { Banner } from "./Banner";
-//import { Footer } from "./Footer";
-
 function Home() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidupdate, []);
@@ -2558,14 +2505,14 @@ function Home() {
   }, "Interior"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Praesent platea mi convallis pretium aliquet a nibh curae dis. Massa bibendum tristique per urna libero nisl dictumst. Sed lobortis nascetur conubia congue hac quam hac. Inceptos commodo netus eget, varius venenatis nec. Consequat montes montes litora; sollicitudin ut metus. Est metus scelerisque accumsan molestie molestie; curae iaculis augue nam. Ante curae orci malesuada sollicitudin dolor maximus auctor. Senectus inceptos aliquam laoreet vestibulum elementum integer conubia maecenas viverra. Aenean turpis placerat platea efficitur dictum vitae. Parturient luctus vulputate vestibulum accumsan imperdiet senectus magna ut imperdiet."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
     className: "fst-italic fw-bold",
     id: "events"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Duis mi conubia orci; aliquam vestibulum sollicitudin. Diam morbi aliquet blandit lacinia suscipit vivamus duis. Diam finibus ex ex condimentum massa semper ante malesuada. Pretium eros metus euismod etiam integer ridiculus. Vehicula tortor etiam auctor vulputate leo purus rhoncus mauris maximus. Natoque faucibus nisi neque platea consequat fames. Sagittis maximus rutrum tristique velit eu suspendisse luctus eros. Ultrices potenti parturient placerat nascetur eleifend. Proin tincidunt cubilia libero natoque curabitur at tempor. Id accumsan diam vehicula rhoncus sollicitudin metus aptent."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+  }, "Events"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Duis mi conubia orci; aliquam vestibulum sollicitudin. Diam morbi aliquet blandit lacinia suscipit vivamus duis. Diam finibus ex ex condimentum massa semper ante malesuada. Pretium eros metus euismod etiam integer ridiculus. Vehicula tortor etiam auctor vulputate leo purus rhoncus mauris maximus. Natoque faucibus nisi neque platea consequat fames. Sagittis maximus rutrum tristique velit eu suspendisse luctus eros. Ultrices potenti parturient placerat nascetur eleifend. Proin tincidunt cubilia libero natoque curabitur at tempor. Id accumsan diam vehicula rhoncus sollicitudin metus aptent."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     onClick: _controllers_moduleExample__WEBPACK_IMPORTED_MODULE_2__.moduleExample
   }, "module Example"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
     id: "myTag"
   })));
 }
 function componentDidMount() {
-  document.title = "Venue - Home";
+  document.title = "The Venue";
   console.log("Mounted title");
 }
 function componentDidupdate() {
@@ -13280,13 +13227,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Views_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Views/Home */ "./src/Views/Home.js");
 /* harmony import */ var _Views_Gallery__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Views/Gallery */ "./src/Views/Gallery.js");
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-IR6S3I6Y.mjs");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-IR6S3I6Y.mjs");
 /* harmony import */ var _Views_Contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Views/Contact */ "./src/Views/Contact.js");
 /* harmony import */ var _Views_About__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Views/About */ "./src/Views/About.js");
-/* harmony import */ var _Views_Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Views/Footer */ "./src/Views/Footer.js");
-/* harmony import */ var _Views_Header__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Views/Header */ "./src/Views/Header.js");
-
-
 
 
 
@@ -13295,16 +13238,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(window.bodyTag);
-root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
+root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Route, {
   path: "/",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Home__WEBPACK_IMPORTED_MODULE_2__.Home, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Route, {
   path: "/gallery",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Gallery__WEBPACK_IMPORTED_MODULE_3__.Gallery, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Route, {
   path: "/contact",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Contact__WEBPACK_IMPORTED_MODULE_4__.Contact, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Route, {
   path: "/about",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_About__WEBPACK_IMPORTED_MODULE_5__.About, null)
 }))));

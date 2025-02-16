@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import { moduleExample } from "../controllers/moduleExample";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
-//import { Banner } from "./Banner";
-//import { Footer } from "./Footer";
 
 export function Home() {
   useEffect(componentDidMount, []);
@@ -12,26 +10,17 @@ export function Home() {
   return (
     <>
       <header>
-        {/* <Banner />
-        <img
-          width="100%"
-          src="https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312"
-          alt="outside of building"
-        /> */}
         {/* <Navbar /> */}
         <CollapsibleNavbar />
       </header>
-
       <main>
         <u>
           <h2>Venue</h2>
         </u>
         <br />
-
         <h2 className="fst-italic fw-bold" id="exterior">
           Exterior
         </h2>
-
         <p>
           Lorem ipsum odor amet, consectetuer adipiscing elit. Pretium vulputate
           quis feugiat in adipiscing justo. Enim eget eu libero etiam donec
@@ -41,11 +30,9 @@ export function Home() {
           non nascetur nisi hac nunc. Luctus neque taciti vivamus convallis
           elementum vel facilisis.
         </p>
-
         <h2 className="fst-italic fw-bold" id="interior">
           Interior
         </h2>
-
         <p>
           Praesent platea mi convallis pretium aliquet a nibh curae dis. Massa
           bibendum tristique per urna libero nisl dictumst. Sed lobortis
@@ -58,8 +45,9 @@ export function Home() {
           dictum vitae. Parturient luctus vulputate vestibulum accumsan
           imperdiet senectus magna ut imperdiet.
         </p>
-
-        <h2 className="fst-italic fw-bold" id="events"></h2>
+        <h2 className="fst-italic fw-bold" id="events">
+          Events
+        </h2>
         <p>
           Duis mi conubia orci; aliquam vestibulum sollicitudin. Diam morbi
           aliquet blandit lacinia suscipit vivamus duis. Diam finibus ex ex
@@ -76,13 +64,12 @@ export function Home() {
         <br />
         <output id="myTag"></output>
       </main>
-      {/* <Footer /> */}
     </>
   );
 }
 
 function componentDidMount() {
-  document.title = "Venue - Home";
+  document.title = "The Venue";
   console.log("Mounted title");
 }
 function componentDidupdate() {

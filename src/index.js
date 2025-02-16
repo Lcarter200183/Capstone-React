@@ -5,8 +5,6 @@ import { Gallery } from "./Views/Gallery";
 import { BrowserRouter, Route, Routes } from "react-router";
 import { Contact } from "./Views/Contact";
 import { About } from "./Views/About";
-import { Footer } from "./Views/Footer";
-import { Header } from "./Views/Header";
 
 const root = createRoot(window.bodyTag);
 root.render(
@@ -18,6 +16,5 @@ root.render(
       <Route path="/contact" element={<Contact />} />
       <Route path="/about" element={<About />} />
     </Routes>
-    {/* <Footer /> */}
   </BrowserRouter>
 );
