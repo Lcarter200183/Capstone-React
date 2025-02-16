@@ -8,19 +8,15 @@ import { About } from "./Views/About";
 import { Footer } from "./Views/Footer";
 import { Header } from "./Views/Header";
 
-const domain = window.location.hostname;
-let rootPath = "";
-if (domain === "lcarter200183.github.io") rootPath = "/react-navigation";
-
 const root = createRoot(window.bodyTag);
 root.render(
   <BrowserRouter>
     <Header />
     <Routes>
-      <Route end path={`${rootPath}/`} element={<Home />} />
-      <Route path={`${rootPath}/gallery`} element={<Gallery />} />
-      <Route path={`${rootPath}/contact`} element={<Contact />} />
-      <Route path={`${rootPath}/about`} element={<About />} />
+      <Route end path="/" element={<Home />} />
+      <Route path="/gallery" element={<Gallery />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/about" element={<About />} />
     </Routes>
     <Footer />
   </BrowserRouter>
