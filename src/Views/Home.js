@@ -3,6 +3,7 @@ import { Navbar } from "./Navbar";
 import { moduleExample } from "../controllers/moduleExample";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
 import { Banner } from "./Banner";
+import { Footer } from "./Footer";
 
 export function Home() {
   useEffect(componentDidMount, []);
@@ -11,6 +12,7 @@ export function Home() {
   return (
     <>
       <header>
+        <Banner />
         {/* <Navbar /> */}
         <CollapsibleNavbar />
       </header>
@@ -65,6 +67,7 @@ export function Home() {
         <br />
         <output id="myTag"></output>
       </main>
+      <Footer />
     </>
   );
 }

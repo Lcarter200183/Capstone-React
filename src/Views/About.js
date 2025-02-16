@@ -13,6 +13,7 @@ export function About() {
   return (
     <>
       <header>
+        <Banner />
         {/* <Navbar /> */}
         <CollapsibleNavbar />
       </header>
@@ -194,6 +195,7 @@ export function About() {
         {/* <buttom onClick={listGroupExample}>list Group </buttom>
         <output id="outputTag"></output> */}
       </main>
+      <Footer />
     </>
   );
 }
