@@ -10,7 +10,7 @@ export default {
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
-        test: /\.(jpg|png|mp4)/,
+        test: /\.(jpg|png|mp4|ttf)/,
         type: "asset/resource",
       },
     ],

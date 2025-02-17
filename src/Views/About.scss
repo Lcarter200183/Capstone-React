@@ -1,0 +1,24 @@
+.aboutMain {
+  text-align: center;
+}
+#abouth2 {
+  color: rgb(4, 87, 4);
+  font-family: "Kleader";
+  &:hover {
+    background-color: rgb(195, 37, 63);
+  }
+}
+
+#abouth3 {
+  color: rgb(188, 77, 239);
+  &:hover {
+    background-color: rgb(250, 250, 13);
+  }
+}
+
+#abouth4 {
+  color: rgb(77, 170, 255);
+  &:hover {
+    background-color: rgb(255, 196, 87);
+  }
+}

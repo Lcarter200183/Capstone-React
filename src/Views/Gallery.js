@@ -5,6 +5,8 @@ import { imageMapResize } from "./ImagemapResize";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
 import { Banner } from "./Banner";
 import { Footer } from "./Footer";
+import "../index.scss";
+import "./Gallery.scss";
 
 export function Gallery() {
   useEffect(componentDidMount, []);
@@ -19,12 +21,12 @@ export function Gallery() {
         {/* <Navbar /> */}
         <CollapsibleNavbar />
       </header>
-      <main>
+      <main id="galleryMain">
         <u>
           <h2>Gallery</h2>
         </u>
         <div className="container ">
-          <div className="row gap-2 m-1 p-1 row-col-sm-3 ">
+          <div className="row gap-2 m-1 p-1">
             <div className="col ">
               <div className="card ">
                 <img
@@ -82,7 +84,7 @@ export function Gallery() {
               </div>
             </div>
 
-            <div className="row gap-1 m-1 p-1 row-col-sm-3">
+            <div className="row gap-1 m-1 p-1">
               <div className="col ">
                 <div className="card ">
                   <img

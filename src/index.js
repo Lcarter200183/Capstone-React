@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import { Contact } from "./Views/Contact";
 import { About } from "./Views/About";
 import { Footer } from "./Views/Footer";
+import "./index.scss";
 
 const root = createRoot(window.bodyTag);
 root.render(

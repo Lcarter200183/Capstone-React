@@ -4,6 +4,8 @@ import { moduleExample } from "../controllers/moduleExample";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
 import { Banner } from "./Banner";
 import { Footer } from "./Footer";
+import "../index.scss";
+import "./Home.scss";
 
 export function Home() {
   useEffect(componentDidMount, []);
@@ -16,7 +18,7 @@ export function Home() {
         {/* <Navbar /> */}
         <CollapsibleNavbar />
       </header>
-      <main>
+      <main id="homeMain">
         <u>
           <h2>Venue</h2>
         </u>
@@ -26,7 +28,7 @@ export function Home() {
               Exterior
             </h2>
             <br />
-            <p>
+            <p id="homep">
               Lorem ipsum odor amet, consectetuer adipiscing elit. Pretium
               vulputate quis feugiat in adipiscing justo. Enim eget eu libero
               etiam donec rhoncus efficitur efficitur. Nostra vel accumsan
@@ -40,7 +42,7 @@ export function Home() {
             <h2 className="fst-italic fw-bold" id="interior">
               Interior
             </h2>
-            <p>
+            <p id="homep">
               Praesent platea mi convallis pretium aliquet a nibh curae dis.
               Massa bibendum tristique per urna libero nisl dictumst. Sed
               lobortis nascetur conubia congue hac quam hac. Inceptos commodo
@@ -58,7 +60,7 @@ export function Home() {
             <h2 className="fst-italic fw-bold" id="events">
               Events
             </h2>
-            <p>
+            <p id="homep">
               Duis mi conubia orci; aliquam vestibulum sollicitudin. Diam morbi
               aliquet blandit lacinia suscipit vivamus duis. Diam finibus ex ex
               condimentum massa semper ante malesuada. Pretium eros metus
@@ -78,7 +80,7 @@ export function Home() {
         <br />
         <output id="myTag"></output>
       </main>
-      <Footer />
+      <Footer id="homeFooter" />
     </>
   );
 }
