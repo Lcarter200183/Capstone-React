@@ -2181,7 +2181,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
 /* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Banner */ "./src/Views/Banner.js");
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer */ "./src/Views/Footer.js");
-/* harmony import */ var _About_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./About.scss */ "./src/Views/About.scss");
+/* harmony import */ var _Carousel__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Carousel */ "./src/Views/Carousel.js");
+/* harmony import */ var _About_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./About.scss */ "./src/Views/About.scss");
+
 
 
 
@@ -2328,6 +2330,109 @@ function Banner() {
     src: "https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312",
     alt: "outside of building"
   }));
+}
+
+/***/ }),
+
+/***/ "./src/Views/Carousel.js":
+/*!*******************************!*\
+  !*** ./src/Views/Carousel.js ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Carousel: () => (/* binding */ Carousel)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assets_dinning_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/dinning.jpg */ "./assets/dinning.jpg");
+/* harmony import */ var _assets_meal_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/meal.jpg */ "./assets/meal.jpg");
+/* harmony import */ var _assets_setup_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/setup.jpg */ "./assets/setup.jpg");
+
+
+
+
+function Carousel() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "Pictures",
+    className: "carousel slide"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-indicators"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "button",
+    "data-bs-target": "#Pictures",
+    "data-bs-slide-to": "0",
+    className: "active",
+    "aria-current": "true",
+    "aria-label": "Slide 1"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "button",
+    "data-bs-target": "#Pictures",
+    "data-bs-slide-to": "1",
+    "aria-label": "Slide 2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "button",
+    "data-bs-target": "#Pictures",
+    "data-bs-slide-to": "2",
+    "aria-label": "Slide 3"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-inner",
+    style: {
+      width: "80%"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-item active"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _assets_meal_jpg__WEBPACK_IMPORTED_MODULE_2__,
+    style: {
+      height: "195px",
+      marginLeft: "20%"
+    },
+    className: "d-block w-100",
+    alt: "meal"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _assets_dinning_jpg__WEBPACK_IMPORTED_MODULE_1__,
+    style: {
+      height: "195px",
+      marginLeft: "20%"
+    },
+    className: "d-block w-100",
+    alt: "dinning"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-item"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _assets_setup_jpg__WEBPACK_IMPORTED_MODULE_3__,
+    style: {
+      height: "195px",
+      marginLeft: "20%"
+    },
+    className: "d-block w-100",
+    alt: "setup"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "carousel-control-prev",
+    type: "button",
+    "data-bs-target": "#Pictures",
+    "data-bs-slide": "prev"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "carousel-control-prev-icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "visually-hidden"
+  }, "Previous")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "carousel-control-next",
+    type: "button",
+    "data-bs-target": "#Pictures",
+    "data-bs-slide": "next"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "carousel-control-next-icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "visually-hidden"
+  }, "Next")));
 }
 
 /***/ }),
@@ -2563,6 +2668,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Footer */ "./src/Views/Footer.js");
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../index.scss */ "./src/index.scss");
 /* harmony import */ var _Gallery_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Gallery.scss */ "./src/Views/Gallery.scss");
+/* harmony import */ var _Carousel__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Carousel */ "./src/Views/Carousel.js");
+
 
 
 
@@ -2717,14 +2824,12 @@ function Gallery() {
   }, "\"Event \""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     className: "card-text "
   }, "Inside Event Area"))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    style: {
-      textAlign: center
-    }
+    id: "gallerySection"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, " Triva"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Get 20% off on a meal!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     onClick: _modules_handleOnClick__WEBPACK_IMPORTED_MODULE_2__.handleOnClick
   }, "Click here to get the question."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     id: "myTag "
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Carousel__WEBPACK_IMPORTED_MODULE_9__.Carousel, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "bg-primary p-3 ",
     id: "mixin-example "
   }, "Enjoy the View!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_6__.Footer, null));
@@ -3233,7 +3338,11 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `#galleryMain {
   background-color: rgb(165, 215, 63);
-}`, "",{"version":3,"sources":["webpack://./src/Views/Gallery.scss"],"names":[],"mappings":"AAAA;EACE,mCAAA;AACF","sourcesContent":["#galleryMain {\r\n  background-color: rgb(165, 215, 63);\r\n}\r\n"],"sourceRoot":""}]);
+}
+
+#gallerySection {
+  text-align: center;
+}`, "",{"version":3,"sources":["webpack://./src/Views/Gallery.scss"],"names":[],"mappings":"AAAA;EACE,mCAAA;AACF;;AAEA;EACE,kBAAA;AACF","sourcesContent":["#galleryMain {\r\n  background-color: rgb(165, 215, 63);\r\n}\r\n\r\n#gallerySection {\r\n  text-align: center;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3875,6 +3984,39 @@ module.exports = __webpack_require__.p + "ed3fbaafa7f48efd1175.png";
 
 "use strict";
 module.exports = __webpack_require__.p + "b85deded79c136b554a5.ttf";
+
+/***/ }),
+
+/***/ "./assets/dinning.jpg":
+/*!****************************!*\
+  !*** ./assets/dinning.jpg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "5cccb0f7f543c7eb0e71.jpg";
+
+/***/ }),
+
+/***/ "./assets/meal.jpg":
+/*!*************************!*\
+  !*** ./assets/meal.jpg ***!
+  \*************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "c2bb2a549160480f7c13.jpg";
+
+/***/ }),
+
+/***/ "./assets/setup.jpg":
+/*!**************************!*\
+  !*** ./assets/setup.jpg ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "472ba98425716c415c87.jpg";
 
 /***/ }),
 

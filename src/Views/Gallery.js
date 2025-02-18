@@ -7,6 +7,7 @@ import { Banner } from "./Banner";
 import { Footer } from "./Footer";
 import "../index.scss";
 import "./Gallery.scss";
+import { Carousel } from "./Carousel";
 
 export function Gallery() {
   useEffect(componentDidMount, []);
@@ -165,7 +166,7 @@ export function Gallery() {
 
         <br />
 
-        <section style={{ textAlign: center }}>
+        <section id="gallerySection">
           <h3> Triva</h3>
           <h4>Get 20% off on a meal!</h4>
           <button onClick={handleOnClick}>
@@ -175,7 +176,8 @@ export function Gallery() {
         </section>
 
         <br />
-
+        <Carousel />
+        <br />
         <span className="bg-primary p-3 " id="mixin-example ">
           Enjoy the View!
         </span>
