@@ -1,9 +1,6 @@
 import { formExample } from "../controllers/formExample";
 
-
-export function formExample() {
-    debugger;
-    myForm();
-    console.log();
-
+export function myForm() {
+  myForm();
+  console.log();
 }

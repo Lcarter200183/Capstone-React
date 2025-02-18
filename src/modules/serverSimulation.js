@@ -1,7 +1,7 @@
 import { output } from "../utils/output.js";
 
-export function serverSimulationExample() {
-    debugger;
-    serverSimulationExample;
-    console.log();
+export function serverSimulation() {
+  debugger;
+  serverSimulation;
+  console.log();
 }

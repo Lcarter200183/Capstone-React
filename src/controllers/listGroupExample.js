@@ -1,12 +1,6 @@
-import { listGroupItems } from "../modules/listGroupItems.js";
-import { unorderedList } from "../modules/unorderedList.js";
-
-
+import { ListGroupItems } from "./modules/ListGroupItems.js";
+import { UnorderedList } from "../modules/UnorderedList.js";
 
 window.listGroupExample = listGroupExample;
 
- export function listGroupExample() {
-
- }
-
-
+export function listGroupExample() {}
