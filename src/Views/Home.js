@@ -4,7 +4,7 @@ import { moduleExample } from "../controllers/moduleExample";
 
 export function Home() {
   useEffect(componentDidMount, []);
-  useEffect(componentDidupdate, []);
+  useEffect(componentDidupdate);
   useEffect(componentDidUnmount, []);
   return (
     <>
