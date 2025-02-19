@@ -2213,7 +2213,7 @@ function Gallery() {
   }, "Enjoy the View!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null)));
 }
 function componentDidMount() {
-  document.title = "The Venue";
+  document.title = "The Venue - Gallery";
   (0,_ImagemapResize__WEBPACK_IMPORTED_MODULE_3__.imageMapResize)();
   console.log("Mounted title");
 }
