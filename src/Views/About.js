@@ -1,10 +1,15 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Navbar } from "./Navbar";
 //import { listGroupExample } from "../controllers/listGroupExample";
 
 export function About() {
+  debugger;
+
+  const [message, setMessage] = useState("venue");
+  const [didMount, setDidMount] = useState(false);
+
   useEffect(componentDidMount, []);
-  useEffect(componentDidUpdate, []);
+  useEffect(componentDidUpdate, [didMount]);
   useEffect(componentDidUnmount, []);
   return (
     <>
@@ -193,12 +198,18 @@ export function About() {
   );
 }
 function componentDidMount() {
-  document.title = "Venue";
-  console.log("Mounted title ");
+  document.title = "Venue-About";
+  console.log("The About component has mounted");
 }
 function componentDidUpdate() {
-  setTimeout(console.log("Component Updated"), 2000);
+  if (didMount)
+    setTimeout(
+      console.log("the Component mounted. the message is" + message),
+      2000
+    );
 }
 function componentDidUnmount() {
-  setTimeout(console.log("Component Unmounted"), 2500);
+  return function () {
+    setTimeout(console.log("Component Unmounted"), 2500);
+  };
 }
