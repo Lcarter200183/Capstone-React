@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router";
+import { SignOutModal } from "./SignOutModal";
 
 export function CollapsibleNavbar() {
   return (
@@ -33,6 +34,7 @@ export function CollapsibleNavbar() {
             <NavLink className="nav-link" to="/about">
               About
             </NavLink>
+            <SignOutModal />
           </div>
         </div>
       </div>
