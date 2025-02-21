@@ -14672,6 +14672,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+<<<<<<< HEAD
 
 
 let rootPath = "";
@@ -14687,6 +14688,39 @@ root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElem
   path: `${rootPath}/contact`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Contact__WEBPACK_IMPORTED_MODULE_4__.Contact, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
+=======
+<<<<<<< HEAD
+let rootPath = "";
+const bodyTag = document.getElementById("bodytag");
+const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(window.bodyTag);
+root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Route, {
+  path: `${rootPath}/`,
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Home__WEBPACK_IMPORTED_MODULE_2__.Home, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Route, {
+  path: `${rootPath}/gallery`,
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Gallery__WEBPACK_IMPORTED_MODULE_3__.Gallery, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Route, {
+  path: `${rootPath}/contact`,
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Contact__WEBPACK_IMPORTED_MODULE_4__.Contact, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Route, {
+=======
+
+
+let rootPath = "";
+const bodyTag = document.getElementById("bodyTag");
+const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(window.bodyTag);
+root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
+  path: `${rootPath}/`,
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Home__WEBPACK_IMPORTED_MODULE_2__.Home, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
+  path: `${rootPath}/gallery`,
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Gallery__WEBPACK_IMPORTED_MODULE_3__.Gallery, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
+  path: `${rootPath}/contact`,
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Contact__WEBPACK_IMPORTED_MODULE_4__.Contact, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
+>>>>>>> main
+>>>>>>> aboutphasePage
   path: `${rootPath}/about`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_About__WEBPACK_IMPORTED_MODULE_5__.About, null)
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Footer__WEBPACK_IMPORTED_MODULE_6__.Footer, null)));

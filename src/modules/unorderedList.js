@@ -1,4 +1,4 @@
-export class unorderedList {
+export class UnorderedList {
   openingTag = "<ul='list-group-flush'>";
   closingTag = "</ul>";
   innerHTML = "";
