@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import { handleCustomerService } from "../modules/handleCustomerService";
 import { handleProcessForm } from "../modules/handleProcessForm";
@@ -6,14 +6,23 @@ import { nameForm } from "../modules/nameForm";
 import { numberForm } from "../modules/numberForm";
 import { datetimeForm } from "../modules/datetimeForm";
 import { formExample } from "../controllers/formExample";
+import { CollapsibleNavbar } from "./CollapsibleNavbar";
+import { Footer } from "./Footer";
+
+import "../index.scss";
+import "./Contact.scss";
 
 export function Contact() {
+  useEffect(componentDidMount, []);
+  useEffect(componentDidUpdate, []);
+  useEffect(componentDidUnmount, []);
   return (
     <>
       <header>
-        <Navbar />
+        {/* <Navbar /> */}
+        <CollapsibleNavbar />
       </header>
-      <main>
+      <main id="contactMain">
         <section className=" Contact-Us no-repeat center width100 height">
           <u>
             <h2>Contact</h2>
@@ -43,9 +52,9 @@ export function Contact() {
             <br />
             <input type="submit" value="Submit" />
           </form>
-          <br />
-          <h3>Contact Customer Service</h3>
 
+          <h3>Contact Customer Service</h3>
+          <br />
           <form onSubmit={handleCustomerService}>
             <input
               required
@@ -66,8 +75,11 @@ export function Contact() {
             <br />
             <input type="submit" value="Submit" />
           </form>
+
           <br />
+
           <h3>Submit Appointment</h3>
+
           <form onSubmit={nameForm}>
             <input
               required
@@ -117,6 +129,17 @@ export function Contact() {
         <button onClick={formExample}>form Example</button>
         <output id="myTag"></output>
       </main>
+      <Footer />
     </>
   );
+}
+function componentDidMount() {
+  document.title = "Venue - Contact";
+  console.log("Mounted title");
+}
+function componentDidUpdate() {
+  setTimeout(console.log("Component Updated"), 2000);
+}
+function componentDidUnmount() {
+  setTimeout(console.log("Component Unmounted"), 2000);
 }
