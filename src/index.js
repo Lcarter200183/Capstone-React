@@ -10,10 +10,10 @@ const root = createRoot(window.bodyTag);
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path={`${rootPath}/`} element={<Home />} />
-      <Route path={`${rootPath}/gallery`} element={<Gallery />} />
-      <Route path={`${rootPath}/contact`} element={<Contact />} />
-      <Route path={`${rootPath}/about`} element={<About />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/gallery" element={<Gallery />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/about" element={<About />} />
     </Routes>
   </BrowserRouter>
 );
