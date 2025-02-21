@@ -8,6 +8,7 @@ import { datetimeForm } from "../modules/datetimeForm";
 import { formExample } from "../controllers/formExample";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
 import { Footer } from "./Footer";
+
 import "../index.scss";
 import "./Contact.scss";
 
