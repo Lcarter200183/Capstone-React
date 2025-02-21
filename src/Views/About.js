@@ -10,7 +10,6 @@ import "./About.scss";
 export function About() {
   debugger;
 
-  const [message, setMessage] = useState("venue");
   const [didMount, setDidMount] = useState(false);
 
   useEffect(componentDidMount, []);
@@ -208,16 +207,13 @@ export function About() {
     </>
   );
 }
+
 function componentDidMount() {
-<<<<<<< HEAD
-  document.title = "Venue - About";
-  console.log("Mounted title ");
-=======
   document.title = "Venue-About";
   console.log("The About component has mounted");
->>>>>>> aboutphasePage
 }
 function componentDidUpdate() {
+  if (didMount === true) console.log("The component updated.");
   if (didMount)
     setTimeout(
       console.log("the Component mounted. the message is" + message),
