@@ -187,7 +187,7 @@ export function About() {
 
         <h5>Rate my Website</h5>
 
-        <form>
+        <fieldSet>
           <input type="radio" id="Thumbs up" name="group 1" />
           Thumbs up:👍🏾
           <input type="radio" id="Thumbs down" name="group 1" />
@@ -199,7 +199,7 @@ export function About() {
           >
             Submit
           </button>
-        </form>
+        </fieldSet>
         <button>list Group</button>
         {/* <buttom onClick={listGroupExample}>list Group </buttom>
         <output id="outputTag"></output> */}
