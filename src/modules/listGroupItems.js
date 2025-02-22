@@ -1,6 +1,6 @@
 import { output } from "../utils/output";
 
-export class listGroupItems {
+export class ListGroupItems {
   openingTag = "<li class='list-group-item>'";
   closingTag = "</li>";
   innerHTML = "";

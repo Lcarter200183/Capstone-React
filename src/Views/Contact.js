@@ -6,6 +6,11 @@ import { nameForm } from "../modules/nameForm";
 import { numberForm } from "../modules/numberForm";
 import { datetimeForm } from "../modules/datetimeForm";
 import { formExample } from "../controllers/formExample";
+import { CollapsibleNavbar } from "./CollapsibleNavbar";
+import { Footer } from "./Footer";
+
+import "../index.scss";
+import "./Contact.scss";
 
 export function Contact() {
   useEffect(componentDidMount, []);
@@ -14,7 +19,8 @@ export function Contact() {
   return (
     <>
       <header>
-        <Navbar />
+        {/* <Navbar /> */}
+        <CollapsibleNavbar />
       </header>
       <main id="contactMain">
         <section className=" Contact-Us no-repeat center width100 height">
@@ -123,6 +129,7 @@ export function Contact() {
         <button onClick={formExample}>form Example</button>
         <output id="myTag"></output>
       </main>
+      <Footer />
     </>
   );
 }

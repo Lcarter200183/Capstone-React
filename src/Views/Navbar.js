@@ -9,21 +9,19 @@ console.log(`The domain is ${domain}`);
 
 export function Navbar() {
   return (
-    <>
-      <nav className="nav nav-pills">
-        <NavLink className="nav-link" to={`${rootPath}/`}>
-          Home
-        </NavLink>
-        <NavLink className="nav-link" to={`${rootPath}/gallery`}>
-          Gallery
-        </NavLink>
-        <NavLink className="nav-link" to={`${rootPath}/contact`}>
-          Contact
-        </NavLink>
-        <NavLink className="nav-link" to={`${rootPath}/about`}>
-          About
-        </NavLink>
-      </nav>
-    </>
+    <nav className="nav nav-pills">
+      <NavLink className="nav-link" to={`${rootPath}/`}>
+        Home
+      </NavLink>
+      <NavLink className="nav-link" to={`${rootPath}/gallery`}>
+        Gallery
+      </NavLink>
+      <NavLink className="nav-link" to={`${rootPath}/contact`}>
+        Contact
+      </NavLink>
+      <NavLink className="nav-link" to={`${rootPath}/about`}>
+        About
+      </NavLink>
+    </nav>
   );
 }
