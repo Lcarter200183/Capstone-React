@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { SignInContent } from "./SignInContent";
 
 export function SignInModal() {
+  const [errorMessage, setErrorMessage] = useState("");
+
   return (
     <>
       <button
@@ -35,7 +37,7 @@ export function SignInModal() {
               ></button>
             </div>
             <div className="modal-body">
-              <SignInContent />
+              <SignInContent errorMessage={errorMessage} />
             </div>
             <div className="modal-footer">
               <button
@@ -55,17 +57,20 @@ export function SignInModal() {
       </form>
     </>
   );
-}
-function handleSubmit(event = new Event()) {
-  event.preventDefault();
-  const inputs = event.target;
-  const emailInput = inputs[1];
-  const passwordInput = inputs[2];
+  function handleSubmit(event = new Event()) {
+    event.preventDefault();
+    const inputs = event.target;
+    const emailInput = inputs[1];
+    const passwordInput = inputs[2];
 
-  const email = emailInput.value;
-  const password = passwordInput.vale;
+    const email = emailInput.value;
+    const password = passwordInput.vale;
 
-  const closeButton = document.getElementById();
-  closeButton.click();
-  inputs.reset();
+    const isAuthenticated = true;
+    if (isAuthenticated) {
+      const closeButton = document.getElementById("SignIncloseButton");
+      closeButton.click();
+      inputs.reset();
+    } else setErrorMessage("The email and password don't match");
+  }
 }

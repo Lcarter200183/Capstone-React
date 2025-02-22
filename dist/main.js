@@ -3021,14 +3021,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
-function SignInContent() {
+function SignInContent(props) {
+  const errorMessage = props.errorMessage;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, "Email: ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     type: "email",
     required: true
   }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Password: ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     type: "password",
     required: true
-  }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null));
+  }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      color: "red"
+    }
+  }, errorMessage));
 }
 
 /***/ }),
@@ -3050,6 +3055,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function SignInModal() {
+  const [errorMessage, setErrorMessage] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)("");
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     type: "button",
     className: "btn btn-secondary",
@@ -3078,7 +3084,9 @@ function SignInModal() {
     "aria-label": "Close"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "modal-body"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SignInContent__WEBPACK_IMPORTED_MODULE_1__.SignInContent, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_SignInContent__WEBPACK_IMPORTED_MODULE_1__.SignInContent, {
+    errorMessage: errorMessage
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "modal-footer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     id: "signInCloseButton",
@@ -3089,17 +3097,20 @@ function SignInModal() {
     type: "submit",
     className: "btn btn-primary"
   }, "Sign In"))))));
-}
-function handleSubmit(event = new Event()) {
-  event.preventDefault();
-  const inputs = event.target;
-  const emailInput = inputs[1];
-  const passwordInput = inputs[2];
-  const email = emailInput.value;
-  const password = passwordInput.vale;
-  const closeButton = document.getElementById();
-  closeButton.click();
-  inputs.reset();
+  function handleSubmit(event = new Event()) {
+    event.preventDefault();
+    const inputs = event.target;
+    const emailInput = inputs[1];
+    const passwordInput = inputs[2];
+    const email = emailInput.value;
+    const password = passwordInput.vale;
+    const isAuthenticated = true;
+    if (isAuthenticated) {
+      const closeButton = document.getElementById("SignIncloseButton");
+      closeButton.click();
+      inputs.reset();
+    } else setErrorMessage("The email and password don't match");
+  }
 }
 
 /***/ }),
