@@ -10,11 +10,10 @@ import "./About.scss";
 export function About() {
   debugger;
 
-  const [message, setMessage] = useState("venue");
   const [didMount, setDidMount] = useState(false);
 
   useEffect(componentDidMount, []);
-  useEffect(componentDidUpdate, [didMount]);
+  useEffect(componentDidUpdate, []);
   useEffect(componentDidUnmount, []);
   return (
     <>
@@ -187,7 +186,7 @@ export function About() {
 
         <h5>Rate my Website</h5>
 
-        <fieldSet>
+        <fieldset>
           <input type="radio" id="Thumbs up" name="group 1" />
           Thumbs up:👍🏾
           <input type="radio" id="Thumbs down" name="group 1" />
@@ -199,7 +198,7 @@ export function About() {
           >
             Submit
           </button>
-        </fieldSet>
+        </fieldset>
         <button>list Group</button>
         {/* <buttom onClick={listGroupExample}>list Group </buttom>
         <output id="outputTag"></output> */}
@@ -213,12 +212,14 @@ function componentDidMount() {
   console.log("The About component has mounted");
 }
 function componentDidUpdate() {
-  if (didMount)
-    setTimeout(
-      console.log("the Component mounted. the message is" + message),
-      2000
-    );
+  if (didMount === true) console.log("The component updated.");
+  else {
+    setDidMount(true);
+    console.log("the component mounted.");
+    setTimeout(changeGreeting, 2000);
+  }
 }
+
 function componentDidUnmount() {
   return function () {
     setTimeout(console.log("Component Unmounted"), 2500);
