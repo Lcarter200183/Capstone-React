@@ -7,7 +7,6 @@ import { Banner } from "./Banner";
 import { Footer } from "./Footer";
 import "../index.scss";
 import "./Gallery.scss";
-import { Carousel } from "./Carousel";
 
 export function Gallery() {
   useEffect(componentDidMount, []);
@@ -96,7 +95,7 @@ export function Gallery() {
                     useMap="#my-image-map "
                     height="200px "
                     width="200px "
-                    src="bedroom1.jpg "
+                    src="./assets/bedroom1.jpg"
                     alt="hotel room "
                   />
                   <map name="my-image-map ">
@@ -176,7 +175,7 @@ export function Gallery() {
         </section>
 
         <br />
-        <Carousel />
+
         <br />
         <span className="bg-primary p-3 " id="mixin-example ">
           Enjoy the View!
