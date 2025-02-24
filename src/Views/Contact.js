@@ -8,17 +8,18 @@ import { datetimeForm } from "../modules/datetimeForm";
 import { formExample } from "../controllers/formExample";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
 import { Footer } from "./Footer";
-
 import "../index.scss";
 import "./Contact.scss";
+import { Banner } from "./Banner";
 
 export function Contact() {
   useEffect(componentDidMount, []);
-  useEffect(componentDidUpdate, []);
+  useEffect(componentDidUpdate);
   useEffect(componentDidUnmount, []);
   return (
     <>
       <header>
+        <Banner />
         {/* <Navbar /> */}
         <CollapsibleNavbar />
       </header>
@@ -129,7 +130,6 @@ export function Contact() {
         <button onClick={formExample}>form Example</button>
         <output id="myTag"></output>
       </main>
-      <Footer />
     </>
   );
 }
