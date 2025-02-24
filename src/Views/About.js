@@ -4,11 +4,7 @@ import { CollapsibleNavbar } from "./CollapsibleNavbar";
 import { Banner } from "./Banner";
 import { Footer } from "./Footer";
 import { Carousel } from "./Carousel";
-<<<<<<< HEAD
 import { handleOnClick } from "../modules/handleOnClick";
-=======
-import { handleOnClick } from "../../oldFile/modules/handleOnClick";
->>>>>>> setupReact
 import "./About.scss";
 
 export function About() {

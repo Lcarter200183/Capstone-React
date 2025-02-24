@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 export function output(
   message = "",
   outputTag = "outputTag",
@@ -8,8 +7,3 @@ export function output(
   if (shouldAppend) outputElement.innerHTML += message;
   else outputElement.innerHTML = message;
 }
-=======
-export function output(message) {
-    window.outputTag.innerHTML += message;
-}
->>>>>>> setupReact
