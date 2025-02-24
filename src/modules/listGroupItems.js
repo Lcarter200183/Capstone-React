@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import { output } from "../utils/output";
 
 export class ListGroupItems {
+=======
+import { listGroupExample } from "../controllers/listGroupexample.js";
+
+export class listGroupItems {
+>>>>>>> setupReact
   openingTag = "<li class='list-group-item>'";
   closingTag = "</li>";
   innerHTML = "";
@@ -15,9 +21,13 @@ export class ListGroupItems {
   }
 }
 
+<<<<<<< HEAD
 for (let listGroup = 1; listGroup < 8; listGroup++);
 {
 }
+=======
+for (let listGroup = 1; listGroup < count; listGroup++) {}
+>>>>>>> setupReact
 
 const myObject = {
   listGroupItems1: ["Rooms"],
@@ -39,7 +49,11 @@ const myArray6 = myObject.listGroupItems6;
 const myArray7 = myObject.listGroupItems7;
 const myArray8 = myObject.listGroupItems8;
 
+<<<<<<< HEAD
 for (let i = 0; (i = 8); i++) {
+=======
+for (let i = 0; i < 8; i++) {
+>>>>>>> setupReact
   const array1Item = myArray1[i];
   const array2Item = myArray2[i];
   const array3Item = myArray3[i];
@@ -48,5 +62,12 @@ for (let i = 0; (i = 8); i++) {
   const array6Item = myArray6[i];
   const array7Item = myArray7[i];
   const array8Item = myArray8[i];
+<<<<<<< HEAD
   output("myTag");
+=======
+  output(
+    `${array1Item} ${array2Item} ${array3Item} ${array4Item} ${array5Item} ${array6Item} ${array7Item} ${array8Item}  <br>`,
+    "outputTag"
+  );
+>>>>>>> setupReact
 }

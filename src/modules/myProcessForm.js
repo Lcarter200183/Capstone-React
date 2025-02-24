@@ -1,6 +1,7 @@
 import { display } from "../utils/display.js";
 
 export function myProcessForm(event) {
+  debugger;
   event.preventDefault();
   const form = event.target;
   const input = form[0];
