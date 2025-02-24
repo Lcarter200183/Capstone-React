@@ -10,7 +10,7 @@ import "./Gallery.scss";
 
 export function Gallery() {
   useEffect(componentDidMount, []);
-  useEffect(componentdDidUpdate, []);
+  useEffect(componentdDidUpdate);
   useEffect(componentDidUnmount, []);
 
   const center = { width: "fit-content", justifySelf: "center" };
@@ -177,7 +177,11 @@ export function Gallery() {
         <br />
 
         <br />
-        <span className="bg-primary p-3 " id="mixin-example ">
+        <span
+          className="bg-primary p-3 "
+          id="mixin-example "
+          style={{ textAlign: center }}
+        >
           Enjoy the View!
         </span>
         <br />
