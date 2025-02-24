@@ -2,6 +2,10 @@ import React from "react";
 import dinning from "../../assets/dinning.jpg";
 import meal from "../../assets/meal.jpg";
 import setup from "../../assets/setup.jpg";
+import poolArea from "../../assets/pool-area.jpg";
+import hotelRoom from "../../assets/hotel-room.jpg";
+import eventSupplies from "../../assets/event Supplies.jpg";
+import fitnessCenter from "../../assets/fitness center.jpg";
 
 export function Carousel() {
   return (
@@ -27,12 +31,30 @@ export function Carousel() {
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
+        <button
+          type="button"
+          data-bs-target="#Pictures"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#Pictures"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#Pictures"
+          data-bs-slide-to="5"
+          aria-label="Slide 6"
+        ></button>
       </div>
-      <div className="carousel-inner" style={{ width: "80%" }}>
+      <div className="carousel-inner" style={{ width: "90%" }}>
         <div className="carousel-item active">
           <img
             src={meal}
-            style={{ height: "195px", marginLeft: "20%" }}
+            style={{ height: "300px", marginLeft: "20%" }}
             className="d-block w-100"
             alt="meal"
           />
@@ -40,7 +62,7 @@ export function Carousel() {
         <div className="carousel-item">
           <img
             src={dinning}
-            style={{ height: "195px", marginLeft: "20%" }}
+            style={{ height: "300px", marginLeft: "20%" }}
             className="d-block w-100"
             alt="dinning"
           />
@@ -48,9 +70,41 @@ export function Carousel() {
         <div className="carousel-item">
           <img
             src={setup}
-            style={{ height: "195px", marginLeft: "20%" }}
+            style={{ height: "300px", marginLeft: "20%" }}
             className="d-block w-100"
             alt="setup"
+          />
+        </div>
+        <div className="carousel-item">
+          <img
+            src={poolArea}
+            style={{ height: "300px", marginLeft: "20%" }}
+            className="d-block w-100"
+            alt="pool-area"
+          />
+        </div>
+        <div className="carousel-item">
+          <img
+            src={hotelRoom}
+            style={{ height: "300px", marginLeft: "20%" }}
+            className="d-block w-100"
+            alt="hotel-room"
+          />
+        </div>
+        <div className="carousel-item">
+          <img
+            src={eventSupplies}
+            style={{ height: "300px", marginLeft: "20%" }}
+            className="d-block w-100"
+            alt="event Supplies"
+          />
+        </div>
+        <div className="carousel-item">
+          <img
+            src={fitnessCenter}
+            style={{ height: "300px", marginLeft: "20%" }}
+            className="d-block w-100"
+            alt="fitness center"
           />
         </div>
       </div>
