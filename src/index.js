@@ -16,6 +16,10 @@ root.render(
     <HandleRefresh>
       <Header />
       <Routes>
+        <Route
+          path={`${rootPath}/Capstone React`}
+          element={"/Capstone - React/"}
+        />
         <Route path={`${rootPath}/`} element={<Home />} />
         <Route path={`${rootPath}/gallery`} element={<Gallery />} />
         <Route path={`${rootPath}/contact`} element={<Contact />} />
