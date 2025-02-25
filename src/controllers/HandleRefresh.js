@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
-import { useNavigation } from "react-router";
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router";
 
 export function HandleRefresh(props) {
   const children = props.children;
-  const navigateTo = useNavigation();
-  const [didMount, setDidMount] = useEffect(false);
+  const navigateTo = useNavigate();
+  const [didMount, setDidMount] = useState(false);
   useEffect(componentDidMount, []);
 
   if (didMount) return <>{children}</>;
