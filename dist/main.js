@@ -3007,7 +3007,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const domain = window.location.hostname;
 let rootPath = "";
-if (domain === "lcarter200183.github.io") rootPath = "/react-navigation";
+if (domain === "lcarter200183.github.io") rootPath = "/Capstone-React";
 console.log(`The domain is ${domain}`);
 function Navbar() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
@@ -14772,7 +14772,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const domain = window.location.hostname;
 let rootPath = "";
-if (domain === "lcarter200183.github.io") rootPath = "/react-navigation";
+if (domain === "lcarter200183.github.io") rootPath = "/Capstone-React";
 const bodyTag = document.getElementById("bodyTag");
 const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(window.bodyTag);
 root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_controllers_HandleRefresh__WEBPACK_IMPORTED_MODULE_9__.HandleRefresh, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Header__WEBPACK_IMPORTED_MODULE_7__.Header, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.Route, {

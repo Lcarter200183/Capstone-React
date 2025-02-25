@@ -17,7 +17,7 @@ import { HandleRefresh } from "./controllers/HandleRefresh";
 
 const domain = window.location.hostname;
 let rootPath = "";
-if (domain === "lcarter200183.github.io") rootPath = "/react-navigation";
+if (domain === "lcarter200183.github.io") rootPath = "/Capstone-React";
 
 const bodyTag = document.getElementById("bodyTag");
 const root = createRoot(window.bodyTag);

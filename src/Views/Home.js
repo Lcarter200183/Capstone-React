@@ -15,7 +15,6 @@ export function Home() {
     <>
       <header>
         <Banner />
-        {/* <Navbar /> */}
         <CollapsibleNavbar />
       </header>
       <main id="homeMain">

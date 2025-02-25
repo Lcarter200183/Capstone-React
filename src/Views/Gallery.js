@@ -18,7 +18,6 @@ export function Gallery() {
     <>
       <header>
         <Banner />
-        {/* <Navbar /> */}
         <CollapsibleNavbar />
       </header>
       <main id="galleryMain">
