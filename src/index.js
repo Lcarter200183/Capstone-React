@@ -6,7 +6,10 @@ import { BrowserRouter, Route, Routes } from "react-router";
 import { Contact } from "./Views/Contact";
 import { About } from "./Views/About";
 
+const domain = window.location.hostname;
 let rootPath = "";
+if (domain === "lcarter200183.github.io") rootPath = "/react-navigation";
+
 const bodyTag = document.getElementById("bodyTag");
 const root = createRoot(window.bodyTag);
 root.render(
