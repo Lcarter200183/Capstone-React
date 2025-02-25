@@ -9,7 +9,7 @@ import "./Home.scss";
 
 export function Home() {
   useEffect(componentDidMount, []);
-  useEffect(componentDidupdate, []);
+  useEffect(componentDidupdate);
   useEffect(componentDidUnmount, []);
   return (
     <>
@@ -86,7 +86,7 @@ export function Home() {
 
 function componentDidMount() {
   document.title = "The Venue";
-  console.log("Mounted title");
+  console.log("The home page mounted");
 }
 function componentDidupdate() {
   setTimeout(console.log("Component updated."), 2000);

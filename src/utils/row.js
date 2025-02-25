@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Column } from "./column.js";
 
 <<<<<<< HEAD
@@ -16,19 +17,29 @@ export class Row {
 }
 =======
 
+=======
+import { Column } from "../Column.js";
+>>>>>>> homephasePage
 
 export class Row {
-    openingTag = "<div class='row'>";
-    closingTag = "</div>";
-    innerHTML = "";
+  openingTag = "<div class='row'>";
+  closingTag = "</div>";
+  innerHTML = "";
 
-    addColumn(column = new Column()) {
-        debugger;
-        this.innerHTML += column;
-    }
+  addColumn(column = new Column()) {
+    debugger;
+    this.innerHTML += column;
+  }
 
+<<<<<<< HEAD
     toString() {
         return `${this.openingTag}${this.innerHTML}${this.closingTag}`;
     }
 }
 >>>>>>> setupReact
+=======
+  toString() {
+    return `${this.openingTag}${this.innerHTML}${this.closingTag}`;
+  }
+}
+>>>>>>> homephasePage

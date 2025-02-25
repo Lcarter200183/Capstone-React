@@ -2923,7 +2923,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function Home() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidupdate, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidupdate);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Banner__WEBPACK_IMPORTED_MODULE_4__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_3__.CollapsibleNavbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
     id: "homeMain"
@@ -2960,7 +2960,7 @@ function Home() {
 }
 function componentDidMount() {
   document.title = "The Venue";
-  console.log("Mounted title");
+  console.log("The home page mounted");
 }
 function componentDidupdate() {
   setTimeout(console.log("Component updated."), 2000);
@@ -3302,7 +3302,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./src/utils/display.js");
 
 function handleCustomerService(event) {
-  debugger;
   event.preventDefault();
   const emailForm = event.target;
   const emailInput = emailForm[0];
@@ -3375,7 +3374,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils_display_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display.js */ "./src/utils/display.js");
 
 function nameForm(event) {
-  debugger;
   event.preventDefault();
   const form = event.target;
   const firstnameInput = form[0];

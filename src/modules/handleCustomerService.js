@@ -1,7 +1,6 @@
 import { display } from "../utils/display.js";
 
 export function handleCustomerService(event) {
-  debugger;
   event.preventDefault();
   const emailForm = event.target;
   const emailInput = emailForm[0];

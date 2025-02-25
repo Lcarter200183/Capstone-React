@@ -1,7 +1,6 @@
 import { display } from "../utils/display.js";
 
 export function nameForm(event) {
-  debugger;
   event.preventDefault();
   const form = event.target;
   const firstnameInput = form[0];
