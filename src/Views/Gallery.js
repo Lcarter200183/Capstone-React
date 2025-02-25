@@ -6,7 +6,7 @@ import { Carousel } from "./Carousel";
 
 export function Gallery() {
   useEffect(componentDidMount, []);
-  useEffect(componentdDidUpdate, []);
+  useEffect(componentdDidUpdate);
   useEffect(componentDidUnmount, []);
 
   const center = { width: "fit-content", justifySelf: "center" };
@@ -14,7 +14,6 @@ export function Gallery() {
     <>
       <header>
         <Banner />
-        {/* <Navbar /> */}
         <CollapsibleNavbar />
       </header>
       <main id="galleryMain">
@@ -181,14 +180,13 @@ export function Gallery() {
         <hr />
       </main>
       <hr />
-      <Footer />
     </>
   );
 }
 function componentDidMount() {
   document.title = "Venue - Gallery";
   imageMapResize();
-  console.log("Mounted title");
+  console.log("The gallery page was mounted");
   const imgTag = document.getElementById("FrontLobby");
   new bootstrap.Tooltip(imgTag);
   const imgTag2 = document.getElementById("PoolArea");

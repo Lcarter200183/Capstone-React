@@ -13,7 +13,7 @@ import "./Contact.scss";
 
 export function Contact() {
   useEffect(componentDidMount, []);
-  useEffect(componentDidUpdate, []);
+  useEffect(componentDidUpdate);
   useEffect(componentDidUnmount, []);
   return (
     <>
@@ -134,7 +134,7 @@ export function Contact() {
 }
 function componentDidMount() {
   document.title = "Venue - Contact";
-  console.log("Mounted title");
+  console.log("the contact page mounted");
 }
 function componentDidUpdate() {
   setTimeout(console.log("Component Updated"), 2000);
