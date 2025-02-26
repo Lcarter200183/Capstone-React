@@ -1,6 +1,6 @@
 import { listGroupExample } from "../controllers/listGroupexample.js";
 
-export class unorderedList {
+export class UnorderedList {
   openingTag = "<ul='list-group-flush>";
   closingTag = "</ul>";
   innerHTML = "";

@@ -190,7 +190,7 @@ export function Gallery() {
         <hr />
       </main>
       <hr />
-      <hr />
+
       <Footer />
     </>
   );

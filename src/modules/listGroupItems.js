@@ -1,6 +1,6 @@
-import { ListGroupExample } from "../controllers/listGroupexample.js";
+import { listGroupExample } from "../controllers/listGroupexample.js";
 
-export class ListGroupItems {
+export class listGroupItems {
   openingTag = "<li class='list-group-item>'";
   closingTag = "</li>";
   innerHTML = "";

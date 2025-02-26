@@ -1,5 +1,4 @@
-import { listGroupItems } from "../modules/listGroupItems.js";
-import { unorderedList } from "../modules/unorderedList.js";
+import { listGroupItems } from "../modules/ListGroupItems";
 
 window.listGroupExample = listGroupExample;
 
