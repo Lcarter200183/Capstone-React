@@ -13,7 +13,7 @@ import { About } from "./Views/About";
 import { Footer } from "./Views/Footer";
 import { Header } from "./Views/Header";
 import "./index.scss";
-import { HandleRefresh } from "./controllers/HandleRefresh";
+import { HandleRefresh } from "./Views/HandleRefresh";
 
 const domain = window.location.hostname;
 let rootPath = "";
