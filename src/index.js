@@ -7,6 +7,7 @@ import { Contact } from "./Views/Contact";
 import { About } from "./Views/About";
 import { Footer } from "./Views/Footer";
 import "./index.scss";
+import { HandleRefresh } from "./Views/HandleRefresh";
 
 const domain = window.location.hostname;
 let rootPath = "";
@@ -17,12 +18,14 @@ const root = createRoot(window.bodyTag);
 root.render(
   <BrowserRouter>
     {/* <Header /> */}
-    <Routes>
-      <Route path={`${rootPath}/`} element={<Home />} />
-      <Route path={`${rootPath}/gallery`} element={<Gallery />} />
-      <Route path={`${rootPath}/contact`} element={<Contact />} />
-      <Route path={`${rootPath}/about`} element={<About />} />
-    </Routes>
-    <Footer />
+    <HandleRefresh>
+      <Routes>
+        <Route path={`${rootPath}/`} element={<Home />} />
+        <Route path={`${rootPath}/gallery`} element={<Gallery />} />
+        <Route path={`${rootPath}/contact`} element={<Contact />} />
+        <Route path={`${rootPath}/about`} element={<About />} />
+      </Routes>
+      <Footer />
+    </HandleRefresh>
   </BrowserRouter>
 );
