@@ -1,8 +1,12 @@
+import React, { useEffect } from "react";
+import { Navbar } from "./Navbar";
+import { handleOnClick } from "../modules/handleOnClick";
+import { ImageMapResize } from "./ImageMapResize";
+import { CollapsibleNavbar } from "./CollapsibleNavbar";
 import { Banner } from "./Banner";
 import { Footer } from "./Footer";
 import "../index.scss";
 import "./Gallery.scss";
-import { Carousel } from "./Carousel";
 
 export function Gallery() {
   useEffect(componentDidMount, []);
@@ -90,7 +94,7 @@ export function Gallery() {
                     useMap="#my-image-map "
                     height="200px "
                     width="200px "
-                    src="bedroom1.jpg "
+                    src="./assets/bedroom1.jpg"
                     alt="hotel room "
                   />
                   <map name="my-image-map ">
@@ -157,9 +161,7 @@ export function Gallery() {
             </div>
           </div>
         </div>
-
         <br />
-
         <section id="gallerySection">
           <h3> Triva</h3>
           <h4>Get 20% off on a meal!</h4>
@@ -168,25 +170,30 @@ export function Gallery() {
           </button>
           <div id="myTag "></div>
         </section>
-
         <br />
         <Carousel />
         <br />
-        <span className="bg-primary p-3 " id="mixin-example ">
+        <span className="bg-primary p-3 " id="mixin-example "></span>
+        <br />
+        <span
+          className="bg-primary p-3 "
+          id="mixin-example "
+          style={{ textAlign: center }}
+        >
           Enjoy the View!
         </span>
         <br />
-
         <hr />
       </main>
       <hr />
+      <Footer />
     </>
   );
 }
 function componentDidMount() {
   document.title = "Venue - Gallery";
-  imageMapResize();
   console.log("The gallery page was mounted");
+  ImageMapResize();
   const imgTag = document.getElementById("FrontLobby");
   new bootstrap.Tooltip(imgTag);
   const imgTag2 = document.getElementById("PoolArea");
