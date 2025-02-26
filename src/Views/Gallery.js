@@ -175,7 +175,7 @@ export function Gallery() {
           <div id="myTag "></div>
         </section>
         <br />
-        <Carousel />
+
         <br />
         <span className="bg-primary p-3 " id="mixin-example "></span>
         <br />

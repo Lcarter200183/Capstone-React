@@ -49,4 +49,7 @@ export function ImageMapResize() {
       </main>
     </>
   );
+  function componentDidUnmount() {
+    ImageMapResize();
+  }
 }
