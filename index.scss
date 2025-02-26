@@ -4,39 +4,39 @@ $primaryFont: "Kleader";
 $secondaryFont: "fantasy";
 $myColor: red;
 body {
-    background-color: $darkBlueViolet;
-    font-family: $primaryFont;
+  background-color: $darkBlueViolet;
+  font-family: $primaryFont;
 }
 
 article {
-    font-family: $primaryFont;
+  font-family: $primaryFont;
 }
 
 p code {
-    font-family: $secondaryFont;
+  font-family: $secondaryFont;
 }
 
 @font-face {
-    font-family: "Kleader";
-    src: url("Kleader.ttf");
+  font-family: "Kleader";
+  src: url("Kleader.ttf");
 }
 
 pre {
-    code {
-        color: $myColor;
-    }
+  code {
+    color: $myColor;
+  }
 }
 
 p {
-    background-color: $lightBlue;
+  background-color: $lightBlue;
 }
 
 h2,
 a,
 nav {
-    font-family: $primaryFont;
+  font-family: $primaryFont;
 }
 
 pre code {
-    font-family: $primaryFont;
+  font-family: $primaryFont;
 }
