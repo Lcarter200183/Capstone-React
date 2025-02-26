@@ -13,10 +13,13 @@ export function Gallery() {
   useEffect(componentdDidUpdate);
   useEffect(componentDidUnmount, []);
 
+
   const center = { width: "fit-content", justifySelf: "center" };
   return (
     <>
       <header>
+        <Banner />
+        <CollapsibleNavbar />
         <Banner />
         <CollapsibleNavbar />
       </header>
@@ -25,10 +28,14 @@ export function Gallery() {
           <h2>Gallery</h2>
         </u>
         <div className="container ">
+
           <div className="row gap-2 m-1 p-1">
             <div className="col ">
               <div className="card ">
                 <img
+                  id="FrontEnterance"
+                  data-bs-title="Front Enterance"
+                  data-bs-toggle="tooltip"
                   id="FrontEnterance"
                   data-bs-title="Front Enterance"
                   data-bs-toggle="tooltip"
@@ -51,6 +58,9 @@ export function Gallery() {
                   id="PoolArea"
                   data-bs-title="Pool Area"
                   data-bs-toggle="tooltip"
+                  id="PoolArea"
+                  data-bs-title="Pool Area"
+                  data-bs-toggle="tooltip"
                   className="card-img-top "
                   height="200px "
                   width="200px "
@@ -70,9 +80,13 @@ export function Gallery() {
                   id="FrontLobby"
                   data-bs-title="Front Lobby"
                   data-bs-toggle="tooltip"
+                  id="FrontLobby"
+                  data-bs-title="Front Lobby"
+                  data-bs-toggle="tooltip"
                   className="card-img-top "
                   height="200px "
                   width="200px "
+                  src="https://www.enr.com/ext/resources/Issues/MountainSt_Issues/2023/November/MS-Benson-Nov2023-2.jpg"
                   src="https://www.enr.com/ext/resources/Issues/MountainSt_Issues/2023/November/MS-Benson-Nov2023-2.jpg"
                   alt="lobby area "
                 />
@@ -84,9 +98,13 @@ export function Gallery() {
             </div>
 
             <div className="row gap-1 m-1 p-1">
+            <div className="row gap-1 m-1 p-1">
               <div className="col ">
                 <div className="card ">
                   <img
+                    id="HotelRoom"
+                    data-bs-title="Hotel Room"
+                    data-bs-toggle="tooltip"
                     id="HotelRoom"
                     data-bs-title="Hotel Room"
                     data-bs-toggle="tooltip"
@@ -127,6 +145,9 @@ export function Gallery() {
                     id="OutsideEventArea"
                     data-bs-title="Outside Event Area"
                     data-bs-toggle="tooltip"
+                    id="OutsideEventArea"
+                    data-bs-title="Outside Event Area"
+                    data-bs-toggle="tooltip"
                     className="card-img-top "
                     height="200px "
                     width="200px "
@@ -146,6 +167,9 @@ export function Gallery() {
                     id="InsideEventArea"
                     data-bs-title="Inside Event Area"
                     data-bs-toggle="tooltip"
+                    id="InsideEventArea"
+                    data-bs-title="Inside Event Area"
+                    data-bs-toggle="tooltip"
                     className="card-img-top "
                     height="200px "
                     width="200px "
@@ -161,9 +185,7 @@ export function Gallery() {
             </div>
           </div>
         </div>
-
         <br />
-
         <section id="gallerySection">
           <h3> Triva</h3>
           <h4>Get 20% off on a meal!</h4>
@@ -172,9 +194,10 @@ export function Gallery() {
           </button>
           <div id="myTag "></div>
         </section>
-
         <br />
-
+        <Carousel />
+        <br />
+        <span className="bg-primary p-3 " id="mixin-example ">
         <br />
         <span
           className="bg-primary p-3 "
@@ -184,18 +207,18 @@ export function Gallery() {
           Enjoy the View!
         </span>
         <br />
-
         <hr />
       </main>
+      <hr />
       <hr />
       <Footer />
     </>
   );
-}
+  
 function componentDidMount() {
   document.title = "Venue - Gallery";
   imageMapResize();
-  console.log("Mounted title");
+  console.log("The gallery page was mounted");
   const imgTag = document.getElementById("FrontLobby");
   new bootstrap.Tooltip(imgTag);
   const imgTag2 = document.getElementById("PoolArea");
@@ -208,7 +231,7 @@ function componentDidMount() {
   new bootstrap.Tooltip(imgTag5);
   const imgTag6 = document.getElementById("InsideEventArea");
   new bootstrap.Tooltip(imgTag6);
-}
+} 
 function componentdDidUpdate() {
   setTimeout(console.log("Component Updated"), 2000);
 }

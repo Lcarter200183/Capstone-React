@@ -3,7 +3,6 @@ import { Navbar } from "./Navbar";
 import { moduleExample } from "../controllers/moduleExample";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
 import { Banner } from "./Banner";
-import { Footer } from "./Footer";
 import "../index.scss";
 import "./Home.scss";
 
@@ -15,8 +14,6 @@ export function Home() {
     <>
       <header>
         <Banner />
-        <CollapsibleNavbar />
-      </header>
       <main id="homeMain">
         <u>
           <h2>Venue</h2>
@@ -73,24 +70,24 @@ export function Home() {
             </p>
           </div>
         </div>
-
         <hr />
         <button onClick={moduleExample}>module Example</button>
         <br />
         <output id="myTag"></output>
-      </main>
-      <Footer id="homeFooter" />
+      </main>  
     </>
+    
   );
-}
+
 
 function componentDidMount() {
-  document.title = "The Venue";
-  console.log("The home page mounted");
-}
+  document.title = "The Venue"
+  console.log("The home page mounted")
+};
 function componentDidupdate() {
-  setTimeout(console.log("Component updated."), 2000);
-}
+  setTimeout(console.log("Component updated."), 2000)
+};
 function componentDidUnmount() {
-  setTimeout(console.log("Component Unmounted"), 2500);
+  setTimeout(console.log("Component Unmounted"), 2500)
+};
 }

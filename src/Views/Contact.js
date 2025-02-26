@@ -8,10 +8,8 @@ import { datetimeForm } from "../modules/datetimeForm";
 import { formExample } from "../controllers/formExample";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
 import { Footer } from "./Footer";
-
 import "../index.scss";
 import "./Contact.scss";
-import { Banner } from "./Banner";
 
 export function Contact() {
   useEffect(componentDidMount, []);
@@ -20,7 +18,6 @@ export function Contact() {
   return (
     <>
       <header>
-        <Banner />
         {/* <Navbar /> */}
         <CollapsibleNavbar />
       </header>
@@ -137,7 +134,7 @@ export function Contact() {
 }
 function componentDidMount() {
   document.title = "Venue - Contact";
-  console.log("Mounted title");
+  console.log("the contact page mounted");
 }
 function componentDidUpdate() {
   setTimeout(console.log("Component Updated"), 2000);
