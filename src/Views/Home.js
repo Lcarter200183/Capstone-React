@@ -14,6 +14,7 @@ export function Home() {
     <>
       <header>
         <Banner />
+      </header>
       <main id="homeMain">
         <u>
           <h2>Venue</h2>
@@ -74,20 +75,18 @@ export function Home() {
         <button onClick={moduleExample}>module Example</button>
         <br />
         <output id="myTag"></output>
-      </main>  
+      </main>
     </>
-    
   );
-
+}
 
 function componentDidMount() {
-  document.title = "The Venue"
-  console.log("The home page mounted")
-};
+  document.title = "The Venue";
+  console.log("The home page mounted");
+}
 function componentDidupdate() {
-  setTimeout(console.log("Component updated."), 2000)
-};
+  setTimeout(console.log("Component updated."), 2000);
+}
 function componentDidUnmount() {
-  setTimeout(console.log("Component Unmounted"), 2500)
-};
+  setTimeout(console.log("Component Unmounted"), 2500);
 }

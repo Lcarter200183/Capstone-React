@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import { handleOnClick } from "../modules/handleOnClick";
-import { imageMapResize } from "./ImagemapResize";
+import { ImageMapResize } from "./ImageMapResize";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
 import { Banner } from "./Banner";
 import { Footer } from "./Footer";
@@ -12,7 +12,6 @@ export function Gallery() {
   useEffect(componentDidMount, []);
   useEffect(componentdDidUpdate);
   useEffect(componentDidUnmount, []);
-
 
   const center = { width: "fit-content", justifySelf: "center" };
   return (
@@ -28,14 +27,10 @@ export function Gallery() {
           <h2>Gallery</h2>
         </u>
         <div className="container ">
-
           <div className="row gap-2 m-1 p-1">
             <div className="col ">
               <div className="card ">
                 <img
-                  id="FrontEnterance"
-                  data-bs-title="Front Enterance"
-                  data-bs-toggle="tooltip"
                   id="FrontEnterance"
                   data-bs-title="Front Enterance"
                   data-bs-toggle="tooltip"
@@ -58,9 +53,6 @@ export function Gallery() {
                   id="PoolArea"
                   data-bs-title="Pool Area"
                   data-bs-toggle="tooltip"
-                  id="PoolArea"
-                  data-bs-title="Pool Area"
-                  data-bs-toggle="tooltip"
                   className="card-img-top "
                   height="200px "
                   width="200px "
@@ -80,13 +72,9 @@ export function Gallery() {
                   id="FrontLobby"
                   data-bs-title="Front Lobby"
                   data-bs-toggle="tooltip"
-                  id="FrontLobby"
-                  data-bs-title="Front Lobby"
-                  data-bs-toggle="tooltip"
                   className="card-img-top "
                   height="200px "
                   width="200px "
-                  src="https://www.enr.com/ext/resources/Issues/MountainSt_Issues/2023/November/MS-Benson-Nov2023-2.jpg"
                   src="https://www.enr.com/ext/resources/Issues/MountainSt_Issues/2023/November/MS-Benson-Nov2023-2.jpg"
                   alt="lobby area "
                 />
@@ -98,87 +86,79 @@ export function Gallery() {
             </div>
 
             <div className="row gap-1 m-1 p-1">
-            <div className="row gap-1 m-1 p-1">
-              <div className="col ">
-                <div className="card ">
-                  <img
-                    id="HotelRoom"
-                    data-bs-title="Hotel Room"
-                    data-bs-toggle="tooltip"
-                    id="HotelRoom"
-                    data-bs-title="Hotel Room"
-                    data-bs-toggle="tooltip"
-                    className="card-img-top "
-                    useMap="#my-image-map "
-                    height="200px "
-                    width="200px "
-                    src="./assets/bedroom1.jpg"
-                    alt="hotel room "
-                  />
-                  <map name="my-image-map ">
-                    <area
-                      title="Click the bed "
-                      coords="123,113, 173,105, 238,120, 238,128, 177,168, 126,135, 122,113, "
-                      shape="poly "
-                      target="_blank "
-                      href="https://www.mattressfirm.com/tempur-adapt-11-medium-mattress/5637491080.p?variantid=5637491137&utm_kxconfid=t6c7xqs93&gad_source=1&gclid=CjwKCAjw68K4BhAuEiwAylp3kn0-Y054hidpIKGIbHWdWi_aDZ4MwRxvLEkECUv7mnO6jH5Nhx5qGBoCxLkQAvD_BwE&gclsrc=aw.ds "
+              <div className="row gap-1 m-1 p-1">
+                <div className="col ">
+                  <div className="card ">
+                    <img
+                      id="HotelRoom"
+                      data-bs-title="Hotel Room"
+                      data-bs-toggle="tooltip"
+                      className="card-img-top "
+                      useMap="#my-image-map "
+                      height="200px "
+                      width="200px "
+                      src="./assets/bedroom1.jpg"
+                      alt="hotel room "
                     />
-                    <area
-                      title="Click the table "
-                      coords="1,148, 64,105, "
-                      shape="rect "
-                      target="_blank "
-                      href="https://kassamall.com/haddigan-dark-brown-rectangular-dining-room-extension-table/?srsltid=AfmBOopa9kej-DzoA_B37AiVvjL4h6LkZvCbAVkXXehYJORH00iib4YWEko "
-                    />
-                  </map>
+                    <map name="my-image-map ">
+                      <area
+                        title="Click the bed "
+                        coords="123,113, 173,105, 238,120, 238,128, 177,168, 126,135, 122,113, "
+                        shape="poly "
+                        target="_blank "
+                        href="https://www.mattressfirm.com/tempur-adapt-11-medium-mattress/5637491080.p?variantid=5637491137&utm_kxconfid=t6c7xqs93&gad_source=1&gclid=CjwKCAjw68K4BhAuEiwAylp3kn0-Y054hidpIKGIbHWdWi_aDZ4MwRxvLEkECUv7mnO6jH5Nhx5qGBoCxLkQAvD_BwE&gclsrc=aw.ds "
+                      />
+                      <area
+                        title="Click the table "
+                        coords="1,148, 64,105, "
+                        shape="rect "
+                        target="_blank "
+                        href="https://kassamall.com/haddigan-dark-brown-rectangular-dining-room-extension-table/?srsltid=AfmBOopa9kej-DzoA_B37AiVvjL4h6LkZvCbAVkXXehYJORH00iib4YWEko "
+                      />
+                    </map>
 
-                  <div className="card-body ">
-                    <h6 className="card-title ">"Interior "</h6>
-                    <p className="card-text ">Hotel Room</p>
+                    <div className="card-body ">
+                      <h6 className="card-title ">"Interior "</h6>
+                      <p className="card-text ">Hotel Room</p>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div className="col ">
-                <div className="card ">
-                  <img
-                    id="OutsideEventArea"
-                    data-bs-title="Outside Event Area"
-                    data-bs-toggle="tooltip"
-                    id="OutsideEventArea"
-                    data-bs-title="Outside Event Area"
-                    data-bs-toggle="tooltip"
-                    className="card-img-top "
-                    height="200px "
-                    width="200px "
-                    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/67/78/ff/borealis-patio-dining.jpg?w=1200&h=-1&s=1 "
-                    alt="outside event area "
-                  />
-                  <div className="card-body ">
-                    <h6 className="card-title ">"Event "</h6>
-                    <p className="card-text ">Outside Event Area</p>
+                <div className="col ">
+                  <div className="card ">
+                    <img
+                      id="OutsideEventArea"
+                      data-bs-title="Outside Event Area"
+                      data-bs-toggle="tooltip"
+                      className="card-img-top "
+                      height="200px "
+                      width="200px "
+                      src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/67/78/ff/borealis-patio-dining.jpg?w=1200&h=-1&s=1 "
+                      alt="outside event area "
+                    />
+                    <div className="card-body ">
+                      <h6 className="card-title ">"Event "</h6>
+                      <p className="card-text ">Outside Event Area</p>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div className="col ">
-                <div className="card ">
-                  <img
-                    id="InsideEventArea"
-                    data-bs-title="Inside Event Area"
-                    data-bs-toggle="tooltip"
-                    id="InsideEventArea"
-                    data-bs-title="Inside Event Area"
-                    data-bs-toggle="tooltip"
-                    className="card-img-top "
-                    height="200px "
-                    width="200px "
-                    src="https://d25wybtmjgh8lz.cloudfront.net/sites/default/files/2022-09/The_Benson%20Hotel%20Ballroom%20Theatre%20Style-1500x883.jpg "
-                    alt="inside event room "
-                  />
-                  <div className="card-body ">
-                    <h6 className="card-title ">"Event "</h6>
-                    <p className="card-text ">Inside Event Area</p>
+                <div className="col ">
+                  <div className="card ">
+                    <img
+                      id="InsideEventArea"
+                      data-bs-title="Inside Event Area"
+                      data-bs-toggle="tooltip"
+                      className="card-img-top "
+                      height="200px "
+                      width="200px "
+                      src="https://d25wybtmjgh8lz.cloudfront.net/sites/default/files/2022-09/The_Benson%20Hotel%20Ballroom%20Theatre%20Style-1500x883.jpg "
+                      alt="inside event room "
+                    />
+                    <div className="card-body ">
+                      <h6 className="card-title ">"Event "</h6>
+                      <p className="card-text ">Inside Event Area</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -197,7 +177,7 @@ export function Gallery() {
         <br />
         <Carousel />
         <br />
-        <span className="bg-primary p-3 " id="mixin-example ">
+        <span className="bg-primary p-3 " id="mixin-example "></span>
         <br />
         <span
           className="bg-primary p-3 "
@@ -214,11 +194,11 @@ export function Gallery() {
       <Footer />
     </>
   );
-  
+}
 function componentDidMount() {
   document.title = "Venue - Gallery";
-  imageMapResize();
   console.log("The gallery page was mounted");
+  ImageMapResize();
   const imgTag = document.getElementById("FrontLobby");
   new bootstrap.Tooltip(imgTag);
   const imgTag2 = document.getElementById("PoolArea");
@@ -231,7 +211,7 @@ function componentDidMount() {
   new bootstrap.Tooltip(imgTag5);
   const imgTag6 = document.getElementById("InsideEventArea");
   new bootstrap.Tooltip(imgTag6);
-} 
+}
 function componentdDidUpdate() {
   setTimeout(console.log("Component Updated"), 2000);
 }

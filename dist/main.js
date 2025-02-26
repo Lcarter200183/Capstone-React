@@ -1,4 +1,5 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/cookie/dist/index.js":
@@ -7,7 +8,6 @@
   \*******************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({
@@ -246,7 +246,6 @@ function isDate(val) {
   \*****************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 /*
@@ -341,7 +340,6 @@ module.exports = function (cssWithMappingToString) {
   \********************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 module.exports = function (url, options) {
@@ -377,7 +375,6 @@ module.exports = function (url, options) {
   \************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 module.exports = function (item) {
@@ -403,7 +400,6 @@ module.exports = function (item) {
   \********************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 /**
  * @license React
  * react-dom-client.development.js
@@ -424,7 +420,6 @@ module.exports = function (item) {
   \*************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 /**
  * @license React
  * react-dom.development.js
@@ -615,7 +610,6 @@ module.exports = function (item) {
   \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 function checkDCE() {
@@ -654,7 +648,6 @@ if (false) {} else {
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 function checkDCE() {
@@ -693,7 +686,6 @@ if (false) {} else {
   \*****************************************************/
 /***/ ((module, exports, __webpack_require__) => {
 
-"use strict";
 /* module decorator */ module = __webpack_require__.nmd(module);
 /**
  * @license React
@@ -1666,7 +1658,6 @@ if (false) {} else {
   \*************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 if (false) {} else {
@@ -1681,7 +1672,6 @@ if (false) {} else {
   \*************************************************************/
 /***/ ((__unused_webpack_module, exports) => {
 
-"use strict";
 /**
  * @license React
  * scheduler.development.js
@@ -1957,7 +1947,6 @@ if (false) {} else {
   \*****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 if (false) {} else {
@@ -1972,7 +1961,6 @@ if (false) {} else {
   \**********************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 var defaultParseOptions = {
@@ -2170,7 +2158,6 @@ module.exports.splitCookiesString = splitCookiesString;
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   About: () => (/* binding */ About)
@@ -2278,7 +2265,6 @@ function About() {
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Banner: () => (/* binding */ Banner)
@@ -2302,7 +2288,6 @@ function Banner() {
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Carousel: () => (/* binding */ Carousel)
@@ -2468,7 +2453,6 @@ function Carousel() {
   \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   CollapsibleNavbar: () => (/* binding */ CollapsibleNavbar)
@@ -2529,7 +2513,6 @@ function CollapsibleNavbar() {
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Contact: () => (/* binding */ Contact)
@@ -2662,7 +2645,6 @@ function componentDidUnmount() {
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Footer: () => (/* binding */ Footer)
@@ -2680,9 +2662,217 @@ function Footer() {
 /*!******************************!*\
   !*** ./src/Views/Gallery.js ***!
   \******************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\src\\Views\\Gallery.js: Expected corresponding JSX closing tag for <span>. (216:6)\n\n\u001b[0m \u001b[90m 214 |\u001b[39m         \u001b[33m<\u001b[39m\u001b[33mbr\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 215 |\u001b[39m         \u001b[33m<\u001b[39m\u001b[33mhr\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 216 |\u001b[39m       \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mmain\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m     |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 217 |\u001b[39m       \u001b[33m<\u001b[39m\u001b[33mhr\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 218 |\u001b[39m       \u001b[33m<\u001b[39m\u001b[33mhr\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 219 |\u001b[39m       \u001b[33m<\u001b[39m\u001b[33mFooter\u001b[39m \u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\u001b[0m\n    at constructor (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:359:19)\n    at JSXParserMixin.raise (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:3327:19)\n    at JSXParserMixin.jsxParseElementAt (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6900:16)\n    at JSXParserMixin.jsxParseElementAt (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6871:32)\n    at JSXParserMixin.jsxParseElementAt (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6871:32)\n    at JSXParserMixin.jsxParseElementAt (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6871:32)\n    at JSXParserMixin.jsxParseElement (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6922:17)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6932:19)\n    at JSXParserMixin.parseExprSubscripts (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10734:23)\n    at JSXParserMixin.parseUpdate (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10719:21)\n    at JSXParserMixin.parseMaybeUnary (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10699:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10553:61)\n    at JSXParserMixin.parseExprOps (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10558:23)\n    at JSXParserMixin.parseMaybeConditional (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10535:23)\n    at JSXParserMixin.parseMaybeAssign (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10498:21)\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10468:39\n    at JSXParserMixin.allowInAnd (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12069:12)\n    at JSXParserMixin.parseMaybeAssignAllowIn (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10468:17)\n    at JSXParserMixin.parseParenAndDistinguishExpression (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:11328:28)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10982:23)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6937:20)\n    at JSXParserMixin.parseExprSubscripts (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10734:23)\n    at JSXParserMixin.parseUpdate (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10719:21)\n    at JSXParserMixin.parseMaybeUnary (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10699:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10553:61)\n    at JSXParserMixin.parseExprOps (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10558:23)\n    at JSXParserMixin.parseMaybeConditional (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10535:23)\n    at JSXParserMixin.parseMaybeAssign (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10498:21)\n    at JSXParserMixin.parseExpressionBase (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10452:23)\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10448:39\n    at JSXParserMixin.allowInAnd (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12064:16)\n    at JSXParserMixin.parseExpression (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10448:17)\n    at JSXParserMixin.parseReturnStatement (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12755:28)\n    at JSXParserMixin.parseStatementContent (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12406:21)\n    at JSXParserMixin.parseStatementLike (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12375:17)\n    at JSXParserMixin.parseStatementListItem (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12355:17)\n    at JSXParserMixin.parseBlockOrModuleBlockBody (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12929:61)\n    at JSXParserMixin.parseBlockBody (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12922:10)\n    at JSXParserMixin.parseBlock (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12910:10)\n    at JSXParserMixin.parseFunctionBody (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:11752:24)\n    at JSXParserMixin.parseFunctionBodyAndFinish (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:11738:10)\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:13054:12\n    at JSXParserMixin.withSmartMixTopicForbiddingContext (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12046:14)\n    at JSXParserMixin.parseFunction (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:13053:10)\n    at JSXParserMixin.parseFunctionStatement (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12738:17)\n    at JSXParserMixin.parseStatementContent (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12399:21)\n    at JSXParserMixin.parseStatementLike (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12375:17)\n    at JSXParserMixin.parseStatementListItem (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12355:17)\n    at JSXParserMixin.parseExportDeclaration (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:13535:17)\n    at JSXParserMixin.maybeParseExportDeclaration (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:13494:31)");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Gallery: () => (/* binding */ Gallery)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ "./src/Views/Navbar.js");
+/* harmony import */ var _modules_handleOnClick__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../modules/handleOnClick */ "./src/modules/handleOnClick.js");
+/* harmony import */ var _ImageMapResize__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ImageMapResize */ "./src/Views/ImageMapResize.js");
+/* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
+/* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Banner */ "./src/Views/Banner.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Footer */ "./src/Views/Footer.js");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../index.scss */ "./src/index.scss");
+/* harmony import */ var _Gallery_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Gallery.scss */ "./src/Views/Gallery.scss");
+
+
+
+
+
+
+
+
+
+function Gallery() {
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentdDidUpdate);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
+  const center = {
+    width: "fit-content",
+    justifySelf: "center"
+  };
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Banner__WEBPACK_IMPORTED_MODULE_5__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_4__.CollapsibleNavbar, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Banner__WEBPACK_IMPORTED_MODULE_5__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_4__.CollapsibleNavbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
+    id: "galleryMain"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Gallery")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row gap-2 m-1 p-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "FrontEnterance",
+    "data-bs-title": "Front Enterance",
+    "data-bs-toggle": "tooltip",
+    className: "card-img-top ",
+    width: "200px ",
+    height: "200px ",
+    src: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/463251826.jpg?k=36df96df21beb8dab4d610648db9a64385e9f0c2cfee0a98b08a531d9e634e7e&o=https://cf.bstatic.com/xdata/images/hotel/max1024x768/463251826.jpg?k=36df96df21beb8dab4d610648db9a64385e9f0c2cfee0a98b08a531&hp=1 "
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h6", {
+    className: "card-title "
+  }, "\"Exterior \""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "card-text "
+  }, "Front Enterance")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "PoolArea",
+    "data-bs-title": "Pool Area",
+    "data-bs-toggle": "tooltip",
+    className: "card-img-top ",
+    height: "200px ",
+    width: "200px ",
+    src: "https://lodgingmagazine.com/wp-content/uploads/2022/12/Galeria-Plaza-Monterrey-218x150.jpg ",
+    alt: "pool area "
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h6", {
+    className: "card-title "
+  }, "\"Exterior \""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "card-text "
+  }, "Pool Area")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "FrontLobby",
+    "data-bs-title": "Front Lobby",
+    "data-bs-toggle": "tooltip",
+    className: "card-img-top ",
+    height: "200px ",
+    width: "200px ",
+    src: "https://www.enr.com/ext/resources/Issues/MountainSt_Issues/2023/November/MS-Benson-Nov2023-2.jpg",
+    alt: "lobby area "
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h6", {
+    className: "card-title "
+  }, "\"Interior \""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "card-text "
+  }, "Front Lobby")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row gap-1 m-1 p-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row gap-1 m-1 p-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "HotelRoom",
+    "data-bs-title": "Hotel Room",
+    "data-bs-toggle": "tooltip",
+    className: "card-img-top ",
+    useMap: "#my-image-map ",
+    height: "200px ",
+    width: "200px ",
+    src: "./assets/bedroom1.jpg",
+    alt: "hotel room "
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("map", {
+    name: "my-image-map "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("area", {
+    title: "Click the bed ",
+    coords: "123,113, 173,105, 238,120, 238,128, 177,168, 126,135, 122,113, ",
+    shape: "poly ",
+    target: "_blank ",
+    href: "https://www.mattressfirm.com/tempur-adapt-11-medium-mattress/5637491080.p?variantid=5637491137&utm_kxconfid=t6c7xqs93&gad_source=1&gclid=CjwKCAjw68K4BhAuEiwAylp3kn0-Y054hidpIKGIbHWdWi_aDZ4MwRxvLEkECUv7mnO6jH5Nhx5qGBoCxLkQAvD_BwE&gclsrc=aw.ds "
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("area", {
+    title: "Click the table ",
+    coords: "1,148, 64,105, ",
+    shape: "rect ",
+    target: "_blank ",
+    href: "https://kassamall.com/haddigan-dark-brown-rectangular-dining-room-extension-table/?srsltid=AfmBOopa9kej-DzoA_B37AiVvjL4h6LkZvCbAVkXXehYJORH00iib4YWEko "
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h6", {
+    className: "card-title "
+  }, "\"Interior \""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "card-text "
+  }, "Hotel Room")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "OutsideEventArea",
+    "data-bs-title": "Outside Event Area",
+    "data-bs-toggle": "tooltip",
+    className: "card-img-top ",
+    height: "200px ",
+    width: "200px ",
+    src: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/67/78/ff/borealis-patio-dining.jpg?w=1200&h=-1&s=1 ",
+    alt: "outside event area "
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h6", {
+    className: "card-title "
+  }, "\"Event \""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "card-text "
+  }, "Outside Event Area")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "InsideEventArea",
+    "data-bs-title": "Inside Event Area",
+    "data-bs-toggle": "tooltip",
+    className: "card-img-top ",
+    height: "200px ",
+    width: "200px ",
+    src: "https://d25wybtmjgh8lz.cloudfront.net/sites/default/files/2022-09/The_Benson%20Hotel%20Ballroom%20Theatre%20Style-1500x883.jpg ",
+    alt: "inside event room "
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h6", {
+    className: "card-title "
+  }, "\"Event \""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "card-text "
+  }, "Inside Event Area")))))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
+    id: "gallerySection"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, " Triva"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "Get 20% off on a meal!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    onClick: _modules_handleOnClick__WEBPACK_IMPORTED_MODULE_2__.handleOnClick
+  }, "Click here to get the question."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "myTag "
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Carousel, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "bg-primary p-3 ",
+    id: "mixin-example "
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "bg-primary p-3 ",
+    id: "mixin-example ",
+    style: {
+      textAlign: center
+    }
+  }, "Enjoy the View!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_6__.Footer, null));
+}
+function componentDidMount() {
+  document.title = "Venue - Gallery";
+  console.log("The gallery page was mounted");
+  (0,_ImageMapResize__WEBPACK_IMPORTED_MODULE_3__.ImageMapResize)();
+  const imgTag = document.getElementById("FrontLobby");
+  new bootstrap.Tooltip(imgTag);
+  const imgTag2 = document.getElementById("PoolArea");
+  new bootstrap.Tooltip(imgTag2);
+  const imgTag3 = document.getElementById("FrontEnterance");
+  new bootstrap.Tooltip(imgTag3);
+  const imgTag4 = document.getElementById("HotelRoom");
+  new bootstrap.Tooltip(imgTag4);
+  const imgTag5 = document.getElementById("OutsideEventArea");
+  new bootstrap.Tooltip(imgTag5);
+  const imgTag6 = document.getElementById("InsideEventArea");
+  new bootstrap.Tooltip(imgTag6);
+}
+function componentdDidUpdate() {
+  setTimeout(console.log("Component Updated"), 2000);
+}
+function componentDidUnmount() {
+  setTimeout(console.log("component Unmounted"), 2500);
+}
 
 /***/ }),
 
@@ -2692,7 +2882,6 @@ throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Header: () => (/* binding */ Header)
@@ -2712,9 +2901,130 @@ function Header() {
 /*!***************************!*\
   !*** ./src/Views/Home.js ***!
   \***************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\src\\Views\\Home.js: Expected corresponding JSX closing tag for <header>. (78:4)\n\n\u001b[0m \u001b[90m 76 |\u001b[39m         \u001b[33m<\u001b[39m\u001b[33moutput\u001b[39m id\u001b[33m=\u001b[39m\u001b[32m\"myTag\"\u001b[39m\u001b[33m>\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33moutput\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m 77 |\u001b[39m       \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mmain\u001b[39m\u001b[33m>\u001b[39m  \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 78 |\u001b[39m     \u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33m>\u001b[39m\n \u001b[90m    |\u001b[39m     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 79 |\u001b[39m   )\u001b[33m;\u001b[39m\n \u001b[90m 80 |\u001b[39m }\n \u001b[90m 81 |\u001b[39m\u001b[0m\n    at constructor (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:359:19)\n    at JSXParserMixin.raise (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:3327:19)\n    at JSXParserMixin.jsxParseElementAt (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6895:14)\n    at JSXParserMixin.jsxParseElementAt (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6871:32)\n    at JSXParserMixin.jsxParseElement (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6922:17)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6932:19)\n    at JSXParserMixin.parseExprSubscripts (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10734:23)\n    at JSXParserMixin.parseUpdate (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10719:21)\n    at JSXParserMixin.parseMaybeUnary (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10699:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10553:61)\n    at JSXParserMixin.parseExprOps (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10558:23)\n    at JSXParserMixin.parseMaybeConditional (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10535:23)\n    at JSXParserMixin.parseMaybeAssign (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10498:21)\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10468:39\n    at JSXParserMixin.allowInAnd (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12069:12)\n    at JSXParserMixin.parseMaybeAssignAllowIn (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10468:17)\n    at JSXParserMixin.parseParenAndDistinguishExpression (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:11328:28)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10982:23)\n    at JSXParserMixin.parseExprAtom (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:6937:20)\n    at JSXParserMixin.parseExprSubscripts (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10734:23)\n    at JSXParserMixin.parseUpdate (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10719:21)\n    at JSXParserMixin.parseMaybeUnary (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10699:23)\n    at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10553:61)\n    at JSXParserMixin.parseExprOps (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10558:23)\n    at JSXParserMixin.parseMaybeConditional (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10535:23)\n    at JSXParserMixin.parseMaybeAssign (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10498:21)\n    at JSXParserMixin.parseExpressionBase (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10452:23)\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10448:39\n    at JSXParserMixin.allowInAnd (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12064:16)\n    at JSXParserMixin.parseExpression (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:10448:17)\n    at JSXParserMixin.parseReturnStatement (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12755:28)\n    at JSXParserMixin.parseStatementContent (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12406:21)\n    at JSXParserMixin.parseStatementLike (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12375:17)\n    at JSXParserMixin.parseStatementListItem (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12355:17)\n    at JSXParserMixin.parseBlockOrModuleBlockBody (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12929:61)\n    at JSXParserMixin.parseBlockBody (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12922:10)\n    at JSXParserMixin.parseBlock (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12910:10)\n    at JSXParserMixin.parseFunctionBody (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:11752:24)\n    at JSXParserMixin.parseFunctionBodyAndFinish (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:11738:10)\n    at C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:13054:12\n    at JSXParserMixin.withSmartMixTopicForbiddingContext (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12046:14)\n    at JSXParserMixin.parseFunction (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:13053:10)\n    at JSXParserMixin.parseFunctionStatement (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12738:17)\n    at JSXParserMixin.parseStatementContent (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12399:21)\n    at JSXParserMixin.parseStatementLike (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12375:17)\n    at JSXParserMixin.parseStatementListItem (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12355:17)\n    at JSXParserMixin.parseExportDeclaration (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:13535:17)\n    at JSXParserMixin.maybeParseExportDeclaration (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:13494:31)\n    at JSXParserMixin.parseExport (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:13419:29)\n    at JSXParserMixin.parseStatementContent (C:\\Users\\lcart\\OneDrive\\level 3\\Capstone React\\node_modules\\@babel\\parser\\lib\\index.js:12488:27)");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Home: () => (/* binding */ Home)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ "./src/Views/Navbar.js");
+/* harmony import */ var _controllers_moduleExample__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../controllers/moduleExample */ "./src/controllers/moduleExample.js");
+/* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
+/* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Banner */ "./src/Views/Banner.js");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../index.scss */ "./src/index.scss");
+/* harmony import */ var _Home_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Home.scss */ "./src/Views/Home.scss");
+
+
+
+
+
+
+
+function Home() {
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidupdate);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Banner__WEBPACK_IMPORTED_MODULE_4__.Banner, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
+    id: "homeMain"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Venue")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-col-1 row-col-sm-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "fst-italic fw-bold",
+    id: "exterior"
+  }, "Exterior"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    id: "homep"
+  }, "Lorem ipsum odor amet, consectetuer adipiscing elit. Pretium vulputate quis feugiat in adipiscing justo. Enim eget eu libero etiam donec rhoncus efficitur efficitur. Nostra vel accumsan praesent arcu curabitur lacus. Sociosqu nunc potenti sagittis nostra nibh. In nec finibus tempor netus quis habitant senectus hac risus. Eu ligula per non nascetur nisi hac nunc. Luctus neque taciti vivamus convallis elementum vel facilisis.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-col-1 row-col-sm-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "fst-italic fw-bold",
+    id: "interior"
+  }, "Interior"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    id: "homep"
+  }, "Praesent platea mi convallis pretium aliquet a nibh curae dis. Massa bibendum tristique per urna libero nisl dictumst. Sed lobortis nascetur conubia congue hac quam hac. Inceptos commodo netus eget, varius venenatis nec. Consequat montes montes litora; sollicitudin ut metus. Est metus scelerisque accumsan molestie molestie; curae iaculis augue nam. Ante curae orci malesuada sollicitudin dolor maximus auctor. Senectus inceptos aliquam laoreet vestibulum elementum integer conubia maecenas viverra. Aenean turpis placerat platea efficitur dictum vitae. Parturient luctus vulputate vestibulum accumsan imperdiet senectus magna ut imperdiet.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-col-1 row-col-sm-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "fst-italic fw-bold",
+    id: "events"
+  }, "Events"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    id: "homep"
+  }, "Duis mi conubia orci; aliquam vestibulum sollicitudin. Diam morbi aliquet blandit lacinia suscipit vivamus duis. Diam finibus ex ex condimentum massa semper ante malesuada. Pretium eros metus euismod etiam integer ridiculus. Vehicula tortor etiam auctor vulputate leo purus rhoncus mauris maximus. Natoque faucibus nisi neque platea consequat fames. Sagittis maximus rutrum tristique velit eu suspendisse luctus eros. Ultrices potenti parturient placerat nascetur eleifend. Proin tincidunt cubilia libero natoque curabitur at tempor. Id accumsan diam vehicula rhoncus sollicitudin metus aptent."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    onClick: _controllers_moduleExample__WEBPACK_IMPORTED_MODULE_2__.moduleExample
+  }, "module Example"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
+    id: "myTag"
+  })));
+}
+function componentDidMount() {
+  document.title = "The Venue";
+  console.log("The home page mounted");
+}
+function componentDidupdate() {
+  setTimeout(console.log("Component updated."), 2000);
+}
+function componentDidUnmount() {
+  setTimeout(console.log("Component Unmounted"), 2500);
+}
+
+/***/ }),
+
+/***/ "./src/Views/ImageMapResize.js":
+/*!*************************************!*\
+  !*** ./src/Views/ImageMapResize.js ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ImageMapResize: () => (/* binding */ ImageMapResize)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function ImageMapResize() {
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row gap-1 m-1 p-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row gap-1 m-1 p-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "HotelRoom",
+    "data-bs-title": "Hotel Room",
+    "data-bs-toggle": "tooltip",
+    className: "card-img-top ",
+    useMap: "#my-image-map ",
+    height: "200px ",
+    width: "200px ",
+    src: "./assets/bedroom1.jpg",
+    alt: "hotel room "
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("map", {
+    name: "my-image-map "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("area", {
+    title: "Click the bed ",
+    coords: "123,113, 173,105, 238,120, 238,128, 177,168, 126,135, 122,113, ",
+    shape: "poly ",
+    target: "_blank ",
+    href: "https://www.mattressfirm.com/tempur-adapt-11-medium-mattress/5637491080.p?variantid=5637491137&utm_kxconfid=t6c7xqs93&gad_source=1&gclid=CjwKCAjw68K4BhAuEiwAylp3kn0-Y054hidpIKGIbHWdWi_aDZ4MwRxvLEkECUv7mnO6jH5Nhx5qGBoCxLkQAvD_BwE&gclsrc=aw.ds "
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("area", {
+    title: "Click the table ",
+    coords: "1,148, 64,105, ",
+    shape: "rect ",
+    target: "_blank ",
+    href: "https://kassamall.com/haddigan-dark-brown-rectangular-dining-room-extension-table/?srsltid=AfmBOopa9kej-DzoA_B37AiVvjL4h6LkZvCbAVkXXehYJORH00iib4YWEko "
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h6", {
+    className: "card-title "
+  }, "\"Interior \""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
+    className: "card-text "
+  }, "Hotel Room"))))))));
+}
 
 /***/ }),
 
@@ -2724,7 +3034,6 @@ throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Navbar: () => (/* binding */ Navbar)
@@ -2764,7 +3073,6 @@ function Navbar() {
   \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   SignInContent: () => (/* binding */ SignInContent)
@@ -2795,7 +3103,6 @@ function SignInContent(props) {
   \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   SignInModal: () => (/* binding */ SignInModal)
@@ -2866,7 +3173,6 @@ function handleSubmit(event = new Event()) {
   \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   SignOutModal: () => (/* binding */ SignOutModal)
@@ -2929,7 +3235,6 @@ function handleSubmit(event = new Event()) {
   \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   HandleRefresh: () => (/* binding */ HandleRefresh)
@@ -2963,7 +3268,6 @@ function HandleRefresh(props) {
   \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   formExample: () => (/* binding */ formExample)
@@ -2983,13 +3287,30 @@ function formExample() {}
 
 /***/ }),
 
+/***/ "./src/controllers/moduleExample.js":
+/*!******************************************!*\
+  !*** ./src/controllers/moduleExample.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   moduleExample: () => (/* binding */ moduleExample)
+/* harmony export */ });
+/* harmony import */ var _utils_output__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/output */ "./src/utils/output.js");
+
+function moduleExample() {
+  (0,_utils_output__WEBPACK_IMPORTED_MODULE_0__.output)("moduleExample");
+}
+
+/***/ }),
+
 /***/ "./src/modules/datetimeForm.js":
 /*!*************************************!*\
   !*** ./src/modules/datetimeForm.js ***!
   \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   datetimeForm: () => (/* binding */ datetimeForm)
@@ -3012,7 +3333,6 @@ function datetimeForm(event) {
   \**********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   handleCustomerService: () => (/* binding */ handleCustomerService)
@@ -3040,7 +3360,6 @@ function delayedGreeting() {
   \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   handleOnClick: () => (/* binding */ handleOnClick)
@@ -3062,7 +3381,6 @@ function handleOnClick() {
   \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   handleProcessForm: () => (/* binding */ handleProcessForm)
@@ -3087,7 +3405,6 @@ function handleProcessForm(event) {
   \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   nameForm: () => (/* binding */ nameForm)
@@ -3111,7 +3428,6 @@ function nameForm(event) {
   \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   numberForm: () => (/* binding */ numberForm)
@@ -3134,7 +3450,6 @@ function numberForm(event) {
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   display: () => (/* binding */ display)
@@ -3145,13 +3460,29 @@ function display(message) {
 
 /***/ }),
 
+/***/ "./src/utils/output.js":
+/*!*****************************!*\
+  !*** ./src/utils/output.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   output: () => (/* binding */ output)
+/* harmony export */ });
+function output(message = "", outputTag = "outputTag", shouldAppend = true) {
+  const outputElement = document.getElementById(outputTag);
+  if (shouldAppend) outputElement.innerHTML += message;else outputElement.innerHTML = message;
+}
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/About.scss":
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/About.scss ***!
   \***********************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -3213,7 +3544,6 @@ ___CSS_LOADER_EXPORT___.push([module.id, `.aboutMain {
   \*************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -3249,13 +3579,83 @@ ___CSS_LOADER_EXPORT___.push([module.id, `#contactMain {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/Gallery.scss":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/Gallery.scss ***!
+  \*************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `#galleryMain {
+  background-color: rgb(165, 215, 63);
+}
+
+#gallerySection {
+  text-align: center;
+}`, "",{"version":3,"sources":["webpack://./src/Views/Gallery.scss"],"names":[],"mappings":"AAAA;EACE,mCAAA;AACF;;AAEA;EACE,kBAAA;AACF","sourcesContent":["#galleryMain {\r\n  background-color: rgb(165, 215, 63);\r\n}\r\n\r\n#gallerySection {\r\n  text-align: center;\r\n}\r\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/Home.scss":
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/Home.scss ***!
+  \**********************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `h2,
+a,
+nav {
+  font-family: "Kleader";
+}
+
+#homeMain {
+  background-color: blueViolet;
+}
+
+#homep {
+  background-color: lightBlue;
+  font-family: "fantasy";
+}`, "",{"version":3,"sources":["webpack://./src/Views/Home.scss"],"names":[],"mappings":"AAAA;;;EAGE,sBAAA;AACF;;AAEA;EACE,4BAAA;AACF;;AAEA;EACE,2BAAA;EACA,sBAAA;AACF","sourcesContent":["h2,\r\na,\r\nnav {\r\n  font-family: \"Kleader\";\r\n}\r\n\r\n#homeMain {\r\n  background-color: blueViolet;\r\n}\r\n\r\n#homep {\r\n  background-color: lightBlue;\r\n  font-family: \"fantasy\";\r\n}\r\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.scss":
 /*!*****************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/index.scss ***!
   \*****************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -3293,7 +3693,6 @@ header {
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -3346,7 +3745,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -3393,13 +3791,116 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./src/Views/Gallery.scss":
+/*!********************************!*\
+  !*** ./src/Views/Gallery.scss ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_Gallery_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./Gallery.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/Gallery.scss");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_Gallery_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_Gallery_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_Gallery_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_Gallery_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
+/***/ "./src/Views/Home.scss":
+/*!*****************************!*\
+  !*** ./src/Views/Home.scss ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_Home_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./Home.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/Home.scss");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_Home_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_Home_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_Home_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_Home_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
 /***/ "./src/index.scss":
 /*!************************!*\
   !*** ./src/index.scss ***!
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -3452,7 +3953,6 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
   \****************************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 var stylesInDOM = [];
@@ -3546,7 +4046,6 @@ module.exports = function (list, options) {
   \********************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 var memo = {};
@@ -3590,7 +4089,6 @@ module.exports = insertBySelector;
   \**********************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 /* istanbul ignore next  */
@@ -3610,7 +4108,6 @@ module.exports = insertStyleElement;
   \**********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 /* istanbul ignore next  */
@@ -3630,7 +4127,6 @@ module.exports = setAttributesWithoutAttributes;
   \***************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 /* istanbul ignore next  */
@@ -3701,7 +4197,6 @@ module.exports = domAPI;
   \*********************************************************************/
 /***/ ((module) => {
 
-"use strict";
 
 
 /* istanbul ignore next  */
@@ -3725,7 +4220,6 @@ module.exports = styleTagTransform;
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "ed3fbaafa7f48efd1175.png";
 
 /***/ }),
@@ -3736,7 +4230,6 @@ module.exports = __webpack_require__.p + "ed3fbaafa7f48efd1175.png";
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "b85deded79c136b554a5.ttf";
 
 /***/ }),
@@ -3747,7 +4240,6 @@ module.exports = __webpack_require__.p + "b85deded79c136b554a5.ttf";
   \****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "5cccb0f7f543c7eb0e71.jpg";
 
 /***/ }),
@@ -3758,7 +4250,6 @@ module.exports = __webpack_require__.p + "5cccb0f7f543c7eb0e71.jpg";
   \***********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "14278aa645e3e878b8b6.jpg";
 
 /***/ }),
@@ -3769,7 +4260,6 @@ module.exports = __webpack_require__.p + "14278aa645e3e878b8b6.jpg";
   \***********************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "46026b2dd8a6c1e9cf0c.jpg";
 
 /***/ }),
@@ -3780,7 +4270,6 @@ module.exports = __webpack_require__.p + "46026b2dd8a6c1e9cf0c.jpg";
   \*******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "903eff832e6b584d593d.jpg";
 
 /***/ }),
@@ -3791,7 +4280,6 @@ module.exports = __webpack_require__.p + "903eff832e6b584d593d.jpg";
   \*************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "c2bb2a549160480f7c13.jpg";
 
 /***/ }),
@@ -3802,7 +4290,6 @@ module.exports = __webpack_require__.p + "c2bb2a549160480f7c13.jpg";
   \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "f2198d7d113929bb1696.jpg";
 
 /***/ }),
@@ -3813,7 +4300,6 @@ module.exports = __webpack_require__.p + "f2198d7d113929bb1696.jpg";
   \**************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 module.exports = __webpack_require__.p + "472ba98425716c415c87.jpg";
 
 /***/ }),
@@ -3824,7 +4310,6 @@ module.exports = __webpack_require__.p + "472ba98425716c415c87.jpg";
   \***********************************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   Action: () => (/* binding */ Action),
@@ -13463,7 +13948,6 @@ function deserializeErrors2(errors) {
   \*********************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   decode: () => (/* binding */ decode),
@@ -14293,9 +14777,8 @@ function raceSignal(promise, signal) {
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry needs to be wrapped in an IIFE because it needs to be in strict mode.
+// This entry needs to be wrapped in an IIFE because it needs to be isolated against other modules in the chunk.
 (() => {
-"use strict";
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
@@ -14304,9 +14787,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Views_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Views/Home */ "./src/Views/Home.js");
-/* harmony import */ var _Views_Home__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Views_Home__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Views_Gallery__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Views/Gallery */ "./src/Views/Gallery.js");
-/* harmony import */ var _Views_Gallery__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_Views_Gallery__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-IR6S3I6Y.mjs");
 /* harmony import */ var _Views_Contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Views/Contact */ "./src/Views/Contact.js");
 /* harmony import */ var _Views_About__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Views/About */ "./src/Views/About.js");
