@@ -8,7 +8,10 @@ import { About } from "./Views/About";
 import { Footer } from "./Views/Footer";
 import "./index.scss";
 
+const domain = window.location.hostname;
 let rootPath = "";
+if (domain === "lcarter200183.github.io") rootPath = "/Capstone-React";
+
 const bodyTag = document.getElementById("bodyTag");
 const root = createRoot(window.bodyTag);
 root.render(
