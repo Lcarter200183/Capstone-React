@@ -17,7 +17,6 @@ export function About() {
     <>
       <header id="aboutHeader">
         <Banner />
-        <CollapsibleNavbar />
       </header>
       <main id="container" className="aboutMain">
         <h2 className="abouth2">About</h2>
