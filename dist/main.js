@@ -2107,7 +2107,7 @@ function About() {
 }
 function componentDidMount() {
   document.title = "Venue - About";
-  console.log("Mounted title ");
+  console.log("the abort page mounted ");
 }
 function componentDidUpdate() {
   setTimeout(console.log("Component Updated"), 2000);
