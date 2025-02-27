@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Navbar } from "./Navbar";
 import { moduleExample } from "../controllers/moduleExample";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
 import { Banner } from "./Banner";
@@ -14,6 +13,7 @@ export function Home() {
     <>
       <header>
         <Banner />
+        <CollapsibleNavbar />
       </header>
       <main id="homeMain">
         <u>

@@ -2942,13 +2942,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ "./src/Views/Navbar.js");
-/* harmony import */ var _controllers_moduleExample__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../controllers/moduleExample */ "./src/controllers/moduleExample.js");
-/* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
-/* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Banner */ "./src/Views/Banner.js");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../index.scss */ "./src/index.scss");
-/* harmony import */ var _Home_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Home.scss */ "./src/Views/Home.scss");
-
+/* harmony import */ var _controllers_moduleExample__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../controllers/moduleExample */ "./src/controllers/moduleExample.js");
+/* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
+/* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Banner */ "./src/Views/Banner.js");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../index.scss */ "./src/index.scss");
+/* harmony import */ var _Home_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Home.scss */ "./src/Views/Home.scss");
 
 
 
@@ -2959,7 +2957,7 @@ function Home() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidupdate);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Banner__WEBPACK_IMPORTED_MODULE_4__.Banner, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Banner__WEBPACK_IMPORTED_MODULE_3__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_2__.CollapsibleNavbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
     id: "homeMain"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Venue")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "container"
@@ -2985,7 +2983,7 @@ function Home() {
   }, "Events"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
     id: "homep"
   }, "Duis mi conubia orci; aliquam vestibulum sollicitudin. Diam morbi aliquet blandit lacinia suscipit vivamus duis. Diam finibus ex ex condimentum massa semper ante malesuada. Pretium eros metus euismod etiam integer ridiculus. Vehicula tortor etiam auctor vulputate leo purus rhoncus mauris maximus. Natoque faucibus nisi neque platea consequat fames. Sagittis maximus rutrum tristique velit eu suspendisse luctus eros. Ultrices potenti parturient placerat nascetur eleifend. Proin tincidunt cubilia libero natoque curabitur at tempor. Id accumsan diam vehicula rhoncus sollicitudin metus aptent."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-    onClick: _controllers_moduleExample__WEBPACK_IMPORTED_MODULE_2__.moduleExample
+    onClick: _controllers_moduleExample__WEBPACK_IMPORTED_MODULE_1__.moduleExample
   }, "module Example"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
     id: "myTag"
   })));
