@@ -186,7 +186,6 @@ export function Gallery() {
         <hr />
       </main>
       <hr />
-      <Footer />
     </>
   );
 }

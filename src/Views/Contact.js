@@ -7,7 +7,6 @@ import { numberForm } from "../modules/numberForm";
 import { datetimeForm } from "../modules/datetimeForm";
 import { formExample } from "../controllers/formExample";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
-import { Footer } from "./Footer";
 import "../index.scss";
 import "./Contact.scss";
 import { Banner } from "./Banner";
@@ -135,7 +134,7 @@ export function Contact() {
 }
 function componentDidMount() {
   document.title = "Venue - Contact";
-  console.log("Mounted title");
+  console.log("Contact page mounted");
 }
 function componentDidUpdate() {
   setTimeout(console.log("Component Updated"), 2000);

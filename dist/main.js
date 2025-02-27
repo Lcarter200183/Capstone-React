@@ -2193,7 +2193,6 @@ __webpack_require__.r(__webpack_exports__);
 //import { listGroupExample } from "../controllers/listGroupExample";
 
 function About() {
-  debugger;
   const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, [didMount]);
@@ -2297,20 +2296,20 @@ function About() {
   }), "Thumbs down:\uD83D\uDC4E\uD83C\uDFFE", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     className: "#include boxShadow #include textShadow btn-lg btn-primary ",
     id: "mixin button"
-  }, "Submit")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", null, "list Group")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_4__.Footer, null));
-}
-function componentDidMount() {
-  document.title = "Venue-About";
-  console.log("The About component has mounted");
-}
-function componentDidUpdate() {
-  if (didMount === true) console.log("The component updated.");
-  if (didMount) setTimeout(console.log("the Component mounted. the message is" + message), 2000);
-}
-function componentDidUnmount() {
-  return function () {
-    setTimeout(console.log("Component Unmounted"), 2500);
-  };
+  }, "Submit")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", null, "list Group")));
+  function componentDidMount() {
+    document.title = "Venue-About";
+    console.log("The About component has mounted");
+  }
+  function componentDidUpdate() {
+    if (didMount === true) console.log("The component updated.");
+    if (didMount) setTimeout(console.log("the Component mounted. the message is" + message), 2000);
+  }
+  function componentDidUnmount() {
+    return function () {
+      setTimeout(console.log("Component Unmounted"), 2500);
+    };
+  }
 }
 
 /***/ }),
@@ -2524,11 +2523,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_datetimeForm__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../modules/datetimeForm */ "./src/modules/datetimeForm.js");
 /* harmony import */ var _controllers_formExample__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../controllers/formExample */ "./src/controllers/formExample.js");
 /* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Footer */ "./src/Views/Footer.js");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../index.scss */ "./src/index.scss");
-/* harmony import */ var _Contact_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Contact.scss */ "./src/Views/Contact.scss");
-/* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Banner */ "./src/Views/Banner.js");
-
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../index.scss */ "./src/index.scss");
+/* harmony import */ var _Contact_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Contact.scss */ "./src/Views/Contact.scss");
+/* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Banner */ "./src/Views/Banner.js");
 
 
 
@@ -2545,7 +2542,7 @@ function Contact() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Banner__WEBPACK_IMPORTED_MODULE_12__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_8__.CollapsibleNavbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Banner__WEBPACK_IMPORTED_MODULE_11__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_8__.CollapsibleNavbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
     id: "contactMain"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: " Contact-Us no-repeat center width100 height"
@@ -2627,7 +2624,7 @@ function Contact() {
 }
 function componentDidMount() {
   document.title = "Venue - Contact";
-  console.log("Mounted title");
+  console.log("Contact page mounted");
 }
 function componentDidUpdate() {
   setTimeout(console.log("Component Updated"), 2000);
@@ -2843,7 +2840,7 @@ function Gallery() {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Carousel__WEBPACK_IMPORTED_MODULE_9__.Carousel, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "bg-primary p-3 ",
     id: "mixin-example "
-  }, "Enjoy the View!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_6__.Footer, null));
+  }, "Enjoy the View!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null));
 }
 function componentDidMount() {
   document.title = "Venue - Gallery";
@@ -2966,9 +2963,7 @@ function Home() {
     onClick: _controllers_moduleExample__WEBPACK_IMPORTED_MODULE_2__.moduleExample
   }, "module Example"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
     id: "myTag"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_5__.Footer, {
-    id: "homeFooter"
-  }));
+  })));
 }
 function componentDidMount() {
   document.title = "The Venue";

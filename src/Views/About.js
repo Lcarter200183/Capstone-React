@@ -8,8 +8,6 @@ import "./About.scss";
 //import { listGroupExample } from "../controllers/listGroupExample";
 
 export function About() {
-  debugger;
-
   const [didMount, setDidMount] = useState(false);
 
   useEffect(componentDidMount, []);
@@ -203,25 +201,24 @@ export function About() {
         {/* <buttom onClick={listGroupExample}>list Group </buttom>
         <output id="outputTag"></output> */}
       </main>
-      <Footer />
     </>
   );
-}
 
-function componentDidMount() {
-  document.title = "Venue-About";
-  console.log("The About component has mounted");
-}
-function componentDidUpdate() {
-  if (didMount === true) console.log("The component updated.");
-  if (didMount)
-    setTimeout(
-      console.log("the Component mounted. the message is" + message),
-      2000
-    );
-}
-function componentDidUnmount() {
-  return function () {
-    setTimeout(console.log("Component Unmounted"), 2500);
-  };
+  function componentDidMount() {
+    document.title = "Venue-About";
+    console.log("The About component has mounted");
+  }
+  function componentDidUpdate() {
+    if (didMount === true) console.log("The component updated.");
+    if (didMount)
+      setTimeout(
+        console.log("the Component mounted. the message is" + message),
+        2000
+      );
+  }
+  function componentDidUnmount() {
+    return function () {
+      setTimeout(console.log("Component Unmounted"), 2500);
+    };
+  }
 }
