@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import { handleOnClick } from "../modules/handleOnClick";
-import { ImageMapResize } from "./ImagemapResize";
+import { ImageMapResize } from "../ImagemapResize";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
 import { Banner } from "./Banner";
 import { Footer } from "./Footer";
