@@ -2448,7 +2448,6 @@ function Gallery() {
 }
 function componentDidMount() {
   document.title = "The Venue - Gallery";
-  (0,_ImagemapResize__WEBPACK_IMPORTED_MODULE_3__.imageMapResize)();
   console.log("Mounted title");
   const imgTag = document.getElementById("FrontLobby");
   new bootstrap.Tooltip(imgTag);
@@ -2464,6 +2463,7 @@ function componentDidMount() {
   new bootstrap.Tooltip(imgTag6);
 }
 function componentdDidUpdate() {
+  (0,_ImagemapResize__WEBPACK_IMPORTED_MODULE_3__.imageMapResize)();
   setTimeout(console.log("Component Updated"), 2000);
 }
 function componentDidUnmount() {

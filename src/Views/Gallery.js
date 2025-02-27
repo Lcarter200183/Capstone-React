@@ -179,7 +179,6 @@ export function Gallery() {
 }
 function componentDidMount() {
   document.title = "The Venue - Gallery";
-  imageMapResize();
   console.log("Mounted title");
   const imgTag = document.getElementById("FrontLobby");
   new bootstrap.Tooltip(imgTag);
@@ -195,6 +194,7 @@ function componentDidMount() {
   new bootstrap.Tooltip(imgTag6);
 }
 function componentdDidUpdate() {
+  imageMapResize();
   setTimeout(console.log("Component Updated"), 2000);
 }
 function componentDidUnmount() {
