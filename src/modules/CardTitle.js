@@ -1,4 +1,4 @@
-export class cardTitle {
+export class CardTitle {
   openingTag = "<div class='card-title'>";
   closingTag = "</div>";
   innerHTML = "";
