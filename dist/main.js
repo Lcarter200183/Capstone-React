@@ -2687,10 +2687,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const [toolTip, setTooltip] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)();
 function Gallery() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentdDidUpdate);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentdDidUpdate, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
   const center = {
     width: "fit-content",
@@ -2851,9 +2850,8 @@ function Gallery() {
     }
   }, "Enjoy the View!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_6__.Footer, null));
   function componentDidMount() {
-    document.title = "Venue - Gallery";
-    console.log("The gallery page was mounted");
-    (0,_ImageMapResize__WEBPACK_IMPORTED_MODULE_3__.ImageMapResize)();
+    document.title = "The Venue - Gallery";
+    console.log("Mounted title");
     const imgTag = document.getElementById("FrontLobby");
     new bootstrap.Tooltip(imgTag);
     const imgTag2 = document.getElementById("PoolArea");
@@ -2868,13 +2866,13 @@ function Gallery() {
     new bootstrap.Tooltip(imgTag6);
   }
   function componentdDidUpdate() {
+    (0,_ImageMapResize__WEBPACK_IMPORTED_MODULE_3__.ImageMapResize)();
     setTimeout(console.log("Component Updated"), 2000);
   }
   function componentDidUnmount() {
     setTimeout(console.log("component Unmounted"), 2500);
   }
 }
-<<<<<<< HEAD
 
 /***/ }),
 
@@ -2928,30 +2926,6 @@ __webpack_require__.r(__webpack_exports__);
 
 function Header() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_1__.CollapsibleNavbar, null));
-=======
-function componentDidMount() {
-  document.title = "The Venue - Gallery";
-  console.log("Mounted title");
-  const imgTag = document.getElementById("FrontLobby");
-  new bootstrap.Tooltip(imgTag);
-  const imgTag2 = document.getElementById("PoolArea");
-  new bootstrap.Tooltip(imgTag2);
-  const imgTag3 = document.getElementById("FrontEnterance");
-  new bootstrap.Tooltip(imgTag3);
-  const imgTag4 = document.getElementById("HotelRoom");
-  new bootstrap.Tooltip(imgTag4);
-  const imgTag5 = document.getElementById("OutsideEventArea");
-  new bootstrap.Tooltip(imgTag5);
-  const imgTag6 = document.getElementById("InsideEventArea");
-  new bootstrap.Tooltip(imgTag6);
-}
-function componentdDidUpdate() {
-  (0,_ImagemapResize__WEBPACK_IMPORTED_MODULE_3__.imageMapResize)();
-  setTimeout(console.log("Component Updated"), 2000);
-}
-function componentDidUnmount() {
-  setTimeout(console.log("component Unmounted"), 2500);
->>>>>>> tooltip
 }
 
 /***/ }),
@@ -14831,7 +14805,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-<<<<<<< HEAD
 
 
 
@@ -14851,23 +14824,6 @@ root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElem
   path: `${rootPath}/contact`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Contact__WEBPACK_IMPORTED_MODULE_4__.Contact, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_10__.Route, {
-=======
-const domain = window.location.hostname;
-let rootPath = "";
-if (domain === "lcarter200183.github.io") rootPath = "/Capstone-React";
-console.log(`The domain is ${domain}`);
-const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(window.bodyTag);
-root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Route, {
-  path: `${rootPath}/`,
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Home__WEBPACK_IMPORTED_MODULE_2__.Home, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Route, {
-  path: `${rootPath}/gallery`,
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Gallery__WEBPACK_IMPORTED_MODULE_3__.Gallery, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Route, {
-  path: `${rootPath}/contact`,
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Contact__WEBPACK_IMPORTED_MODULE_4__.Contact, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_6__.Route, {
->>>>>>> tooltip
   path: `${rootPath}/about`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_About__WEBPACK_IMPORTED_MODULE_5__.About, null)
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_Views_Footer__WEBPACK_IMPORTED_MODULE_6__.Footer, null))));

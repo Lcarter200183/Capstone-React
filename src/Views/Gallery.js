@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import { handleOnClick } from "../modules/handleOnClick";
 import { ImageMapResize } from "./ImageMapResize";
@@ -10,7 +10,7 @@ import "./Gallery.scss";
 
 export function Gallery() {
   useEffect(componentDidMount, []);
-  useEffect(componentdDidUpdate);
+  useEffect(componentdDidUpdate, []);
   useEffect(componentDidUnmount, []);
 
   const center = { width: "fit-content", justifySelf: "center" };
@@ -194,27 +194,29 @@ export function Gallery() {
       <Footer />
     </>
   );
-}
-function componentDidMount() {
-  document.title = "The Venue - Gallery";
-  console.log("Mounted title");
-  const imgTag = document.getElementById("FrontLobby");
-  new bootstrap.Tooltip(imgTag);
-  const imgTag2 = document.getElementById("PoolArea");
-  new bootstrap.Tooltip(imgTag2);
-  const imgTag3 = document.getElementById("FrontEnterance");
-  new bootstrap.Tooltip(imgTag3);
-  const imgTag4 = document.getElementById("HotelRoom");
-  new bootstrap.Tooltip(imgTag4);
-  const imgTag5 = document.getElementById("OutsideEventArea");
-  new bootstrap.Tooltip(imgTag5);
-  const imgTag6 = document.getElementById("InsideEventArea");
-  new bootstrap.Tooltip(imgTag6);
-}
-function componentdDidUpdate() {
-  imageMapResize();
-  setTimeout(console.log("Component Updated"), 2000);
-}
-function componentDidUnmount() {
-  setTimeout(console.log("component Unmounted"), 2500);
+
+  function componentDidMount() {
+    document.title = "The Venue - Gallery";
+    console.log("Mounted title");
+    const imgTag = document.getElementById("FrontLobby");
+    new bootstrap.Tooltip(imgTag);
+    const imgTag2 = document.getElementById("PoolArea");
+    new bootstrap.Tooltip(imgTag2);
+    const imgTag3 = document.getElementById("FrontEnterance");
+    new bootstrap.Tooltip(imgTag3);
+    const imgTag4 = document.getElementById("HotelRoom");
+    new bootstrap.Tooltip(imgTag4);
+    const imgTag5 = document.getElementById("OutsideEventArea");
+    new bootstrap.Tooltip(imgTag5);
+    const imgTag6 = document.getElementById("InsideEventArea");
+    new bootstrap.Tooltip(imgTag6);
+  }
+  function componentdDidUpdate() {
+    ImageMapResize();
+    setTimeout(console.log("Component Updated"), 2000);
+  }
+
+  function componentDidUnmount() {
+    setTimeout(console.log("component Unmounted"), 2500);
+  }
 }
