@@ -1,8 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 export function ImageMapResize() {
-  useEffect(componentDidUnmount, []);
-
   return (
     <>
       <main>
@@ -49,8 +47,4 @@ export function ImageMapResize() {
       </main>
     </>
   );
-
-  function componentDidUnmount() {
-    ImageMapResize();
-  }
 }

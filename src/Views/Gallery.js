@@ -19,8 +19,6 @@ export function Gallery() {
       <header>
         <Banner />
         <CollapsibleNavbar />
-        <Banner />
-        <CollapsibleNavbar />
       </header>
       <main id="galleryMain">
         <u>
