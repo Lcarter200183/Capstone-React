@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="utility-function.js"></script>
+    <script src="./controllers/moduleExample.js" type="module"></script>
+    <script src=".dist/main.js" defer></script>
+    </body>
+    <title>
+        The Venue
+    </title>
+    <style>
+        ol li {
+            width: fit-content;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body id="bodytag">
+    <header>
+        <img width="100%" src="https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312" alt="outside of building" />
+        <div class="bg-primary fs-6 p-2 m-2">
+            <nav class="nav nav-tab nav-underline nav-fill">
+                <a class="nav-link active text-warning" aria-current="page" href="index.html">HOME</a>
+                <a class="nav-link text-warning" href="gallery.html">GALLERY</a>
+                <a class="nav-link text-warning" href="contact.html">CONTACT</a>
+                <a class="nav-link text-warning" href="about.html">ABOUT</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="container">
+        <u><h2>Venue</h2></u>
+        <br />
+        <h2 class="fst-italic fw-bold" id="exterior">Exterior</h2>
+        <p>
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Pretium vulputate quis feugiat in adipiscing justo. Enim eget eu libero etiam donec rhoncus efficitur efficitur. Nostra vel accumsan praesent arcu curabitur lacus. Sociosqu nunc potenti sagittis nostra
+            nibh. In nec finibus tempor netus quis habitant senectus hac risus. Eu ligula per non nascetur nisi hac nunc. Luctus neque taciti vivamus convallis elementum vel facilisis.
+        </p>
+
+        <h2 class="fst-italic fw-bold" id="interior">Interior</h2>
+        <p>
+            Praesent platea mi convallis pretium aliquet a nibh curae dis. Massa bibendum tristique per urna libero nisl dictumst. Sed lobortis nascetur conubia congue hac quam hac. Inceptos commodo netus eget, varius venenatis nec. Consequat montes montes litora;
+            sollicitudin ut metus. Est metus scelerisque accumsan molestie molestie; curae iaculis augue nam. Ante curae orci malesuada sollicitudin dolor maximus auctor. Senectus inceptos aliquam laoreet vestibulum elementum integer conubia maecenas
+            viverra. Aenean turpis placerat platea efficitur dictum vitae. Parturient luctus vulputate vestibulum accumsan imperdiet senectus magna ut imperdiet.
+        </p>
+
+        <h2 class="fst-italic fw-bold" id="events">Events</h2>
+        <p>
+            Duis mi conubia orci; aliquam vestibulum sollicitudin. Diam morbi aliquet blandit lacinia suscipit vivamus duis. Diam finibus ex ex condimentum massa semper ante malesuada. Pretium eros metus euismod etiam integer ridiculus. Vehicula tortor etiam auctor
+            vulputate leo purus rhoncus mauris maximus. Natoque faucibus nisi neque platea consequat fames. Sagittis maximus rutrum tristique velit eu suspendisse luctus eros. Ultrices potenti parturient placerat nascetur eleifend. Proin tincidunt cubilia
+            libero natoque curabitur at tempor. Id accumsan diam vehicula rhoncus sollicitudin metus aptent.
+        </p>
+        <hr />
+
+        <button onclick="moduleExample()">module Example</button><br>
+        <output id="outputTag"></output>
+
+    </main>
+
+    <footer style="text-align: center">
+        Sitemap:
+        <nav>
+            <a href="#exterior">Exterior</a><br />
+            <a href="#interior">Interior</a><br />
+            <a href="#events">Events</a><br />
+        </nav>
+
+
+        <pre style="font-family: Kleader">Website created by <code>Lydia Carter</code></pre>
+    </footer>
+</body>
+
+</html>

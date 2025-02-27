@@ -2074,7 +2074,7 @@ function About() {
   }), "Thumbs down:\uD83D\uDC4E\uD83C\uDFFE", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
     className: "#include boxShadow #include textShadow btn-lg btn-primary ",
     id: "mixin button"
-  }, "Submit")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", null, "list Group")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_4__.Footer, null));
+  }, "Submit")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", null, "list Group")));
 }
 function componentDidMount() {
   document.title = "Venue";
@@ -2340,6 +2340,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ImagemapResize__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ImagemapResize */ "./src/Views/ImagemapResize.js");
 /* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
 /* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Banner */ "./src/Views/Banner.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Footer */ "./src/Views/Footer.js");
+
 
 
 
@@ -2499,11 +2501,10 @@ function Gallery() {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     className: "bg-primary p-3 ",
     id: "mixin-example "
-  }, "Enjoy the View!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Footer, null));
+  }, "Enjoy the View!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_6__.Footer, null));
 }
 function componentDidMount() {
   document.title = "The Venue - Gallery";
-  (0,_ImagemapResize__WEBPACK_IMPORTED_MODULE_3__.imageMapResize)();
   console.log("Mounted title");
   const imgTag = document.getElementById("FrontLobby");
   new bootstrap.Tooltip(imgTag);
@@ -2519,6 +2520,7 @@ function componentDidMount() {
   new bootstrap.Tooltip(imgTag6);
 }
 function componentdDidUpdate() {
+  (0,_ImagemapResize__WEBPACK_IMPORTED_MODULE_3__.ImageMapResize)();
   setTimeout(console.log("Component Updated"), 2000);
 }
 function componentDidUnmount() {
@@ -2543,7 +2545,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ "./src/Views/Navbar.js");
 /* harmony import */ var _controllers_moduleExample__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../controllers/moduleExample */ "./src/controllers/moduleExample.js");
 /* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
-/* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Banner */ "./src/Views/Banner.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer */ "./src/Views/Footer.js");
 
 
 
@@ -2551,9 +2553,9 @@ __webpack_require__.r(__webpack_exports__);
 
 function Home() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidupdate, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidupdate);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Banner__WEBPACK_IMPORTED_MODULE_4__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     width: "100%",
     src: "https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312",
     alt: "outside of building"
@@ -2570,11 +2572,11 @@ function Home() {
     onClick: _controllers_moduleExample__WEBPACK_IMPORTED_MODULE_2__.moduleExample
   }, "module Example"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
     id: "myTag"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Footer, null));
+  })));
 }
 function componentDidMount() {
-  document.title = "The Venue";
-  console.log("Mounted title");
+  document.title = "Venue - Home";
+  console.log("Home page mounted");
 }
 function componentDidupdate() {
   setTimeout(console.log("Component updated."), 2000);
@@ -2594,12 +2596,12 @@ function componentDidUnmount() {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   imageMapResize: () => (/* binding */ imageMapResize)
+/* harmony export */   ImageMapResize: () => (/* binding */ ImageMapResize)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
-function imageMapResize() {
+function ImageMapResize() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null);
 }
 

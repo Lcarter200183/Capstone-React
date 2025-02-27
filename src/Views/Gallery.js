@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import { handleOnClick } from "../modules/handleOnClick";
-import { imageMapResize } from "./ImagemapResize";
+import { ImageMapResize } from "./ImagemapResize";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
 import { Banner } from "./Banner";
+import { Footer } from "./Footer";
 
 export function Gallery() {
   useEffect(componentDidMount, []);
@@ -183,7 +184,7 @@ export function Gallery() {
 }
 function componentDidMount() {
   document.title = "The Venue - Gallery";
-  imageMapResize();
+
   console.log("Mounted title");
   const imgTag = document.getElementById("FrontLobby");
   new bootstrap.Tooltip(imgTag);
@@ -199,6 +200,7 @@ function componentDidMount() {
   new bootstrap.Tooltip(imgTag6);
 }
 function componentdDidUpdate() {
+  ImageMapResize();
   setTimeout(console.log("Component Updated"), 2000);
 }
 function componentDidUnmount() {

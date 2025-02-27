@@ -2,16 +2,16 @@ import React, { useEffect } from "react";
 import { Navbar } from "./Navbar";
 import { moduleExample } from "../controllers/moduleExample";
 import { CollapsibleNavbar } from "./CollapsibleNavbar";
-import { Banner } from "./Banner";
+
+import { Footer } from "./Footer";
 
 export function Home() {
   useEffect(componentDidMount, []);
-  useEffect(componentDidupdate, []);
+  useEffect(componentDidupdate);
   useEffect(componentDidUnmount, []);
   return (
     <>
       <header>
-        <Banner />
         <img
           width="100%"
           src="https://cdn.glitch.global/c909b8a4-2fe0-40eb-86e6-4470528773cd/c8fa72be-08fd-459d-b37e-5fe46a37cd5c.image.png?v=1722105706312"
@@ -71,14 +71,13 @@ export function Home() {
         <br />
         <output id="myTag"></output>
       </main>
-      <Footer />
     </>
   );
 }
 
 function componentDidMount() {
-  document.title = "The Venue";
-  console.log("Mounted title");
+  document.title = "Venue - Home";
+  console.log("Home page mounted");
 }
 function componentDidupdate() {
   setTimeout(console.log("Component updated."), 2000);

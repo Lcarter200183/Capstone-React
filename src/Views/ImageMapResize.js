@@ -1,5 +1,5 @@
 import React from "react";
 
-export function imageMapResize() {
+export function ImageMapResize() {
   return <main></main>;
 }
