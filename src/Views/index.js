@@ -1,6 +1,7 @@
 import { createRoot } from "react-dom/client";
 import React from "react";
 import { Home } from "./Views/Home";
+import { Domain } from "./Views/Domain";
 import { Gallery } from "./Views/Gallery";
 import { BrowserRouter, Route, Routes } from "react-router";
 import { Contact } from "./Views/Contact";
