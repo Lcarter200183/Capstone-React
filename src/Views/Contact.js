@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Navbar } from "./Navbar";
 import { handleCustomerService } from "../modules/handleCustomerService";
 import { handleProcessForm } from "../modules/handleProcessForm";
 import { nameForm } from "../modules/nameForm";
@@ -10,6 +9,7 @@ import { CollapsibleNavbar } from "./CollapsibleNavbar";
 import { Footer } from "./Footer";
 import "../index.scss";
 import "./Contact.scss";
+import { Banner } from "./Banner";
 
 export function Contact() {
   useEffect(componentDidMount, []);
@@ -18,7 +18,7 @@ export function Contact() {
   return (
     <>
       <header>
-        {/* <Navbar /> */}
+        <Banner />
         <CollapsibleNavbar />
       </header>
       <main id="contactMain">

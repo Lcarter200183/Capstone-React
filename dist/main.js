@@ -2519,17 +2519,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ "./src/Views/Navbar.js");
-/* harmony import */ var _modules_handleCustomerService__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../modules/handleCustomerService */ "./src/modules/handleCustomerService.js");
-/* harmony import */ var _modules_handleProcessForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../modules/handleProcessForm */ "./src/modules/handleProcessForm.js");
-/* harmony import */ var _modules_nameForm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../modules/nameForm */ "./src/modules/nameForm.js");
-/* harmony import */ var _modules_numberForm__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../modules/numberForm */ "./src/modules/numberForm.js");
-/* harmony import */ var _modules_datetimeForm__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../modules/datetimeForm */ "./src/modules/datetimeForm.js");
-/* harmony import */ var _controllers_formExample__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../controllers/formExample */ "./src/controllers/formExample.js");
-/* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Footer */ "./src/Views/Footer.js");
-/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../index.scss */ "./src/index.scss");
-/* harmony import */ var _Contact_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Contact.scss */ "./src/Views/Contact.scss");
+/* harmony import */ var _modules_handleCustomerService__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/handleCustomerService */ "./src/modules/handleCustomerService.js");
+/* harmony import */ var _modules_handleProcessForm__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../modules/handleProcessForm */ "./src/modules/handleProcessForm.js");
+/* harmony import */ var _modules_nameForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../modules/nameForm */ "./src/modules/nameForm.js");
+/* harmony import */ var _modules_numberForm__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../modules/numberForm */ "./src/modules/numberForm.js");
+/* harmony import */ var _modules_datetimeForm__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../modules/datetimeForm */ "./src/modules/datetimeForm.js");
+/* harmony import */ var _controllers_formExample__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../controllers/formExample */ "./src/controllers/formExample.js");
+/* harmony import */ var _CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./CollapsibleNavbar */ "./src/Views/CollapsibleNavbar.js");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Footer */ "./src/Views/Footer.js");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../index.scss */ "./src/index.scss");
+/* harmony import */ var _Contact_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Contact.scss */ "./src/Views/Contact.scss");
+/* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Banner */ "./src/Views/Banner.js");
 
 
 
@@ -2546,12 +2546,12 @@ function Contact() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_8__.CollapsibleNavbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Banner__WEBPACK_IMPORTED_MODULE_11__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_CollapsibleNavbar__WEBPACK_IMPORTED_MODULE_7__.CollapsibleNavbar, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
     id: "contactMain"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
     className: " Contact-Us no-repeat center width100 height"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Contact")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Contact "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
-    onSubmit: _modules_handleProcessForm__WEBPACK_IMPORTED_MODULE_3__.handleProcessForm
+    onSubmit: _modules_handleProcessForm__WEBPACK_IMPORTED_MODULE_2__.handleProcessForm
   }, "Name:", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     required: true,
     name: "name",
@@ -2568,7 +2568,7 @@ function Contact() {
     type: "submit",
     value: "Submit"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Contact Customer Service"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
-    onSubmit: _modules_handleCustomerService__WEBPACK_IMPORTED_MODULE_2__.handleCustomerService
+    onSubmit: _modules_handleCustomerService__WEBPACK_IMPORTED_MODULE_1__.handleCustomerService
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     required: true,
     name: "email",
@@ -2585,7 +2585,7 @@ function Contact() {
     type: "submit",
     value: "Submit"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Submit Appointment"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
-    onSubmit: _modules_nameForm__WEBPACK_IMPORTED_MODULE_4__.nameForm
+    onSubmit: _modules_nameForm__WEBPACK_IMPORTED_MODULE_3__.nameForm
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     required: true,
     name: "firstName",
@@ -2599,7 +2599,7 @@ function Contact() {
     placeholder: "Last Name",
     id: "lastname"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
-    onSubmit: _modules_numberForm__WEBPACK_IMPORTED_MODULE_5__.numberForm
+    onSubmit: _modules_numberForm__WEBPACK_IMPORTED_MODULE_4__.numberForm
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     required: true,
     name: "tel",
@@ -2608,7 +2608,7 @@ function Contact() {
     pattern: "[0-9]{3}-[0-9]{3}-[0-9]{4}",
     id: "tel"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
-    onSubmit: _modules_datetimeForm__WEBPACK_IMPORTED_MODULE_6__.datetimeForm
+    onSubmit: _modules_datetimeForm__WEBPACK_IMPORTED_MODULE_5__.datetimeForm
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     required: true,
     name: "datetime-local",
@@ -2621,10 +2621,10 @@ function Contact() {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
     id: "myTag"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
-    onClick: _controllers_formExample__WEBPACK_IMPORTED_MODULE_7__.formExample
+    onClick: _controllers_formExample__WEBPACK_IMPORTED_MODULE_6__.formExample
   }, "form Example"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("output", {
     id: "myTag"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_9__.Footer, null));
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Footer__WEBPACK_IMPORTED_MODULE_8__.Footer, null));
 }
 function componentDidMount() {
   document.title = "Venue - Contact";
